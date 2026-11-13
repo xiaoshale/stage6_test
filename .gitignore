@@ -1,0 +1,7 @@
+/.venv/
+/cache/
+/input/
+/logs/
+/runs/
+/tmp/
+__pycache__/
