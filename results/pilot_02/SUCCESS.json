@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "summary": "run_summary.json",
+  "output_sha256": {
+    "cell_qc_clusters.csv": "bd2590e3f60b2c4e27eda4d6a93abb97cceb7ba0c97726426b50503349e61316",
+    "processed.h5ad": "10325722c0284aca8c021debfa1ca755d622b9bc5e82ab4d5e2d113fc7e5b4bb",
+    "qc.png": "780407f4b6318e38284dc54a4644b19d7ecd939c7a73cdc99bb38514a3b80c03",
+    "raw_counts_checkpoint.h5ad": "b04c167a0f1eff6894632059c118e8b2dcfcf1e9bb1906eaac7ca5f56779403f",
+    "run_summary.json": "76934f493d7c82c4b47570a2bbcda88608b08c0cb8aa194bfbac1b0c98c4dff0",
+    "umap.png": "d2d0873dcfefa809e47989837af72553dc22ed0ca28d583157d1fcc60a77c154"
+  }
+}

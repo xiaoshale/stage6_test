@@ -1,0 +1,8 @@
+{
+  "all_saved_artifact_sha256_verified": true,
+  "input_sha256_matches_acquisition": true,
+  "large_h5ad_objects_retained_on_server": [
+    "raw_counts_checkpoint.h5ad",
+    "processed.h5ad"
+  ]
+}

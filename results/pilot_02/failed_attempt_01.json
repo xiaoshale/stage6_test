@@ -1,0 +1,6 @@
+{
+  "exit_code": 1,
+  "started_at_utc": "2026-11-13T03:19:33.975239+00:00",
+  "wall_seconds_including_acquisition": 1.052,
+  "failure": "Original 10x archive endpoint returned HTTP 403 before any QC or clustering."
+}

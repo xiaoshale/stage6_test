@@ -1,0 +1,101 @@
+{
+  "source_url": "https://falexwolf.de/data/pbmc3k_raw.h5ad",
+  "source_kind": "Scanpy 1.11.5 reference H5AD derived from 10x PBMC3k",
+  "source_definition_url": "https://raw.githubusercontent.com/scverse/scanpy/1.11.5/src/scanpy/datasets/_datasets.py",
+  "downloaded_at_utc": "2026-11-13T03:29:15.366169+00:00",
+  "purpose": "Technical PBMC3k control only; no IPF conclusions or donor replication claim",
+  "downloaded_bytes": 5855727,
+  "h5ad_file": "pbmc3k_raw.h5ad",
+  "h5ad_sha256": "89a96f1beaa2dd83a687666d3f19a4513ac27a2a2d12581fcd77afed7ea653a1",
+  "raw_shape_cells_genes": [
+    2700,
+    32738
+  ]
+}
+Input acquisition SHA-256 verified.
+filtered out 19024 genes that are detected in less than 3 cells
+normalizing counts per cell
+    finished (0:00:02)
+extracting highly variable genes
+    finished (0:00:00)
+computing PCA
+    with n_comps=30
+    finished (0:00:00)
+computing neighbors
+    using 'X_pca' with n_pcs = 30
+    finished (0:00:42)
+computing UMAP
+    finished (0:00:04)
+running Leiden clustering
+    finished (0:00:00)
+{
+  "status": "PASS",
+  "purpose": "Technical environment and execution test; no IPF or biological conclusions",
+  "expected_dataset": "PBMC3k (blood-cell example, not a lung cohort)",
+  "input": "/home/data/t120631/project/ipf_stage6_smoke_test_20261113/input/pbmc3k_raw.h5ad",
+  "input_sha256": "89a96f1beaa2dd83a687666d3f19a4513ac27a2a2d12581fcd77afed7ea653a1",
+  "acquisition_provenance": "See accompanying download record; this script does not infer provenance from expression",
+  "shape_before_filtering": [
+    2700,
+    32738
+  ],
+  "shape_after_filtering": [
+    2698,
+    13714
+  ],
+  "highly_variable_genes": 2000,
+  "pca_components": 30,
+  "cluster_counts": {
+    "0": 376,
+    "1": 347,
+    "2": 20,
+    "3": 1107,
+    "4": 526,
+    "5": 158,
+    "6": 153,
+    "7": 11
+  },
+  "demonstration_parameters": {
+    "min_genes_per_cell": 200,
+    "max_mito_percent_exclusive": 20,
+    "min_cells_per_gene": 3,
+    "normalization_target": 10000,
+    "hvg_flavor": "seurat",
+    "hvg_requested": 2000,
+    "neighbors": 10,
+    "leiden_resolution": 0.5,
+    "leiden_flavor": "igraph",
+    "leiden_iterations": 2,
+    "threads": 2,
+    "seed": 0
+  },
+  "validation": {
+    "raw_counts_finite_nonnegative_integer_like": true,
+    "input_cell_ids_unique": true,
+    "roundtrip_shape": true,
+    "roundtrip_cell_ids": true,
+    "roundtrip_gene_ids": true,
+    "roundtrip_raw_counts": true,
+    "roundtrip_cluster_labels": true,
+    "roundtrip_pca": true,
+    "roundtrip_umap": true,
+    "embeddings_finite": true
+  },
+  "wall_seconds": 57.143,
+  "peak_rss_MiB": 819.105,
+  "python": "3.10.20",
+  "platform": "Linux-6.6.0-145.0.4.144.oe2403sp1.x86_64-x86_64-with-glibc2.38",
+  "packages": {
+    "scanpy": "1.11.5",
+    "anndata": "0.11.4",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9",
+    "scikit-learn": "1.7.2",
+    "umap-learn": "0.6.0",
+    "numba": "0.68.1",
+    "igraph": "1.0.0",
+    "h5py": "3.16.0"
+  }
+}

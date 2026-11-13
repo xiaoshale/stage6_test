@@ -1,0 +1,14 @@
+{
+  "source_url": "https://falexwolf.de/data/pbmc3k_raw.h5ad",
+  "source_kind": "Scanpy 1.11.5 reference H5AD derived from 10x PBMC3k",
+  "source_definition_url": "https://raw.githubusercontent.com/scverse/scanpy/1.11.5/src/scanpy/datasets/_datasets.py",
+  "downloaded_at_utc": "2026-11-13T03:29:15.366169+00:00",
+  "purpose": "Technical PBMC3k control only; no IPF conclusions or donor replication claim",
+  "downloaded_bytes": 5855727,
+  "h5ad_file": "pbmc3k_raw.h5ad",
+  "h5ad_sha256": "89a96f1beaa2dd83a687666d3f19a4513ac27a2a2d12581fcd77afed7ea653a1",
+  "raw_shape_cells_genes": [
+    2700,
+    32738
+  ]
+}
