@@ -157,6 +157,9 @@ def main():
               "Low-resolution image shape changed")
         check(data.uns["spatial"][section_id]["scalefactors"]["tissue_hires_scalef"] == 0.5,
               "Image scale changed")
+    for section in summary["sections"]:
+        data = ad.read_h5ad(good_output / section["section_id"] / "raw_counts_spatial.h5ad")
+        assert data.obs.loc[data.obs["n_counts"] == 0, "pct_counts_mito"].isna().all()
     print("Good fixture passed: raw counts, flags, x/y, images, scales and H5AD reload", flush=True)
     bad_dir = args.work_dir / "bad_filtered_inputs"
     bad_manifest, _ = build_inputs(bad_dir, bad_filtered=True)

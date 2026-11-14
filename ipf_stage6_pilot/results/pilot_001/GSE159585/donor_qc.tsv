@@ -1,0 +1,5 @@
+donor_id	diagnosis	gsm	procurement	retained_source_cells	median_total_counts	median_detected_genes	median_pct_counts_mt	flag_zero_counts_cells	flag_low_genes_lt200_cells	flag_high_mt_gt25pct_cells
+Non-COV1	control	GSM5068919	autopsy	7114	5583.0	2316.5	0.1371367531011863	0	0	0
+IPF2	IPF	GSM5068921	explant	8819	5642.0	2372.0	0.06890215893431327	0	0	0
+IPF1	IPF	GSM5068922	explant	2988	6622.5	2584.5	0.0650830428281579	0	0	0
+Non-COV2	control	GSM5068923	autopsy	10049	8656.0	3137.0	0.17598748533437622	0	0	0

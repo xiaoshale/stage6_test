@@ -1,0 +1,23 @@
+{
+  "milestone": "02",
+  "date": "2026-11-15",
+  "status": "native_snrna_full_stream_qc_verified",
+  "GSE159585": {
+    "global_header_metadata_cells": 176540,
+    "selected_nuclei": 28970,
+    "source_gene_rows": 27714,
+    "gzip_eof_crc_verified": true,
+    "raw_h5ad_reload_verified": true,
+    "elapsed_seconds": 275.162,
+    "peak_rss_bytes": 2071814144
+  },
+  "capture_audit": {
+    "status": "completed_on_server_table_retrieval_pending",
+    "fixed_markers": 17,
+    "readonly_checkpoints": 18,
+    "cell_state_assignment": false
+  },
+  "spatial_fixture_002": "passed; zero-count mitochondrial proportions missing",
+  "real_spatial_component": "not_yet_submitted_at_last_verified_access",
+  "formal_biological_analysis_ready": false
+}

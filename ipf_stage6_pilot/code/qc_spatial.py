@@ -269,7 +269,7 @@ def process_section(archive, section, source_metadata, output):
         mito = var["gene_symbol"].str.upper().str.startswith("MT-").to_numpy()
         mito_counts = np.asarray(raw[:, mito].sum(axis=1, dtype=np.int64)).ravel()
         obs["pct_counts_mito"] = np.divide(mito_counts * 100.0, counts,
-                                           out=np.zeros(len(counts)), where=counts != 0)
+                                           out=np.full(len(counts), np.nan), where=(counts != 0) & mito.any())
     obs.index = pd.Index([f"{section_id}:{barcode}" for barcode in barcodes], name="capture_position_id")
     data = ad.AnnData(X=raw, obs=obs, var=var)
     data.obsm["spatial"] = obs[["pxl_col_in_fullres", "pxl_row_in_fullres"]].to_numpy()
