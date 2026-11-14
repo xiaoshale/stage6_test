@@ -1,0 +1,10 @@
+{
+  "fixture": "PASS",
+  "matrix_order_and_exact_annotation_join": true,
+  "same_library_unannotated_barcode_excluded": true,
+  "four_donor_library_mappings": true,
+  "original_sparse_counts_roundtrip": true,
+  "mitochondrial_and_zero_count_flags": true,
+  "all_selected_cells_including_zero_count_cell_retained": true,
+  "duplicate_gene_symbols_preserved": true
+}

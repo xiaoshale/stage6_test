@@ -1,0 +1,934 @@
+{
+  "version": "1.0",
+  "search_cutoff": "2026-11-14",
+  "completed": "2026-11-15",
+  "status": "Ready to enter discovery-side complete-file technical pilot; not formal biological analysis-ready.",
+  "scope": "Core native human IPF/control epithelial\u2013fibroblast discovery resources with retained major background cells. No candidate molecular outcomes, target rankings or niche associations examined.",
+  "primary_data_group": [
+    {
+      "accession": "GSE135893",
+      "role": "Discovery technical pilot, native whole-tissue cohort",
+      "selection_rule": "Two IPF and two controls chosen by explicit donor identity and available native compartments, without candidate-effect inspection; exploratory technical subset, not the final cohort or a state-enrichment selection.",
+      "selected_donors": [
+        {
+          "donor_id": "TILD001",
+          "diagnosis": "IPF",
+          "library_ids": [
+            "F00431"
+          ],
+          "provided_broad_lineage_cell_counts": {
+            "Epithelial": 230,
+            "Endothelial": 54,
+            "Immune": 740,
+            "Mesenchymal": 1104
+          }
+        },
+        {
+          "donor_id": "TILD010",
+          "diagnosis": "IPF",
+          "library_ids": [
+            "F01214"
+          ],
+          "provided_broad_lineage_cell_counts": {
+            "Epithelial": 557,
+            "Endothelial": 92,
+            "Immune": 834,
+            "Mesenchymal": 101
+          }
+        },
+        {
+          "donor_id": "THD0001",
+          "diagnosis": "Control",
+          "library_ids": [
+            "F01157"
+          ],
+          "provided_broad_lineage_cell_counts": {
+            "Epithelial": 1331,
+            "Endothelial": 70,
+            "Immune": 806,
+            "Mesenchymal": 11
+          }
+        },
+        {
+          "donor_id": "THD0002",
+          "diagnosis": "Control",
+          "library_ids": [
+            "F01174"
+          ],
+          "provided_broad_lineage_cell_counts": {
+            "Epithelial": 1258,
+            "Endothelial": 206,
+            "Immune": 1122,
+            "Mesenchymal": 61
+          }
+        }
+      ],
+      "file_acquisition": [
+        {
+          "role": "whole_original_sparse_counts",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_matrix.mtx.gz",
+          "acquisition_status": "Only65536compressed-byte prefix transferred; full original global file required in pilot"
+        },
+        {
+          "role": "barcode_axis",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_barcodes.tsv.gz",
+          "acquisition_status": "Full metadata downloaded and parsed"
+        },
+        {
+          "role": "gene_axis",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_genes.tsv.gz",
+          "acquisition_status": "Full metadata downloaded and parsed"
+        },
+        {
+          "role": "author_annotation",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_IPF_metadata.csv.gz",
+          "acquisition_status": "Full metadata downloaded and parsed"
+        }
+      ],
+      "subset_instructions": "Load original MTX/gene/barcode axes on server in the later authorized technical pilot; select original barcode columns by metadata donor and explicit barcode join. Do not paste annotation by row order or treat unannotated extra105817 columns as already-QCed cells. All four donor IDs each map to one orig.ident library.",
+      "full_matrix_header": {
+        "genes": 33694,
+        "barcode_columns": 220213,
+        "nonzero_entries": 338061955,
+        "source": "Matrix Market header from at most 65536 compressed bytes; full matrix not downloaded or validated"
+      }
+    },
+    {
+      "accession": "GSE159354",
+      "role": "Discovery technical pilot, exact native FACS fractions",
+      "selected_donors": [
+        "F18536",
+        "F18545",
+        "N1857",
+        "N1865"
+      ],
+      "unique_donors": {
+        "IPF": 2,
+        "Control": 2
+      },
+      "primary_libraries": [
+        {
+          "gsm": "GSM4827181",
+          "sample_title": "Control N1857 Triple-",
+          "source": [
+            "transplant rejection lung"
+          ],
+          "source_characteristics": [
+            "disease: Control",
+            "tissue: lung",
+            "cell type: Triple-"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827181/suppl/GSM4827181_SAM24358067_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "N1857",
+          "diagnosis": "Control",
+          "library_id": "GSM4827181",
+          "submitter_library_id": "SAM24358067",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "Triple-",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": true,
+          "biological_yield_checked": false,
+          "transfer_check": "206;65536bytes;correct HDF5magic;not a complete H5 validation"
+        },
+        {
+          "gsm": "GSM4827182",
+          "sample_title": "Control N1857 EPCAM+",
+          "source": [
+            "transplant rejection lung"
+          ],
+          "source_characteristics": [
+            "disease: Control",
+            "tissue: lung",
+            "cell type: EPCAM+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827182/suppl/GSM4827182_SAM24358066_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "N1857",
+          "diagnosis": "Control",
+          "library_id": "GSM4827182",
+          "submitter_library_id": "SAM24358066",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "EPCAM+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": true,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "206;65536bytes;correct HDF5magic;not a complete H5 validation"
+        },
+        {
+          "gsm": "GSM4827191",
+          "sample_title": "IPF F18545 Triple-",
+          "source": [
+            "lung explant"
+          ],
+          "source_characteristics": [
+            "disease: IPF",
+            "tissue: lung",
+            "cell type: Triple-"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827191/suppl/GSM4827191_SAM24352450_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "F18545",
+          "diagnosis": "IPF",
+          "library_id": "GSM4827191",
+          "submitter_library_id": "SAM24352450",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "Triple-",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": true,
+          "biological_yield_checked": false,
+          "transfer_check": "206;65536bytes;correct HDF5magic;not a complete H5 validation"
+        },
+        {
+          "gsm": "GSM4827192",
+          "sample_title": "IPF F18545 EPCAM+",
+          "source": [
+            "lung explant"
+          ],
+          "source_characteristics": [
+            "disease: IPF",
+            "tissue: lung",
+            "cell type: EPCAM+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827192/suppl/GSM4827192_SAM24352449_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "F18545",
+          "diagnosis": "IPF",
+          "library_id": "GSM4827192",
+          "submitter_library_id": "SAM24352449",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "EPCAM+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": true,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "206;65536bytes;correct HDF5magic;not a complete H5 validation"
+        },
+        {
+          "gsm": "GSM4827196",
+          "sample_title": "Control N1865 Triple-",
+          "source": [
+            "transplant rejection lung"
+          ],
+          "source_characteristics": [
+            "disease: Control",
+            "tissue: lung",
+            "cell type: Triple-"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827196/suppl/GSM4827196_SAM24351201_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "N1865",
+          "diagnosis": "Control",
+          "library_id": "GSM4827196",
+          "submitter_library_id": "SAM24351201",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "Triple-",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": true,
+          "biological_yield_checked": false,
+          "transfer_check": "206;65536bytes;correct HDF5magic;not a complete H5 validation"
+        },
+        {
+          "gsm": "GSM4827197",
+          "sample_title": "Control N1865 EPCAM+",
+          "source": [
+            "transplant rejection lung"
+          ],
+          "source_characteristics": [
+            "disease: Control",
+            "tissue: lung",
+            "cell type: EPCAM+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827197/suppl/GSM4827197_SAM24351200_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "N1865",
+          "diagnosis": "Control",
+          "library_id": "GSM4827197",
+          "submitter_library_id": "SAM24351200",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "EPCAM+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": true,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "206;65536bytes;correct HDF5magic;not a complete H5 validation"
+        },
+        {
+          "gsm": "GSM4827201",
+          "sample_title": "IPF F18536 Triple-",
+          "source": [
+            "lung explant"
+          ],
+          "source_characteristics": [
+            "disease: IPF",
+            "tissue: lung",
+            "cell type: Triple-"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827201/suppl/GSM4827201_SAM24350159_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "F18536",
+          "diagnosis": "IPF",
+          "library_id": "GSM4827201",
+          "submitter_library_id": "SAM24350159",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "Triple-",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": true,
+          "biological_yield_checked": false,
+          "transfer_check": "206;65536bytes;correct HDF5magic;not a complete H5 validation"
+        },
+        {
+          "gsm": "GSM4827202",
+          "sample_title": "IPF F18536 EPCAM+",
+          "source": [
+            "lung explant"
+          ],
+          "source_characteristics": [
+            "disease: IPF",
+            "tissue: lung",
+            "cell type: EPCAM+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827202/suppl/GSM4827202_SAM24350158_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "F18536",
+          "diagnosis": "IPF",
+          "library_id": "GSM4827202",
+          "submitter_library_id": "SAM24350158",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "EPCAM+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": true,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "206;65536bytes;correct HDF5magic;not a complete H5 validation"
+        }
+      ],
+      "primary_library_count": 8,
+      "full_spectrum_libraries": [
+        {
+          "gsm": "GSM4827183",
+          "sample_title": "Control N1857 CD31+",
+          "source": [
+            "transplant rejection lung"
+          ],
+          "source_characteristics": [
+            "disease: Control",
+            "tissue: lung",
+            "cell type: CD31+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827183/suppl/GSM4827183_SAM24358065_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "N1857",
+          "diagnosis": "Control",
+          "library_id": "GSM4827183",
+          "submitter_library_id": "SAM24358065",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "CD31+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        },
+        {
+          "gsm": "GSM4827184",
+          "sample_title": "Control N1857 CD45+",
+          "source": [
+            "transplant rejection lung"
+          ],
+          "source_characteristics": [
+            "disease: Control",
+            "tissue: lung",
+            "cell type: CD45+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827184/suppl/GSM4827184_SAM24358064_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "N1857",
+          "diagnosis": "Control",
+          "library_id": "GSM4827184",
+          "submitter_library_id": "SAM24358064",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "CD45+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        },
+        {
+          "gsm": "GSM4827193",
+          "sample_title": "IPF F18545 CD31+",
+          "source": [
+            "lung explant"
+          ],
+          "source_characteristics": [
+            "disease: IPF",
+            "tissue: lung",
+            "cell type: CD31+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827193/suppl/GSM4827193_SAM24352448_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "F18545",
+          "diagnosis": "IPF",
+          "library_id": "GSM4827193",
+          "submitter_library_id": "SAM24352448",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "CD31+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        },
+        {
+          "gsm": "GSM4827194",
+          "sample_title": "IPF F18545 CD45+",
+          "source": [
+            "lung explant"
+          ],
+          "source_characteristics": [
+            "disease: IPF",
+            "tissue: lung",
+            "cell type: CD45+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827194/suppl/GSM4827194_SAM24352447_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "F18545",
+          "diagnosis": "IPF",
+          "library_id": "GSM4827194",
+          "submitter_library_id": "SAM24352447",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "CD45+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        },
+        {
+          "gsm": "GSM4827198",
+          "sample_title": "Control N1865 CD31+",
+          "source": [
+            "transplant rejection lung"
+          ],
+          "source_characteristics": [
+            "disease: Control",
+            "tissue: lung",
+            "cell type: CD31+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827198/suppl/GSM4827198_SAM24351199_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "N1865",
+          "diagnosis": "Control",
+          "library_id": "GSM4827198",
+          "submitter_library_id": "SAM24351199",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "CD31+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        },
+        {
+          "gsm": "GSM4827199",
+          "sample_title": "Control N1865 CD45+",
+          "source": [
+            "transplant rejection lung"
+          ],
+          "source_characteristics": [
+            "disease: Control",
+            "tissue: lung",
+            "cell type: CD45+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827199/suppl/GSM4827199_SAM24351198_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "N1865",
+          "diagnosis": "Control",
+          "library_id": "GSM4827199",
+          "submitter_library_id": "SAM24351198",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "CD45+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        },
+        {
+          "gsm": "GSM4827203",
+          "sample_title": "IPF F18536 CD31+",
+          "source": [
+            "lung explant"
+          ],
+          "source_characteristics": [
+            "disease: IPF",
+            "tissue: lung",
+            "cell type: CD31+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827203/suppl/GSM4827203_SAM24350157_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "F18536",
+          "diagnosis": "IPF",
+          "library_id": "GSM4827203",
+          "submitter_library_id": "SAM24350157",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "CD31+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        },
+        {
+          "gsm": "GSM4827204",
+          "sample_title": "IPF F18536 CD45+",
+          "source": [
+            "lung explant"
+          ],
+          "source_characteristics": [
+            "disease: IPF",
+            "tissue: lung",
+            "cell type: CD45+"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827204/suppl/GSM4827204_SAM24350156_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "F18536",
+          "diagnosis": "IPF",
+          "library_id": "GSM4827204",
+          "submitter_library_id": "SAM24350156",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "CD45+",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        }
+      ],
+      "full_spectrum_library_count": 8,
+      "optional_unsorted_libraries": [
+        {
+          "gsm": "GSM4827185",
+          "sample_title": "Control N1857 Unsorted",
+          "source": [
+            "transplant rejection lung"
+          ],
+          "source_characteristics": [
+            "disease: Control",
+            "tissue: lung",
+            "cell type: Unsorted"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827185/suppl/GSM4827185_SAM24358063_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "N1857",
+          "diagnosis": "Control",
+          "library_id": "GSM4827185",
+          "submitter_library_id": "SAM24358063",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "Unsorted",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        },
+        {
+          "gsm": "GSM4827195",
+          "sample_title": "IPF F18545 Unsorted",
+          "source": [
+            "lung explant"
+          ],
+          "source_characteristics": [
+            "disease: IPF",
+            "tissue: lung",
+            "cell type: Unsorted"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827195/suppl/GSM4827195_SAM24352446_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "F18545",
+          "diagnosis": "IPF",
+          "library_id": "GSM4827195",
+          "submitter_library_id": "SAM24352446",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "Unsorted",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        },
+        {
+          "gsm": "GSM4827200",
+          "sample_title": "Control N1865 Unsorted",
+          "source": [
+            "transplant rejection lung"
+          ],
+          "source_characteristics": [
+            "disease: Control",
+            "tissue: lung",
+            "cell type: Unsorted"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827200/suppl/GSM4827200_SAM24351197_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "N1865",
+          "diagnosis": "Control",
+          "library_id": "GSM4827200",
+          "submitter_library_id": "SAM24351197",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "Unsorted",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        },
+        {
+          "gsm": "GSM4827205",
+          "sample_title": "IPF F18536 Unsorted",
+          "source": [
+            "lung explant"
+          ],
+          "source_characteristics": [
+            "disease: IPF",
+            "tissue: lung",
+            "cell type: Unsorted"
+          ],
+          "count_or_component_urls": [
+            "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827205/suppl/GSM4827205_SAM24350155_filtered_feature_bc_matrix.h5"
+          ],
+          "donor_id": "F18536",
+          "diagnosis": "IPF",
+          "library_id": "GSM4827205",
+          "submitter_library_id": "SAM24350155",
+          "specimen_id": null,
+          "region_id": null,
+          "facs_fraction": "Unsorted",
+          "native_or_culture": "Native sorted or unsorted explant dissociate",
+          "epithelial_capture_label": false,
+          "stromal_compatible_capture_label": false,
+          "biological_yield_checked": false,
+          "transfer_check": "URL declared in full official GEO SOFT; this file not individually transferred in current step"
+        }
+      ],
+      "complete_original_library_set_for_selected_donors": 20,
+      "subset_instructions": "Acquire each source H5 individually from its HTTPSGSM URL; no need to download524MB whole RAW.tar. Namespace barcode by GSM/library before combining. Keep native fractions separate; record original donor, assay, fraction and source. Evaluate epithelial/fibroblast yields per donor after full parsing and QC. CD31/CD45 support all-compartment coverage; unsorted libraries are separately identified preparations, not independent donors."
+    },
+    {
+      "accession": "E-MTAB-14121 / S-BSST1410",
+      "role": "Primary measured spatial technical pilot",
+      "selected_sections": [
+        {
+          "sample_name": "IPF_1.TD012.B2.2",
+          "sample_id": "V10T03-279-C1",
+          "slide_id": "V10T03-279",
+          "slide_ca": "C1",
+          "condition": "IPF",
+          "subject_alias": "IPF_1",
+          "tissue_alias": "TD012",
+          "B_tissue_selection": "B2",
+          "fibrotic_extent_score_by_pathologist_0-3": "2",
+          "replicate": "2",
+          "species": "human",
+          "tissue": "lung",
+          "subject_gender": "male"
+        },
+        {
+          "sample_name": "IPF_2.TD021B.B2.1",
+          "sample_id": "V10T31-015-C1",
+          "slide_id": "V10T31-015",
+          "slide_ca": "C1",
+          "condition": "IPF",
+          "subject_alias": "IPF_2",
+          "tissue_alias": "TD021B",
+          "B_tissue_selection": "B2",
+          "fibrotic_extent_score_by_pathologist_0-3": "2",
+          "replicate": "1",
+          "species": "human",
+          "tissue": "lung",
+          "subject_gender": "female"
+        },
+        {
+          "sample_name": "IPF_3.TD032A.B2.2",
+          "sample_id": "V10T03-281-C1",
+          "slide_id": "V10T03-281",
+          "slide_ca": "C1",
+          "condition": "IPF",
+          "subject_alias": "IPF_3",
+          "tissue_alias": "TD032A",
+          "B_tissue_selection": "B2",
+          "fibrotic_extent_score_by_pathologist_0-3": "2",
+          "replicate": "2",
+          "species": "human",
+          "tissue": "lung",
+          "subject_gender": "male"
+        },
+        {
+          "sample_name": "HC_2.TH020.B0.1",
+          "sample_id": "V10T31-015-A1",
+          "slide_id": "V10T31-015",
+          "slide_ca": "A1",
+          "condition": "control",
+          "subject_alias": "HC_2",
+          "tissue_alias": "TH020",
+          "B_tissue_selection": "B0",
+          "fibrotic_extent_score_by_pathologist_0-3": "0",
+          "replicate": "1",
+          "species": "human",
+          "tissue": "lung",
+          "subject_gender": "male"
+        },
+        {
+          "sample_name": "HC_3.TH030.B0.1",
+          "sample_id": "V10T31-019-A1",
+          "slide_id": "V10T31-019",
+          "slide_ca": "A1",
+          "condition": "control",
+          "subject_alias": "HC_3",
+          "tissue_alias": "TH030",
+          "B_tissue_selection": "B0",
+          "fibrotic_extent_score_by_pathologist_0-3": "0",
+          "replicate": "1",
+          "species": "human",
+          "tissue": "lung",
+          "subject_gender": "male"
+        },
+        {
+          "sample_name": "HC_4.TH040.B0.2",
+          "sample_id": "V10T03-281-A1",
+          "slide_id": "V10T03-281",
+          "slide_ca": "A1",
+          "condition": "control",
+          "subject_alias": "HC_4",
+          "tissue_alias": "TH040",
+          "B_tissue_selection": "B0",
+          "fibrotic_extent_score_by_pathologist_0-3": "0",
+          "replicate": "2",
+          "species": "human",
+          "tissue": "lung",
+          "subject_gender": "male"
+        }
+      ],
+      "file_acquisition": [
+        {
+          "role": "original_SpaceRanger_counts_images_coordinates",
+          "url": "https://www.ebi.ac.uk/biostudies/files/S-BSST1410/hs_visium_spaceranger_output.zip",
+          "archive_bytes": 1093092912,
+          "acquisition_status": "All25 section count/image/coordinate member names checked; selected small image/coordinate members fetched. Full archive and H5 parsing pending."
+        },
+        {
+          "role": "donor_section_metadata",
+          "url": "https://www.ebi.ac.uk/biostudies/files/S-BSST1410/hs_visium_metadata.tsv",
+          "acquisition_status": "Complete metadata downloaded and parsed."
+        }
+      ],
+      "subset_instructions": "Technical subset: one previously inspected section per available donor, using B2 for IPF and B0 for controls. This is a format/alignment test, not a pathology-balanced disease comparison. Expand to all eight donors and assess all 25 sections before formal anatomical inclusion.",
+      "required_archive_members_per_section": [
+        "filtered_feature_bc_matrix.h5",
+        "spatial/tissue_positions_list.csv",
+        "spatial/scalefactors_json.json",
+        "spatial/tissue_lowres_image.png",
+        "spatial/tissue_hires_image.png"
+      ]
+    }
+  ],
+  "technical_robustness_component": {
+    "accession": "GSE159585",
+    "role": "Separate snRNA acquisition/parse and cross-assay robustness pilot; not an equally clean third disease-discovery cohort.",
+    "selected_samples": [
+      {
+        "GSM": "GSM5068919",
+        "GEO_title": "Non-COV1 [LUNG01_HC]",
+        "GEO_characteristics": [
+          "condition: non_covid_control",
+          "tissue: lung",
+          "sample type: autopsy"
+        ],
+        "patient_ID": "Non-COV1",
+        "condition": "control",
+        "metadata_sample_IDs": [
+          "LUNG01"
+        ],
+        "broad_source_annotation_counts": {
+          "immune": 2879,
+          "endothelial": 1338,
+          "stroma": 2061,
+          "epithelial": 836
+        }
+      },
+      {
+        "GSM": "GSM5068921",
+        "GEO_title": "IPF2 [LUNG03_IPF]",
+        "GEO_characteristics": [
+          "condition: IPF",
+          "tissue: lung",
+          "sample type: explant"
+        ],
+        "patient_ID": "IPF2",
+        "condition": "IPF",
+        "metadata_sample_IDs": [
+          "LUNG03"
+        ],
+        "broad_source_annotation_counts": {
+          "immune": 1453,
+          "endothelial": 1320,
+          "stroma": 5995,
+          "epithelial": 51
+        }
+      },
+      {
+        "GSM": "GSM5068922",
+        "GEO_title": "IPF1 [LUNG04_IPF]",
+        "GEO_characteristics": [
+          "condition: IPF",
+          "tissue: lung",
+          "sample type: explant"
+        ],
+        "patient_ID": "IPF1",
+        "condition": "IPF",
+        "metadata_sample_IDs": [
+          "LUNG04"
+        ],
+        "broad_source_annotation_counts": {
+          "immune": 817,
+          "endothelial": 601,
+          "stroma": 858,
+          "epithelial": 712
+        }
+      },
+      {
+        "GSM": "GSM5068923",
+        "GEO_title": "Non-COV2 [LUNG05_HC]",
+        "GEO_characteristics": [
+          "condition: non_covid_control",
+          "tissue: lung",
+          "sample type: autopsy"
+        ],
+        "patient_ID": "Non-COV2",
+        "condition": "control",
+        "metadata_sample_IDs": [
+          "LUNG05"
+        ],
+        "broad_source_annotation_counts": {
+          "immune": 3063,
+          "endothelial": 1519,
+          "stroma": 980,
+          "epithelial": 4487
+        }
+      }
+    ],
+    "selection_rule": "First two IPF patient numbers and first two non-COVID control patient numbers. No candidate-effect selection. Retain all6IPF/12controls as the later eligible native subset;7COVID and bulk branches remain separate.",
+    "file_acquisition": [
+      {
+        "role": "native_snRNA_original_counts",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159585/suppl/GSE159585_snRNAseq_raw_counts.csv.gz",
+        "acquisition_status": "Only bounded compressed prefix checked; full CSV and all barcode joins remain pending."
+      },
+      {
+        "role": "cell_donor_metadata",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159585/suppl/GSE159585_snRNAseq_metadata.csv.gz",
+        "acquisition_status": "Full metadata downloaded and parsed; sample/patient/diagnosis bridge checked."
+      }
+    ],
+    "critical_limit": "All6 IPF are explant and all12 controls are autopsy. Disease and procurement are completely confounded; routine covariate correction or integration cannot identify a separate disease effect. Require disease conclusions from suitably sampled other cohorts.",
+    "independence": "Cross-study donor independence not yet established."
+  },
+  "held_out_reserves": [
+    {
+      "accession": "GSE136831",
+      "role": "Main transcriptomic external reserve",
+      "restriction": "Only coarse source metadata/provenance inspected. Do not train discovery states, programs, thresholds or references on this cohort while claiming independent validation. Final independence and usable cell-state coverage still require checks."
+    },
+    {
+      "accession": "GSE122960",
+      "role": "Supplementary transcriptomic external reserve",
+      "restriction": "Use4 transplantIPF/8controls; distinguish otherPF and separate earlyIPF cryobiopsy. Do not use integrated objects/reference labels that include these donors."
+    },
+    {
+      "accession": "GSE282639 / GSE248082 / SCP2879",
+      "role": "Claim-specific conditional spatial reserves",
+      "restriction": "Panels, anatomy, donor overlap and access must match the frozen prediction; no resource here is unconditionally analysis-ready."
+    }
+  ],
+  "conditional_candidates": [
+    {
+      "accession": "GSE128033",
+      "reason": "Raw-droplet matrices need explicit cell calling and extra-sample donor mappings; not first pilot."
+    },
+    {
+      "accession": "GSE279404",
+      "reason": "29-library file bridge exists, but biological donor count/identity remains unresolved across16IPF10HC GEO titles and18IPF11normal metadata labels. Visible-airway removal may limit primary airway window. Do not call29independent donors."
+    },
+    {
+      "accession": "GSE286182",
+      "reason": "9IPF/10control regional snRNA/multiome;75GSM comprise55native snRNA,10multiomeRNA and10ATAC records. PCLS is a separate processed-file branch. Preserve original versus reuse and donor independence against Yale/Adams before allocation."
+    },
+    {
+      "accession": "Zenodo:15220246 / GSE292589",
+      "reason": "New candidate Oxford Xenium branch; GEO4GSM are BAL/blood GEX/HTO pools, not the tissue spatial cohort. Need spatial donor/panel/image/segmentation package. Integrated108people are not new donors."
+    },
+    {
+      "accession": "GSE227136",
+      "reason": "FinalTableS1 confirms29/30 source GSE135893 donors reused, including11IPF and10controls. Never use wholecollection as independent validation; evaluate only version-aware truly new subsets."
+    }
+  ],
+  "full_pilot_success_criteria": [
+    "Complete intended original count files with byte counts/checksums and successful format parsing; prefix success alone does not pass.",
+    "Verify donor/specimen/region/library/fraction/cell-barcode relationships and preserve uncertain aliases. Barcode joins must be explicit and one-to-one where expected.",
+    "Retain original measurements and broad cellular background. Report source-label and post-QC lineage yield by donor/fraction, including sparse or absent stromal recovery; do not interpret capture absence as biological absence.",
+    "Check spatial count\u2013coordinate\u2013scale\u2013image agreement and gene identifiers; perform high-resolution anatomical review before a formal airway-interface inclusion rule.",
+    "Report runtime, peak memory, format issues and a reloadable checkpoint. Avoid dense loading of the GSE159585 CSV.",
+    "Keep held-out donors and reference-derived fine disease states outside discovery training. Record every dataset use.",
+    "Resolve remaining QC/metadata gates and lock Checkpoint A before formal state/program/niche discovery."
+  ],
+  "not_done": [
+    "Complete large count acquisition or parsing.",
+    "Fine cell-state discovery, differential expression, spatial association, ligand\u2013receptor or target inference.",
+    "A final biological cohort lock or proof of cross-source donor independence.",
+    "Author contact, controlled-data application or authenticated portal download.",
+    "Any new server analysis or frozen Stage5 asset modification."
+  ]
+}

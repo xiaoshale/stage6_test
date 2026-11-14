@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-11-14T22:31:42.320552+00:00",
+  "interpreter": "/home/data/t120631/project/ipf_stage6_smoke_test_20261113/.venv/bin/python",
+  "mode": "Reuse the existing validated smoke-test virtual environment without modifying packages.",
+  "versions": {
+    "scanpy": "1.11.5",
+    "anndata": "0.11.4",
+    "scipy": "1.15.3",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "h5py": "3.16.0",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.10.9"
+  },
+  "computational_threads": 4,
+  "planned_process_virtual_memory_ceiling_GiB": 48
+}

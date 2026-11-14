@@ -1,0 +1,32 @@
+{
+  "milestone": "01",
+  "date": "2026-11-15",
+  "status": "two_native_scrna_components_verified",
+  "server_root": "/home/data/t120631/project/ipf_stage6_pilot",
+  "GSE135893": {
+    "source_annotated_cells": 8577,
+    "genes": 33694,
+    "donors": 4,
+    "full_global_mtx_read": true,
+    "reload_verified": true
+  },
+  "GSE159354": {
+    "source_libraries": 16,
+    "library_cells": 55189,
+    "donors": 4,
+    "separate_library_checkpoints": true,
+    "reload_verified": true
+  },
+  "fixtures": [
+    "download_200_resume_entity_checks",
+    "Habermann_barcode_order_and_uncalled_columns",
+    "snRNA_integer_and_metadata_failures",
+    "spatial_xy_and_filtered_submatrix"
+  ],
+  "remaining": [
+    "Finish spatial transfer and native six-section QC",
+    "Finish snRNA streaming QC",
+    "Verify final artifacts and retrieve small summaries"
+  ],
+  "biological_analysis_started": false
+}

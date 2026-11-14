@@ -1,0 +1,5 @@
+donor_id,diagnosis,library_id,cells,median_total_counts,median_detected_genes,median_pct_counts_mt,flagged_low_genes,flagged_high_mito,flagged_zero_counts,flagged_any_technical
+THD0001,Control,F01157,2218,11270.0,3052.0,4.202246390442153,0,0,0,0
+THD0002,Control,F01174,2647,8138.0,2356.0,3.5830931796349663,0,0,0,0
+TILD001,IPF,F00431,2128,7156.5,2327.5,3.3635967591261853,0,0,0,0
+TILD010,IPF,F01214,1584,5526.0,1840.0,4.158643730570168,0,0,0,0

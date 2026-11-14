@@ -1,0 +1,91 @@
+{
+  "fixture": "PASS",
+  "source_script": "/Users/XiaoqianMa/Documents/Codex_Projects/active/pulmonary_fibrosis_research_scoping/analysis/stage6_pilot/acquire_inputs.py",
+  "source_sha256": "cb8791201fab0361d9ad3af05dad2e85c7bc97f2222dbd41c88736220684dc28",
+  "golden_hex": "414347540a4950465f70696c6f745f636f756e74730a656e640a",
+  "golden_sha256": "4a2a1d240fd94104fcd4adf02f2037ce586f96d5ef1b8b6b58d51549d6d5d047",
+  "cases": [
+    {
+      "case": "complete200",
+      "result": "PASS",
+      "exit_code": 0,
+      "requests": [
+        {
+          "path": "/complete",
+          "range": null,
+          "if_range": null,
+          "status": 200
+        }
+      ],
+      "original_partial_preserved": false
+    },
+    {
+      "case": "resume_same_entity",
+      "result": "PASS",
+      "exit_code": 0,
+      "requests": [
+        {
+          "path": "/resume",
+          "range": "bytes=7-",
+          "if_range": "\"fixture-v1\"",
+          "status": 206
+        }
+      ],
+      "original_partial_preserved": false
+    },
+    {
+      "case": "initial206_rejected",
+      "result": "PASS",
+      "exit_code": 1,
+      "requests": [
+        {
+          "path": "/unexpected206",
+          "range": null,
+          "if_range": null,
+          "status": 206
+        },
+        {
+          "path": "/unexpected206",
+          "range": null,
+          "if_range": null,
+          "status": 206
+        },
+        {
+          "path": "/unexpected206",
+          "range": null,
+          "if_range": null,
+          "status": 206
+        }
+      ],
+      "original_partial_preserved": false
+    },
+    {
+      "case": "changed_entity200_preserves_partial",
+      "result": "PASS",
+      "exit_code": 1,
+      "requests": [
+        {
+          "path": "/changed",
+          "range": "bytes=7-",
+          "if_range": "\"fixture-v1\"",
+          "status": 200
+        },
+        {
+          "path": "/changed",
+          "range": "bytes=7-",
+          "if_range": "\"fixture-v1\"",
+          "status": 200
+        },
+        {
+          "path": "/changed",
+          "range": "bytes=7-",
+          "if_range": "\"fixture-v1\"",
+          "status": 200
+        }
+      ],
+      "original_partial_preserved": true
+    }
+  ],
+  "retry_sleep_skipped_only_in_fixture_module": true,
+  "work_directory_retained": "/private/tmp/stage6_acquisition_fixture_20261115_01"
+}

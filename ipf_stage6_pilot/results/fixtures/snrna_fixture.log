@@ -1,0 +1,1 @@
+{"status": "passed", "valid_matrix_shape": [5, 3], "failure_cases_rejected": ["missing_metadata_cell", "fractional_count"], "work_dir": "/home/data/t120631/project/ipf_stage6_pilot/runs/fixture_snrna_001"}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "good_fixture_six_section_round_trip": true,
+  "asymmetric_xy_verified": true,
+  "raw_off_tissue_and_zero_count_positions_preserved": true,
+  "bad_filtered_counts_rejected": true,
+  "good_summary": "/home/data/t120631/project/ipf_stage6_pilot/runs/fixture_spatial_001/good_output/summary.json",
+  "expected_failure_summary": "/home/data/t120631/project/ipf_stage6_pilot/runs/fixture_spatial_001/bad_filtered_output/summary.json",
+  "scope": "Synthetic technical fixture only; no evidence about the real dataset or biological interpretation"
+}
