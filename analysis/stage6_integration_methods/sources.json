@@ -1,0 +1,299 @@
+{
+  "review_date": "2026-11-14",
+  "scope": "Targeted methods review for integration of public human native IPF scRNA/snRNA and spatial data; not an exhaustive systematic review.",
+  "evidence_policy": "Primary original research and maintainer documentation. Review source-specific applicability and verification limits. Software documentation is not a universal biological or statistical guideline.",
+  "source_records": 22,
+  "sources": [
+    {
+      "id": "R1",
+      "topic": "representation",
+      "title": "Benchmarking atlas-level data integration in single-cell genomics",
+      "citation": "Luecken et al., Nature Methods, 2022; online 2021",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://www.nature.com/articles/s41592-021-01336-8",
+      "bounded_takeaway": "Integration evaluation must measure both batch removal and biological conservation, including isolated/rare labels and label-free structure.",
+      "applicability_limit": "Benchmark implementations, hardware and parameter snapshots are historical; overall ranking is not a guarantee for current IPF states or modern package versions. Supervised methods benefit from cell-identity labels, which are not ground truth for unknown disease states.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction.",
+      "additional_primary_or_official_links": {
+        "accessible_alternative": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8748196/"
+      }
+    },
+    {
+      "id": "R2",
+      "topic": "representation",
+      "title": "Batch correction methods used in single-cell RNA sequencing analyses are often poorly calibrated",
+      "citation": "Antonsson and Melsted, Genome Research, 2025",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12315870/",
+      "bounded_takeaway": "Pseudo-batch experiments test whether correction changes data when real batch effects are absent or small; several tested workflows introduced artifacts.",
+      "applicability_limit": "This evaluates calibration under a particular pseudo-batch design, not every real heterogeneous disease atlas. It does not supersede rare-cell or strong-batch benchmarks. Check the tested output and implementation before extrapolating to current scVI embeddings or Seurat IntegrateLayers.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction."
+    },
+    {
+      "id": "R3",
+      "topic": "representation",
+      "title": "An integrated cell atlas of the lung in health and disease",
+      "citation": "Sikkema et al., Nature Medicine, 2023",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://www.nature.com/articles/s41591-023-02327-2",
+      "bounded_takeaway": "The lung atlas combined raw counts with harmonized cell annotations, technical/clinical metadata and anatomical locations.",
+      "applicability_limit": "This is a healthy-reference and extended lung-atlas task; known rare cell types differ from unknown IPF states. Supervised labeling and annotation quality influence performance. Any pretrained/extended atlas must be audited for reserved donor inclusion.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction.",
+      "additional_primary_or_official_links": {
+        "accessible_alternative": "https://discovery.ucl.ac.uk/id/eprint/10171874/1/s41591-023-02327-2.pdf"
+      }
+    },
+    {
+      "id": "R4",
+      "topic": "representation",
+      "title": "Integrative analysis in Seurat",
+      "citation": " ",
+      "source_type": "Official software documentation, accessed 2026-11-14",
+      "url": "https://satijalab.org/seurat/articles/integration.html",
+      "bounded_takeaway": "The official workflow supports a no-integration comparison and keeps original count/normalized data layers.",
+      "applicability_limit": "Software demonstrations explain usage, not clinical validity or donor-aware hypothesis testing. Conservatism is relative and does not ensure retention of every rare state. Record the actual installed version because current pages can change.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction.",
+      "additional_primary_or_official_links": {
+        "related_official_url": "https://satijalab.org/seurat/archive/v4.3/integration_rpca.html"
+      }
+    },
+    {
+      "id": "R5",
+      "topic": "representation",
+      "title": "scvi-tools introduction and SCVI.setup_anndata API",
+      "citation": " ",
+      "source_type": "Official software documentation, accessed 2026-11-14",
+      "url": "https://docs.scvi-tools.org/en/stable/tutorials/notebooks/quick_start/api_overview.html",
+      "bounded_takeaway": "SCVI expects raw counts unless otherwise stated; normalized/log data are stored separately.",
+      "applicability_limit": "Providing a batch key does not establish identifiability when disease and study are confounded. Model-based differential expression is a separate inferential workflow, not a license to treat cells as independent donors. Feature selection and hyperparameters are context-dependent.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction.",
+      "additional_primary_or_official_links": {
+        "related_official_url": "https://docs.scvi-tools.org/en/latest/api/reference/scvi.model.SCVI.html#scvi.model.SCVI.setup_anndata"
+      }
+    },
+    {
+      "id": "R6",
+      "topic": "representation",
+      "title": "scIB and scib-metrics evaluation APIs",
+      "citation": " ",
+      "source_type": "Official software documentation, accessed 2026-11-14",
+      "url": "https://scib.readthedocs.io/en/latest/api/scib.metrics.metrics_all.html",
+      "bounded_takeaway": "The APIs separate biological-conservation metrics from batch-removal metrics.",
+      "applicability_limit": "Label-based scores inherit the labels' resolution and errors; good coarse-cell scores do not prove disease-state conservation. Batch mixing is inappropriate as a sole target for genuinely nonshared populations. Default composite weights are not universal scientific thresholds.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction.",
+      "additional_primary_or_official_links": {
+        "related_official_url": "https://scib-metrics.readthedocs.io/en/stable/api.html"
+      }
+    },
+    {
+      "id": "R7",
+      "topic": "representation",
+      "title": "Systematic assessment of tissue dissociation and storage biases in single-cell and single-nucleus RNA-seq workflows",
+      "citation": "Denisenko et al., Genome Biology, 2020",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://link.springer.com/article/10.1186/s13059-020-02048-6",
+      "bounded_takeaway": "Dissociation, preservation and nuclei isolation altered cell recovery and expression profiles in a controlled comparison.",
+      "applicability_limit": "The principal controlled experiments used mouse kidney, so effect sizes and affected cell types cannot be transferred directly to human IPF. It demonstrates protocol bias, not a universally correct computational fix.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction.",
+      "additional_primary_or_official_links": {
+        "accessible_alternative": "https://pubmed.ncbi.nlm.nih.gov/32487174/"
+      }
+    },
+    {
+      "id": "R8",
+      "topic": "representation",
+      "title": "A single-cell and single-nucleus RNA-Seq toolbox for fresh and frozen human tumors",
+      "citation": "Slyper et al., Nature Medicine, 2020",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://www.nature.com/articles/s41591-020-0844-1",
+      "bounded_takeaway": "Matched human tumor scRNA/snRNA recovered shared cell types at different proportions.",
+      "applicability_limit": "Human tumor tissues and matched acquisitions are different from unmatched public IPF cohorts; the historical CCA implementation is an example, not a current software recommendation.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction.",
+      "additional_primary_or_official_links": {
+        "accessible_alternative": "https://ccsp.hms.harvard.edu/wp-content/uploads/2020/12/Slyper-2020-NatMed.pdf"
+      }
+    },
+    {
+      "id": "STAT01",
+      "topic": "statistics",
+      "title": "Confronting false discoveries in single-cell differential expression",
+      "citation": "Squair et al. 2021",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://www.nature.com/articles/s41467-021-25960-2",
+      "bounded_takeaway": "Disease/perturbation inference must account for variation between biological replicates.",
+      "applicability_limit": "Not a proof that every cell-level model is invalid: mixed models and other replicate-aware procedures can address hierarchy. It does not establish one universally best method for every cell-state or distributional question.",
+      "verification_note": "Primary publisher search result supplied Results and Discussion;18 matched bulk/single-cell perturbation datasets plus experimental follow-up.",
+      "additional_primary_or_official_links": {
+        "alternative_primary_url": "https://pubmed.ncbi.nlm.nih.gov/34584091/"
+      }
+    },
+    {
+      "id": "STAT02",
+      "topic": "statistics",
+      "title": "A practical solution to pseudoreplication bias in single-cell studies",
+      "citation": "Zimmerman, Espeland and Langefeld 2021",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://www.nature.com/articles/s41467-021-21038-1",
+      "bounded_takeaway": "Cells from one individual are dependent subsamples.",
+      "applicability_limit": "This study favors mixed models and finds pseudobulk more conservative/less powered in its settings. It must not be cited as demonstrating that pseudobulk is the sole correct approach. Any model still requires identifiable design and enough independent individuals.",
+      "verification_note": "Primary abstract and detailed introduction/methods/conclusion retrieved.",
+      "additional_primary_or_official_links": {
+        "alternative_primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854630/"
+      }
+    },
+    {
+      "id": "STAT03",
+      "topic": "statistics",
+      "title": "muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data",
+      "citation": "Crowell et al. 2020",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://www.nature.com/articles/s41467-020-19894-4",
+      "bounded_takeaway": "Multi-sample differential state analysis asks whether expression within a comparable subpopulation changes by condition.",
+      "applicability_limit": "A broad cell-type aggregate can mix true expression change with a shift in finer states. Selection of the aggregation unit must follow the biological estimand; missing/poorly captured state groups require eligibility handling, not invented zeros.",
+      "verification_note": "Primary publisher Results and Methods retrieved."
+    },
+    {
+      "id": "STAT04",
+      "topic": "statistics",
+      "title": "Single-cell differential expression analysis between conditions within nested settings",
+      "citation": "Hafner et al. 2025",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://doi.org/10.1093/bib/bbaf397",
+      "bounded_takeaway": "Explicitly benchmarks nested single-dataset and atlas scenarios, runtime and negative-control calibration.",
+      "applicability_limit": "The IFN pathway evaluation favors t-test/MAST in ranking but uses acknowledged imperfect ground truth. Negative-control calibration is a distinct target. DREAM here means the repeated-measures model, not automatically an empirical recommendation to run every dreamlet configuration. Results are benchmark-specific.",
+      "verification_note": "Primary abstract, statistical framework, method descriptions, IFN pathway evaluation and negative-control benchmark retrieved.",
+      "additional_primary_or_official_links": {
+        "alternative_primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12343076/"
+      }
+    },
+    {
+      "id": "STAT05",
+      "topic": "statistics",
+      "title": "Efficient differential expression analysis of large-scale single-cell transcriptomics data using Dreamlet",
+      "citation": "Hoffman et al. 2026",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://doi.org/10.1038/s41467-026-75680-8",
+      "bounded_takeaway": "Dreamlet has a current peer-reviewed publication as of this review date.",
+      "applicability_limit": "Functional recommendations below are supported by the official tutorial rather than claiming an independently reviewed benchmark result from this newly published full text.",
+      "verification_note": "Current peer-reviewed publication identity, date, DOI and authors verified in PubMed; publisher full-text open hit an authentication redirect.",
+      "additional_primary_or_official_links": {
+        "alternative_primary_url": "https://pubmed.ncbi.nlm.nih.gov/42778542/"
+      }
+    },
+    {
+      "id": "STAT06",
+      "topic": "statistics",
+      "title": "Dreamlet analysis of single cell RNA-seq; official package documentation",
+      "citation": "dreamlet developers current documentation consulted2026-11-14",
+      "source_type": "official_documentation",
+      "url": "https://diseaseneurogenomics.github.io/dreamlet/articles/dreamlet.html",
+      "bounded_takeaway": "Aggregate original raw counts for each sample and cell type before the pseudobulk workflow.",
+      "applicability_limit": "These capabilities do not ensure a small IPF dataset has enough information to estimate all proposed effects. Library/sample preprocessing and precision weighting do not create independent donors.",
+      "verification_note": "Official documentation search extracts explicitly describe summing raw counts by sample and cell type and precision-weighted mixed models.",
+      "additional_primary_or_official_links": {
+        "additional_official_url": "https://diseaseneurogenomics.github.io/dreamlet/"
+      }
+    },
+    {
+      "id": "STAT07",
+      "topic": "statistics",
+      "title": "Benchmarking integration of single-cell differential expression",
+      "citation": "Nguyen et al. 2023",
+      "source_type": "peer_reviewed_original_research",
+      "url": "https://www.nature.com/articles/s41467-023-37126-3",
+      "bounded_takeaway": "Workflow rankings vary with sparsity, batch effects and the chosen discovery endpoint.",
+      "applicability_limit": "Prioritizing known disease genes does not establish calibrated donor-population inference.",
+      "verification_note": "Primary publisher text inspected; conflicting recommendations retained."
+    },
+    {
+      "id": "SP1",
+      "topic": "spatial",
+      "title": "Cell2location maps fine-grained cell types in spatial transcriptomics",
+      "citation": "Kleshchevnikov et al., Nature Biotechnology, 2022",
+      "source_type": "peer_reviewed_original_method",
+      "url": "https://www.nature.com/articles/s41587-021-01139-4",
+      "bounded_takeaway": "A Bayesian model links a single-cell reference to spatial RNA counts while accounting for technical variation and sharing information across locations.",
+      "applicability_limit": "Method validation in several tissues does not establish accuracy for every fine IPF state, reference, chemistry or panel. A spatially colocated state pair does not establish direct cell contact, directionality or causal signaling.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction.",
+      "additional_primary_or_official_links": {
+        "accessible_primary_record": "https://pubmed.ncbi.nlm.nih.gov/35027729/"
+      }
+    },
+    {
+      "id": "SP2",
+      "topic": "spatial",
+      "title": "Mapping human lymph node cell types to 10X Visium with Cell2location",
+      "citation": " ",
+      "source_type": "official_method_documentation",
+      "url": "https://cell2location.readthedocs.io/en/latest/notebooks/cell2location_tutorial.html",
+      "bounded_takeaway": "Spatial input is untransformed, unnormalised mRNA counts.",
+      "applicability_limit": "The example is lymph node, not lung. Do not copy cells-per-location, detection or training settings as universal defaults. Latent embeddings and batch-corrected coordinates are not the unnormalised gene-count inputs described here.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction."
+    },
+    {
+      "id": "SP3",
+      "topic": "spatial",
+      "title": "A comprehensive benchmarking with practical guidelines for cellular deconvolution of spatial transcriptomics",
+      "citation": "Li et al., Nature Communications 14:1548, 2023",
+      "source_type": "peer_reviewed_primary_benchmark",
+      "url": "https://www.nature.com/articles/s41467-023-37168-7",
+      "bounded_takeaway": "Benchmarks 18 methods with 50 real and simulated datasets, including variation in resolution, genes, spots and technology.",
+      "applicability_limit": "Rankings apply to the tested tasks and available ground truth/proxies, not every disease, rare state or future method. Real spot-based evaluations partly rely on marker correspondence where exact cell composition is unknown.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction."
+    },
+    {
+      "id": "SP4",
+      "topic": "spatial",
+      "title": "Understanding Xenium Outputs",
+      "citation": " ",
+      "source_type": "official_vendor_documentation",
+      "url": "https://www.10xgenomics.com/support/cn/software/xenium-onboard-analysis/latest/tutorials/outputs/xoa-output-understanding-outputs",
+      "bounded_takeaway": "Transcript tables contain cell assignment, feature, spatial coordinates and quality information.",
+      "applicability_limit": "Current defaults do not describe all older acquisitions. Audit the actual software version, segmentation method and output format. Cell-resolved acquisition does not eliminate assignment errors or establish biological cell contact.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction.",
+      "additional_primary_or_official_links": {
+        "english_official_documentation": "https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/analysis/xoa-output-understanding-outputs"
+      }
+    },
+    {
+      "id": "SP5",
+      "topic": "spatial",
+      "title": "Space Ranger Segmented Outputs",
+      "citation": " ",
+      "source_type": "official_vendor_documentation",
+      "url": "https://www.10xgenomics.com/support/software/space-ranger/latest/analysis/outputs/segmented-outputs",
+      "bounded_takeaway": "Current Space Ranger supports optional nucleus/cell segmentation for Visium HD.",
+      "applicability_limit": "A high-definition bin is not automatically a segmented biological cell. Older public HD packages may lack these newer segmentation outputs; do not infer availability from the latest documentation.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction."
+    },
+    {
+      "id": "SP6",
+      "topic": "spatial",
+      "title": "Spatial transcriptomic characterization of pathologic niches in IPF",
+      "citation": "Mayr et al., Science Advances 10:eadl5473, 2024",
+      "source_type": "peer_reviewed_primary_ipf_application",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11313858/",
+      "bounded_takeaway": "Integrates six published lung scRNA datasets into a PF-ILD atlas; uses cell2location to connect expression signatures to Visium measurements.",
+      "applicability_limit": "The paper is a biological/application example, not a universal optimal integration recipe or proof of independent patient counts. Its broad basaloid/myofibroblast niche is already published, and inferred communication remains distinct from function.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction."
+    },
+    {
+      "id": "SP7",
+      "topic": "spatial",
+      "title": "Mapping spatially resolved transcriptomes in human and mouse pulmonary fibrosis",
+      "citation": "Franzen et al., Nature Genetics, 2024",
+      "source_type": "peer_reviewed_primary_ipf_application",
+      "url": "https://doi.org/10.1038/s41588-024-01819-2",
+      "bounded_takeaway": "Uses Habermann GSE135893 as a single-cell reference for cell2location mapping of human Visium spots.",
+      "applicability_limit": "Published sample/donor regression and hyperparameters are task-specific; they should not be copied mechanically. Repeated blocks/sections are nested in donors, and their severity differences are cross-sectional rather than a longitudinal disease trajectory.",
+      "verification_note": "Primary published text or maintainer documentation checked; no empirical reproduction."
+    }
+  ],
+  "deduplication_note": "Spatial review SP8 is the same HLCA source as R3 and is represented once.",
+  "source_review_boundaries": [
+    "Selection used primary publisher/PMC/PubMed records and official documentation; inaccessible publisher pages were not treated as evidence of full-text review.",
+    "STAT05 verifies current Dreamlet publication identity only; functional recommendations use official tutorial STAT06.",
+    "No benchmark, source code execution, biological analysis, package installation or server task was performed."
+  ],
+  "project_recommendation_status": "Proposed framework. Cohort choice, parameters, thresholds and selected integration method remain conditional on readiness checks and later empirical assessment."
+}

@@ -1,0 +1,112 @@
+{
+  "accession": "GSE135893",
+  "technical_execution_complete": true,
+  "formal_biological_analysis_ready": false,
+  "selected_donors": [
+    "TILD001",
+    "TILD010",
+    "THD0001",
+    "THD0002"
+  ],
+  "selected_shape_cells_genes": [
+    8577,
+    33694
+  ],
+  "selected_nnz": 20734340,
+  "selected_total_counts": 74230276,
+  "selected_sparse_dtype": "int32",
+  "source_sparse_dtype": "int64",
+  "global_counts_axes_audit": {
+    "genes": 33694,
+    "barcode_columns": 220213,
+    "nonzero_entries": 338061955,
+    "complete_sparse_payload_read": true,
+    "source_metadata_rows": 114396,
+    "all_metadata_barcodes_map_to_unique_matrix_columns": true,
+    "matrix_columns_without_this_author_annotation": 105817,
+    "unannotated_columns_included_in_pilot": 0,
+    "matrix_axis_not_assumed_to_be_called_cells": true
+  },
+  "mitochondrial_gene_definition": "Case-insensitive MT- prefix in original gene-symbol axis",
+  "mitochondrial_gene_rows": 13,
+  "duplicate_source_gene_symbol_rows": 0,
+  "flag_thresholds": {
+    "n_genes_strictly_below": 200,
+    "pct_counts_mt_strictly_above": 25.0,
+    "zero_counts": true,
+    "cells_or_genes_filtered": false
+  },
+  "technical_flag_counts": {
+    "flag_low_genes": 0,
+    "flag_high_mito": 0,
+    "flag_zero_counts": 0,
+    "flag_any_technical": 0
+  },
+  "source_metric_disagreements": {
+    "nCount_RNA": 0,
+    "nFeature_RNA": 0
+  },
+  "source_broad_annotation_boundary": "Author labels only, not verified fibroblast states, tissue abundance, spatial proximity or new annotation",
+  "reload_validation": {
+    "shape": true,
+    "cell_ids": true,
+    "gene_ids": true,
+    "X_original_counts": true,
+    "counts_layer": true,
+    "all_selected_annotated_cells_retained": true,
+    "all_source_genes_retained": true,
+    "no_embeddings_or_neighbor_graphs": true,
+    "all_obs_and_var_values": true
+  },
+  "original_inputs": {
+    "counts": {
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE135893/GSE135893_matrix.mtx.gz",
+      "bytes": 1076137992,
+      "sha256": "036987d06ed9625a71f5e5be0717c2598e914a6c9cad0628f61a8ebb66e695a6"
+    },
+    "genes": {
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE135893/GSE135893_genes.tsv.gz",
+      "bytes": 129668,
+      "sha256": "7e8612e72f033ef214de101bb782ab1cb60b8c887be2d3e8a0d637de067b0233"
+    },
+    "barcodes": {
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE135893/GSE135893_barcodes.tsv.gz",
+      "bytes": 936873,
+      "sha256": "37a9a98a95d59bb4333c8181c14bb2b384701e6fda1c409e79f3e41c681430d4"
+    },
+    "metadata": {
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE135893/GSE135893_IPF_metadata.csv.gz",
+      "bytes": 3354014,
+      "sha256": "5c67b3717375859aafc4463024847cf30d7af7bb9d5f4ad9a5364ee6d7726bf5"
+    }
+  },
+  "manifest": {
+    "file": "/home/data/t120631/project/ipf_stage6_pilot/config/pilot_manifest.json",
+    "sha256": "adcdd7c680b1287420d50b0644d9848a3fb5dffb863b13ffe59522e873085b28"
+  },
+  "script_sha256": "a26bc5d766db92f1afb21d6035b45a90ef335fc7c5f8119e9cbcd157e40527ad",
+  "versions": {
+    "anndata": "0.11.4",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3",
+    "h5py": "3.16.0",
+    "threadpoolctl": "3.8.0"
+  },
+  "python": "3.10.20",
+  "threads": 4,
+  "elapsed_seconds": 35.973,
+  "peak_rss_bytes": 6940749824,
+  "counts_h5ad": {
+    "file": "counts.h5ad",
+    "sha256": "1328e7c2fcbf0d621c4d93155a941467c2d74ae7c6105ab5b1931c9b458e50f5"
+  },
+  "not_performed": [
+    "Cell or gene QC filtering",
+    "Normalization or log transform",
+    "Cell-state discovery",
+    "PCA or clustering",
+    "Differential expression",
+    "Niche or target analysis"
+  ]
+}

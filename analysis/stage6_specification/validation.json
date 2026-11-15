@@ -1,0 +1,210 @@
+{
+  "scope": "Metadata intake integrity only; no expression cleaning or anatomical adjudication",
+  "checks_passed": 51,
+  "checks": [
+    {
+      "check": "GSE135893/IPF donors, units, processed pilot units",
+      "passed": true
+    },
+    {
+      "check": "GSE135893/Control donors, units, processed pilot units",
+      "passed": true
+    },
+    {
+      "check": "GSE135893/other_ILD donors, units, processed pilot units",
+      "passed": true
+    },
+    {
+      "check": "GSE135893 qualified IDs preserve source identity",
+      "passed": true
+    },
+    {
+      "check": "GSE135893 annotations remain unreviewed",
+      "passed": true
+    },
+    {
+      "check": "GSE135893 no premature endpoint lock",
+      "passed": true
+    },
+    {
+      "check": "GSE135893 no pilot flag promoted to formal QC",
+      "passed": true
+    },
+    {
+      "check": "GSE159354/IPF donors, units, processed pilot units",
+      "passed": true
+    },
+    {
+      "check": "GSE159354/Control donors, units, processed pilot units",
+      "passed": true
+    },
+    {
+      "check": "GSE159354/other_ILD donors, units, processed pilot units",
+      "passed": true
+    },
+    {
+      "check": "GSE159354 qualified IDs preserve source identity",
+      "passed": true
+    },
+    {
+      "check": "GSE159354 annotations remain unreviewed",
+      "passed": true
+    },
+    {
+      "check": "GSE159354 no premature endpoint lock",
+      "passed": true
+    },
+    {
+      "check": "GSE159354 no pilot flag promoted to formal QC",
+      "passed": true
+    },
+    {
+      "check": "GSE159585/IPF donors, units, processed pilot units",
+      "passed": true
+    },
+    {
+      "check": "GSE159585/Control donors, units, processed pilot units",
+      "passed": true
+    },
+    {
+      "check": "GSE159585 qualified IDs preserve source identity",
+      "passed": true
+    },
+    {
+      "check": "GSE159585 annotations remain unreviewed",
+      "passed": true
+    },
+    {
+      "check": "GSE159585 no premature endpoint lock",
+      "passed": true
+    },
+    {
+      "check": "GSE159585 no pilot flag promoted to formal QC",
+      "passed": true
+    },
+    {
+      "check": "Franzen/IPF donors, units, processed pilot units",
+      "passed": true
+    },
+    {
+      "check": "Franzen/Control donors, units, processed pilot units",
+      "passed": true
+    },
+    {
+      "check": "Franzen qualified IDs preserve source identity",
+      "passed": true
+    },
+    {
+      "check": "Franzen annotations remain unreviewed",
+      "passed": true
+    },
+    {
+      "check": "Franzen no premature endpoint lock",
+      "passed": true
+    },
+    {
+      "check": "Franzen no pilot flag promoted to formal QC",
+      "passed": true
+    },
+    {
+      "check": "134 native intake units",
+      "passed": true
+    },
+    {
+      "check": "globally unique source-qualified unit IDs",
+      "passed": true
+    },
+    {
+      "check": "Checkpoint A remains pending",
+      "passed": true
+    },
+    {
+      "check": "no formal discovery claimed",
+      "passed": true
+    },
+    {
+      "check": "five unsorted disease-effect sensitivity libraries retained separately",
+      "passed": true
+    },
+    {
+      "check": "all native 159354 libraries can contribute to state search",
+      "passed": true
+    },
+    {
+      "check": "159354 unsorted sensitivity flag matches each source fraction",
+      "passed": true
+    },
+    {
+      "check": "159354 primary routes match core diagnosis and exact fraction",
+      "passed": true
+    },
+    {
+      "check": "159354 matched epithelial/IPF exact three source donors",
+      "passed": true
+    },
+    {
+      "check": "159354 matched epithelial/Control exact three source donors",
+      "passed": true
+    },
+    {
+      "check": "159354 matched stromal/IPF exact three source donors",
+      "passed": true
+    },
+    {
+      "check": "159354 matched stromal/Control exact three source donors",
+      "passed": true
+    },
+    {
+      "check": "136831 reserved IPF donor count",
+      "passed": true
+    },
+    {
+      "check": "136831 reserved Control donor count",
+      "passed": true
+    },
+    {
+      "check": "136831 reserved COPD donor count",
+      "passed": true
+    },
+    {
+      "check": "122960 reserved IPF donor count",
+      "passed": true
+    },
+    {
+      "check": "122960 reserved Control donor count",
+      "passed": true
+    },
+    {
+      "check": "122960 reserved early_IPF_cryobiopsy donor count",
+      "passed": true
+    },
+    {
+      "check": "122960 reserved other_ILD donor count",
+      "passed": true
+    },
+    {
+      "check": "reserved candidate outcomes untouched",
+      "passed": true
+    },
+    {
+      "check": "no expert anatomy or interface certification fabricated",
+      "passed": true
+    },
+    {
+      "check": "Franzen source procurement confounding retained",
+      "passed": true
+    },
+    {
+      "check": "Habermann pre-QC mesenchymal 20-cell screen",
+      "passed": true
+    },
+    {
+      "check": "Habermann pre-QC epithelial 20-cell screen",
+      "passed": true
+    },
+    {
+      "check": "stored intake exactly reproduces from hashed sources",
+      "passed": true
+    }
+  ]
+}

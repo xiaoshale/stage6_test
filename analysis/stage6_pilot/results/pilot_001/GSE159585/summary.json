@@ -1,0 +1,128 @@
+{
+  "accession": "GSE159585",
+  "started_utc": "2026-11-14T22:57:36.281063+00:00",
+  "status": "technical_qc_passed",
+  "full_count_file_read_to_eof": true,
+  "gzip_trailer_crc_passed": true,
+  "analysis_boundary": "Technical parsing and descriptive QC only; no expression-based biological tests.",
+  "input_files": {
+    "counts": {
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159585/GSE159585_snRNAseq_raw_counts.csv.gz",
+      "compressed_bytes": 509536603,
+      "sha256": "e6e3fe8d9b984fba7ac779d9948b84a90b659ba82b15cf5f431f234fa893590c"
+    },
+    "metadata": {
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159585/GSE159585_snRNAseq_metadata.csv.gz",
+      "sha256": "3fa05ae974bb5a88a6032562c486deeaa50b2cfd685b623b36f88ae75ef9a03a"
+    },
+    "manifest": {
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/config/pilot_manifest.json",
+      "sha256": "adcdd7c680b1287420d50b0644d9848a3fb5dffb863b13ffe59522e873085b28"
+    }
+  },
+  "source_global_metadata_cells": 176540,
+  "selected_cells_retained": 28970,
+  "gene_rows_retained": 27714,
+  "duplicate_source_gene_rows_retained": 0,
+  "sparse_nonzero_counts": 76748588,
+  "count_dtype": "int64",
+  "sparse_format": "csc",
+  "integer_validation": "Every selected count in every gene row parsed as signed int64, nonnegative; all global rows checked for exact header width. Non-selected count values were not numerically inspected.",
+  "barcode_join": "Complete count-header and metadata barcode sets are equal; selected cells joined by exact source cell ID, in source count-header order.",
+  "reload_checks": "Shape, source gene/barcode axes, all original sparse data/indices, cell totals and donor/source labels match exactly.",
+  "sparse_content_sha256": "2d0403d047216cfc498aa66f4b0e280de6ccda39817e8c0242ccafa1b6f0e9de",
+  "qc_flag_definitions": {
+    "flag_zero_counts": "Selected cell has zero total source counts.",
+    "flag_low_genes_lt200": "Fewer than 200 genes with nonzero source counts; descriptive flag only.",
+    "flag_high_mt_gt25pct": "More than 25% of counts in source gene labels beginning MT-; descriptive flag only. Mitochondrial percentage is NaN when total counts are zero."
+  },
+  "qc_filtering": "No selected cell, gene row or count removed or normalized. Flags are descriptive, not validated snRNA inclusion rules.",
+  "donors": {
+    "Non-COV1": {
+      "donor_id": "Non-COV1",
+      "diagnosis": "control",
+      "gsm": "GSM5068919",
+      "procurement": "autopsy",
+      "retained_source_cells": 7114,
+      "median_total_counts": 5583.0,
+      "median_detected_genes": 2316.5,
+      "median_pct_counts_mt": 0.1371367531011863,
+      "flag_zero_counts_cells": 0,
+      "flag_low_genes_lt200_cells": 0,
+      "flag_high_mt_gt25pct_cells": 0,
+      "published_coarse_annotation_counts": {
+        "immune": 2879,
+        "endothelial": 1338,
+        "stroma": 2061,
+        "epithelial": 836
+      }
+    },
+    "IPF2": {
+      "donor_id": "IPF2",
+      "diagnosis": "IPF",
+      "gsm": "GSM5068921",
+      "procurement": "explant",
+      "retained_source_cells": 8819,
+      "median_total_counts": 5642.0,
+      "median_detected_genes": 2372.0,
+      "median_pct_counts_mt": 0.06890215893431327,
+      "flag_zero_counts_cells": 0,
+      "flag_low_genes_lt200_cells": 0,
+      "flag_high_mt_gt25pct_cells": 0,
+      "published_coarse_annotation_counts": {
+        "immune": 1453,
+        "endothelial": 1320,
+        "stroma": 5995,
+        "epithelial": 51
+      }
+    },
+    "IPF1": {
+      "donor_id": "IPF1",
+      "diagnosis": "IPF",
+      "gsm": "GSM5068922",
+      "procurement": "explant",
+      "retained_source_cells": 2988,
+      "median_total_counts": 6622.5,
+      "median_detected_genes": 2584.5,
+      "median_pct_counts_mt": 0.0650830428281579,
+      "flag_zero_counts_cells": 0,
+      "flag_low_genes_lt200_cells": 0,
+      "flag_high_mt_gt25pct_cells": 0,
+      "published_coarse_annotation_counts": {
+        "immune": 817,
+        "endothelial": 601,
+        "stroma": 858,
+        "epithelial": 712
+      }
+    },
+    "Non-COV2": {
+      "donor_id": "Non-COV2",
+      "diagnosis": "control",
+      "gsm": "GSM5068923",
+      "procurement": "autopsy",
+      "retained_source_cells": 10049,
+      "median_total_counts": 8656.0,
+      "median_detected_genes": 3137.0,
+      "median_pct_counts_mt": 0.17598748533437622,
+      "flag_zero_counts_cells": 0,
+      "flag_low_genes_lt200_cells": 0,
+      "flag_high_mt_gt25pct_cells": 0,
+      "published_coarse_annotation_counts": {
+        "immune": 3063,
+        "endothelial": 1519,
+        "stroma": 980,
+        "epithelial": 4487
+      }
+    }
+  },
+  "procurement_confounding": "All six native IPF subjects are explants and all twelve non-COVID controls are autopsies. Disease and procurement are completely confounded in this cohort; integration or a covariate cannot separate their effects. This is a separate technical/cross-assay robustness component, not equally clean third disease-discovery evidence. Cross-study donor independence remains unverified.",
+  "outputs": {
+    "h5ad": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159585/GSE159585_raw_qc.h5ad",
+    "cell_qc": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159585/cell_qc.tsv",
+    "donor_qc": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159585/donor_qc.tsv"
+  },
+  "peak_rss_bytes": 2071814144,
+  "elapsed_seconds": 275.1622498501092,
+  "completed_utc": "2026-11-14T23:02:11.443319+00:00",
+  "python": "3.10.20"
+}

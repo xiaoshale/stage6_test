@@ -1,0 +1,414 @@
+{
+  "accno" : "S-BSST1410",
+  "attributes" : [ {
+    "name" : "Template",
+    "value" : "Default.v2"
+  }, {
+    "name" : "DOI",
+    "value" : "10.6019/S-BSST1410"
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2024-05-17"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Spatial transcriptomics Visium data for human IPF and control lungs"
+    }, {
+      "name" : "Description",
+      "value" : "Visium (10x Genomics) spatially resolved transcriptomics data generated from normal and Idiopathic Pulmonary Fibrosis (IPF) lung parenchyma tissues collected from human donors. The fresh-frozen tissues that were analyzed were from four healthy control (HC) subjects and from four IPF patients. For each IPF patient, three different tissues were selected representing areas of mild (“B1”), moderate (“B2\") or severe (“B3”) fibrosis within the same donor, as determined by histological inspection of Hematoxylin and Eosin (H&E)-stained samples. Data from a total of 25 tissue sections, from 16 unique lung tissue blocks.\n\nThe lung tissues were collected post-mortem (HC donors) or during lung transplant/resection (IPF patients) after obtaining informed consent. The study protocols were approved by the local human research ethics committee (HC: Lund, permit number Dnr 2016/317; IPF: Gothenburg, permit number 1026-15) and the samples are anonymized and cannot/should not be traced back to individual donors.\n\nData included in this repository:\n- Visium data in the format of selected Space Ranger output files (\"filtered_feature_bc_matrix.h5\", \"raw_feature_bc_matrix.h5\", \"web_summary.html\", and the \"spatial/\" folder) for each individual section analysed. Zipped into one folder: \"hs_visium_spaceranger_output.zip\"\n- Sample metadata containing information for each sample with linked subject information: \"hs_visium_metadata.tsv\"\n- R object produced using STUtility and contains the processed data used for downstream analyses, most importantly all spot metadata with assigned data and deconvolution results (NMF, cell2location): \"hs_visium_stutility_obj.rds\"\n- Cell2location output files (\"*_spot_cell_abundances_5pc.csv\"), zipped into one folder: \"cell2location_habermann2020.zip\"\n- Full resolution H&E images (\"*.jpg\") of each tissue section that was used as input for spaceranger together with alignment json and sequencing fastq files. Zipped into one folder: \"he_fullres_jpgs.zip\"\n- Spot alignment files (\"*.json\") created in Loupe Browser using the corresponding full resolution H&E image in which spots under the tissue was identified. Zipped into one folder: \"loupe_alignment_jsons.zip\"\n\nSpace Ranger output found within the zipped files in folders named \"V*****-***-*1\". To generate these files, raw FastQ files from the NovaSeq sequencing were processed with the Space Ranger pipeline (v. 1.2.2, 10x Genomics), where the reads were mapped to the GRCh38 reference genome. Manual spot alignment was performed in the Loupe Browser (v. 6, 10x Genomics) software.\n\nCell type mapping results were obtained using the cell2location (v. 0.1) method, integrating the Space Ranger output data with annotated single cell RNA-seq data produced from human IPF lung, published by Habermann et al., 2020 (DOI: 10.1126/sciadv.aba1972, GEO accession: GSE135893).\n\nSeurat/STUtility object was generated from the Space Ranger output files, using the R packages STUtility (v. 1.1.1) and Seurat (v. 4.1.1) in R (v. 4.0.5) . \n\nAll R scripts used for the data analyses can be found at https://github.com/lfranzen/spatial-lung-fibrosis.\n\nThe deposited data is presented in the article \"Mapping spatially resolved transcriptomes in human and mouse pulmonary fibrosis\" by Franzén L & Olsson Lindvall M, et al. (preprint: \"Translational mapping of spatially resolved transcriptomes in human and mouse pulmonary fibrosis\", bioRxiv, https://doi.org/10.1101/2023.12.21.572330)."
+    }, {
+      "name" : "Organism",
+      "value" : "Homo sapiens (human)"
+    }, {
+      "name" : "License",
+      "value" : "CC0",
+      "valqual" : [ {
+        "name" : "URL",
+        "value" : "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      } ]
+    }, {
+      "name" : "Organ",
+      "value" : "Lung"
+    }, {
+      "name" : "Experimental design",
+      "value" : "Visium"
+    }, {
+      "name" : "Experimental factor",
+      "value" : "Idiopathic pulmonary fibrosis (IPF)"
+    } ],
+    "files" : [ {
+      "path" : "cell2location_habermann2020.zip",
+      "size" : 29674285,
+      "attributes" : [ {
+        "name" : "Description",
+        "value" : "Results from cell2location cell type deconvolution using the Habermann et al. (2020) data set, GEO accession GSE135893. Output files (\"*_spot_cell_abundances_5pc.csv\"), zipped into single one folder"
+      }, {
+        "name" : "Type",
+        "value" : "csv"
+      } ],
+      "type" : "file"
+    }, {
+      "path" : "hs_visium_stutility_obj.rds",
+      "size" : 3590954198,
+      "attributes" : [ {
+        "name" : "Description",
+        "value" : "R object produced using STUtility, containing all 25 processed human lung Visium data with complete metadata and relevant assays"
+      }, {
+        "name" : "Type",
+        "value" : "rds"
+      } ],
+      "type" : "file"
+    }, {
+      "path" : "hs_visium_metadata.tsv",
+      "size" : 2347,
+      "attributes" : [ {
+        "name" : "Description",
+        "value" : "Visium sample metadata"
+      }, {
+        "name" : "Type",
+        "value" : "tsv"
+      } ],
+      "type" : "file"
+    }, {
+      "path" : "hs_visium_spaceranger_output.zip",
+      "size" : 1093092912,
+      "attributes" : [ {
+        "name" : "Description",
+        "value" : "Space Ranger output files (\"filtered_feature_bc_matrix.h5\", \"raw_feature_bc_matrix.h5\", \"web_summary.html\", and the \"spatial/\" folder) for each individual section"
+      }, {
+        "name" : "Type",
+        "value" : "csv, h5, jpg, json, png"
+      } ],
+      "type" : "file"
+    }, {
+      "path" : "hs_he_fullrers_images.zip",
+      "size" : 757472562,
+      "attributes" : [ {
+        "name" : "Description",
+        "value" : "Full resolution H&E images for each sample, used as input for spaceranger"
+      }, {
+        "name" : "Type",
+        "value" : "jpg"
+      } ],
+      "type" : "file"
+    }, {
+      "path" : "hs_image_alignment_jsons.zip",
+      "size" : 1981556,
+      "attributes" : [ {
+        "name" : "Description",
+        "value" : "Alignment files create in Loupe Browser for each full resolution H&E image, and use as input for spaceranger"
+      }, {
+        "name" : "Type",
+        "value" : "json"
+      } ],
+      "type" : "file"
+    } ],
+    "links" : [ {
+      "url" : "https://www.biorxiv.org/content/10.1101/2023.12.21.572330v1",
+      "attributes" : [ {
+        "name" : "Description",
+        "value" : "Study preprint manuscript \"Translational mapping of spatially resolved transcriptomes in human and mouse pulmonary fibrosis\""
+      } ]
+    }, {
+      "url" : "E-MTAB-14121",
+      "attributes" : [ {
+        "name" : "Description",
+        "value" : "Processed spaceranger output data on ArrayExpress"
+      }, {
+        "name" : "Type",
+        "value" : "arrayexpress"
+      } ]
+    } ],
+    "subsections" : [ {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Lovisa Franzén"
+      }, {
+        "name" : "E-mail",
+        "value" : "lovisa.franzen@gmail.com"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-3755-718X"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Martina Olsson Lindvall"
+      }, {
+        "name" : "E-mail",
+        "value" : "martina.olssonlindvall@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Michael Hühn"
+      }, {
+        "name" : "E-mail",
+        "value" : "michael.huhn@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Victoria Ptasinski"
+      }, {
+        "name" : "E-mail",
+        "value" : "victoria.ptasinski@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Laura Setyo"
+      }, {
+        "name" : "E-mail",
+        "value" : "laura.setyo@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o5",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Benjamin Keith"
+      }, {
+        "name" : "E-mail",
+        "value" : "ben.keith@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Astrid Collin"
+      }, {
+        "name" : "E-mail",
+        "value" : "astrid.collin@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Steven Oag"
+      }, {
+        "name" : "E-mail",
+        "value" : "steven.oag@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Thomas Volckaert"
+      }, {
+        "name" : "E-mail",
+        "value" : "thomas.volckaert@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Annika Borde"
+      }, {
+        "name" : "E-mail",
+        "value" : "annika.borde@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Joakim Lundeberg"
+      }, {
+        "name" : "E-mail",
+        "value" : "joakim.lundeberg@scilifelab.se"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-4313-1601"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Julia Lindgren"
+      }, {
+        "name" : "E-mail",
+        "value" : "julia.lindgren@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Graham Belfield"
+      }, {
+        "name" : "E-mail",
+        "value" : "graham.belfield@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Sonya Jackson"
+      }, {
+        "name" : "E-mail",
+        "value" : "sonya.jackson@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Anna Ollerstam"
+      }, {
+        "name" : "E-mail",
+        "value" : "anna.ollerstam1@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Marianna Stamou"
+      }, {
+        "name" : "E-mail",
+        "value" : "marianna.stamou@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Patrik L Ståhl"
+      }, {
+        "name" : "E-mail",
+        "value" : "patrik.stahl@scilifelab.se"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-2207-7370"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Jorrit J Hornberg"
+      }, {
+        "name" : "E-mail",
+        "value" : "jorrit.hornberg@astrazeneca.com"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "organisation",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "KTH Royal Institute of Technology"
+      } ]
+    }, {
+      "accno" : "o3",
+      "type" : "organisation",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Science for Life Laboratory"
+      } ]
+    }, {
+      "accno" : "o4",
+      "type" : "organisation",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "AstraZeneca (Sweden)"
+      } ]
+    }, {
+      "accno" : "o5",
+      "type" : "organisation",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "AstraZeneca (United Kingdom)"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

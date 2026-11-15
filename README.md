@@ -62,3 +62,9 @@ Keep large inputs and H5AD analysis objects on the server. Retrieve small record
 - [Original 10x PBMC3k archive, unavailable with HTTP 403 during the first attempt](https://cf.10xgenomics.com/samples/cell-exp/1.1.0/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz).
 
 No molecular ranking, cell-type interpretation, donor replication claim, or spatial analysis is part of this smoke test.
+
+## Full-cohort preparation specification
+
+The [preparation standards and exact source-level intake](analysis/stage6_specification/README.md) define full-cohort QC, gene identity, hierarchical annotation and anatomical inclusion. Rules and intake are fixed; actual post-QC donor/cell/ROI eligibility and Checkpoint A remain pending. This technical repository mirrors the standards and the small evidence needed to reproduce intake checks; it is not the complete research/frozen-literature repository. Existing pilot data and code remain under `ipf_stage6_pilot/`.
+
+Run `python3 analysis/stage6_specification/build_and_check_intake.py` from this repository to verify the native intake against the included metadata and pilot summaries. No full expression matrices, private credentials or new biological findings are included.
