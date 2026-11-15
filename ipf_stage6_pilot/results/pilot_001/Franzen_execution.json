@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-15T08:31:15.032596+00:00",
+  "command": [
+    "/home/data/t120631/project/ipf_stage6_smoke_test_20261113/.venv/bin/python",
+    "-u",
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/source/Franzen/qc_spatial.py",
+    "--raw-dir",
+    "/home/data/t120631/project/ipf_stage6_pilot/data/raw/Franzen",
+    "--manifest",
+    "/home/data/t120631/project/ipf_stage6_pilot/config/pilot_manifest.json",
+    "--output-dir",
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/Franzen"
+  ],
+  "code_sha256": {
+    "qc_spatial.py": "187b190365885eb58e061ecbcc5b69e3de12931a166875bd7fa62f4a77cac75b"
+  },
+  "threads": 4,
+  "virtual_memory_ceiling_GiB": 48,
+  "exit_code": 0,
+  "completed_utc": "2026-11-15T08:31:44.216360+00:00",
+  "elapsed_seconds": 29.183787303976715,
+  "peak_child_rss_bytes": 571011072
+}

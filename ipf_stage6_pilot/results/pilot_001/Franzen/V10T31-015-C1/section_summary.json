@@ -1,0 +1,143 @@
+{
+  "section_id": "V10T31-015-C1",
+  "donor_id": "IPF_2",
+  "diagnosis": "IPF",
+  "source_metadata": {
+    "sample_name": "IPF_2.TD021B.B2.1",
+    "sample_id": "V10T31-015-C1",
+    "slide_id": "V10T31-015",
+    "slide_ca": "C1",
+    "condition": "IPF",
+    "subject_alias": "IPF_2",
+    "tissue_alias": "TD021B",
+    "B_tissue_selection": "B2",
+    "fibrotic_extent_score_by_pathologist_0-3": "2",
+    "replicate": "1",
+    "species": "human",
+    "tissue": "lung",
+    "subject_gender": "female"
+  },
+  "capture_positions": 4992,
+  "features": 36601,
+  "author_in_tissue_positions": 4740,
+  "author_off_tissue_positions": 252,
+  "author_filtered_h5_positions": 4740,
+  "all_position_and_raw_barcode_sets_equal": true,
+  "filtered_count_submatrix_equal": true,
+  "total_umis_all_capture_positions": 22436776,
+  "total_umis_author_in_tissue": 21485778,
+  "zero_count_positions": 0,
+  "counts_per_author_in_tissue_position_quantiles": {
+    "0": 31.0,
+    "0.25": 2233.75,
+    "0.5": 3579.0,
+    "0.75": 5402.5,
+    "1": 39539.0
+  },
+  "features_per_author_in_tissue_position_quantiles": {
+    "0": 29.0,
+    "0.25": 1144.75,
+    "0.5": 1629.0,
+    "0.75": 2218.25,
+    "1": 7280.0
+  },
+  "unique_gene_ids": true,
+  "ensembl_gene_id_count": 36601,
+  "duplicate_gene_symbol_count": 10,
+  "feature_type_counts": {
+    "Gene Expression": 36601
+  },
+  "image_checks": {
+    "lowres_shape": [
+      581,
+      600,
+      3
+    ],
+    "hires_shape": [
+      1937,
+      2000,
+      3
+    ],
+    "dimension_mapping_error_in_lowres_pixels_y_x": [
+      0.09998837800037563,
+      1.1999999742329237e-05
+    ],
+    "dimension_mapping_tolerance_lowres_pixels": 1.5,
+    "lowres": {
+      "all_position_centers_inside_image": 4992,
+      "all_position_centers_outside_image": 0,
+      "in_tissue_centers_inside_image": 4740,
+      "implied_fullres_height_width": [
+        11620.0,
+        12000.0
+      ],
+      "scaled_spot_diameter_pixels": 4.659606000000001
+    },
+    "hires": {
+      "all_position_centers_inside_image": 4992,
+      "all_position_centers_outside_image": 0,
+      "in_tissue_centers_inside_image": 4740,
+      "implied_fullres_height_width": [
+        11621.999767560006,
+        11999.999760000006
+      ],
+      "scaled_spot_diameter_pixels": 15.532020310640402
+    }
+  },
+  "selected_member_checks": [
+    {
+      "member": "V10T31-015-C1/raw_feature_bc_matrix.h5",
+      "uncompressed_bytes": 14414983,
+      "compressed_bytes": 13705998,
+      "crc32": "582e13e6",
+      "crc_verified_on_read": true,
+      "sha256": "88efc8765aec5378190f4b33942eeffad75145c886a87729d5c4b8a6928d6512"
+    },
+    {
+      "member": "V10T31-015-C1/filtered_feature_bc_matrix.h5",
+      "uncompressed_bytes": 12659574,
+      "compressed_bytes": 12466375,
+      "crc32": "3e662717",
+      "crc_verified_on_read": true,
+      "sha256": "0e74e78c5a0f33ad9ea7f1455b6f3e874d351468f53517199a591e114f37dc7a"
+    },
+    {
+      "member": "V10T31-015-C1/spatial/tissue_positions_list.csv",
+      "uncompressed_bytes": 185035,
+      "compressed_bytes": 61450,
+      "crc32": "276f238c",
+      "crc_verified_on_read": true,
+      "sha256": "3c48b600eeeb7f92aba4e30a5074fb12e7edf6d5f1b5a7480e3c76a0c92f908a"
+    },
+    {
+      "member": "V10T31-015-C1/spatial/scalefactors_json.json",
+      "uncompressed_bytes": 149,
+      "compressed_bytes": 100,
+      "crc32": "ee0c0df4",
+      "crc_verified_on_read": true,
+      "sha256": "65d6093d7650937a2a7fe9e64a20465c8141736f0241f2023a62a1bfbe48b451"
+    },
+    {
+      "member": "V10T31-015-C1/spatial/tissue_lowres_image.png",
+      "uncompressed_bytes": 1693680,
+      "compressed_bytes": 1694179,
+      "crc32": "ce54d06e",
+      "crc_verified_on_read": true,
+      "sha256": "69f7ee03021828917eb133fb685df77becaed98cdfcd3f297bba1e6199565a4f"
+    },
+    {
+      "member": "V10T31-015-C1/spatial/tissue_hires_image.png",
+      "uncompressed_bytes": 17097679,
+      "compressed_bytes": 17101925,
+      "crc32": "ea67f600",
+      "crc_verified_on_read": true,
+      "sha256": "0a519271c17d76693e51bef40a0d4e25beb03db7c1b91ade3f8f85dc472e1775"
+    }
+  ],
+  "reload_verified": true,
+  "h5ad": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/Franzen/V10T31-015-C1/raw_counts_spatial.h5ad",
+  "coordinate_overlay": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/Franzen/V10T31-015-C1/coordinate_overlay.png",
+  "capture_position_qc": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/Franzen/V10T31-015-C1/capture_position_qc.tsv",
+  "warnings": [],
+  "status": "passed_technical_checks"
+}

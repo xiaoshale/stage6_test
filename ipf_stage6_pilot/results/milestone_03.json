@@ -1,0 +1,18 @@
+{
+  "milestone": "03",
+  "date": "2026-11-15",
+  "status": "all_four_technical_components_and_review_complete",
+  "source_files": 24,
+  "source_bytes": 2836607664,
+  "raw_sparse_checkpoints": 24,
+  "final_checks_passed": 89,
+  "spatial_sections": 6,
+  "spatial_biological_donors": 6,
+  "raw_capture_positions": 29952,
+  "author_in_tissue_positions": 25466,
+  "source_features_per_section": 36601,
+  "technical_qc_figures_reviewed": 4,
+  "coordinate_overlays_reviewed": 6,
+  "small_result_transfer_hashes": "passed",
+  "formal_biological_analysis_ready": false
+}

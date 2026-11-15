@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "date": "2026-11-15",
+  "archive_sha256_matches_server": true,
+  "exported_files": 35,
+  "run_artifact_hashes_matched": 31,
+  "input_hashes_in_QC_match_acquisition": true,
+  "large_H5ADs_copied": false
+}

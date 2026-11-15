@@ -8,7 +8,7 @@ Purpose: acquire the complete original files for the selected readiness package,
 
 The readiness assessment in the research project and this [pilot manifest](config/pilot_manifest.json) define the donor/section selection and evidence boundaries. The complete-file [acquisition manifest](config/acquisition_manifest.json) has 24 required files: four Habermann files, 16 native DePianto core/background H5 libraries, two Franzén files and two snRNA files. Four optional unsorted DePianto libraries are outside this first required pass. A complete global count file may contain more donors/cells than the intended QC subset.
 
-Current verified state: the two scRNA components and the snRNA component passed real-data parsing/raw-count QC; real spatial parsing and aggregate final verification remain pending. Permission-review service timeouts interrupted further remote operations. See [continuation state](RESUME.md) for exact verified results, remaining actions and source/transfer evidence. Do not infer completion from a submitted background download.
+Current verified state: all four declared components passed. The 24 complete source files total 2.84 GB; 89 final checks and 24 sparse H5AD checkpoints passed. All six coordinate overlays and four QC distributions were reviewed, and the small result transfer hashes match. See [final results](RESULTS.md), [completion manifest](results/pilot_001/SUCCESS.json) and [visual review](results/visual_review.json). Final biological cohort allocation and Checkpoint A remain conditional.
 
 ## Server storage and execution
 

@@ -1,0 +1,881 @@
+{
+  "status": "technical_pilot_complete",
+  "completed_utc": "2026-11-15T08:33:52.262476+00:00",
+  "client_date": "2026-11-15",
+  "root": "/home/data/t120631/project/ipf_stage6_pilot",
+  "run_id": "pilot_001",
+  "checks": [
+    {
+      "check": "All 24 complete source files",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSE135893_barcodes.tsv.gz",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSE135893_barcodes.tsv.gz",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSE135893_genes.tsv.gz",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSE135893_genes.tsv.gz",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSE135893_IPF_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSE135893_IPF_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827181_SAM24358067_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827181_SAM24358067_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827182_SAM24358066_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827182_SAM24358066_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827191_SAM24352450_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827191_SAM24352450_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827192_SAM24352449_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827192_SAM24352449_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827196_SAM24351201_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827196_SAM24351201_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827197_SAM24351200_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827197_SAM24351200_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827201_SAM24350159_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827201_SAM24350159_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827202_SAM24350158_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827202_SAM24350158_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827183_SAM24358065_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827183_SAM24358065_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827184_SAM24358064_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827184_SAM24358064_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827193_SAM24352448_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827193_SAM24352448_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827194_SAM24352447_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827194_SAM24352447_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827198_SAM24351199_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827198_SAM24351199_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827199_SAM24351198_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827199_SAM24351198_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827203_SAM24350157_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827203_SAM24350157_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSM4827204_SAM24350156_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSM4827204_SAM24350156_filtered_feature_bc_matrix.h5",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSE135893_matrix.mtx.gz",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSE135893_matrix.mtx.gz",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: hs_visium_metadata.tsv",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: hs_visium_metadata.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSE159585_snRNAseq_raw_counts.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSE159585_snRNAseq_raw_counts.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: GSE159585_snRNAseq_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: GSE159585_snRNAseq_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "Source integrity: hs_visium_spaceranger_output.zip",
+      "passed": true
+    },
+    {
+      "check": "Complete initial HTTP response: hs_visium_spaceranger_output.zip",
+      "passed": true
+    },
+    {
+      "check": "Complete spatial ZIP CRC",
+      "passed": true
+    },
+    {
+      "check": "Habermann complete read and source join",
+      "passed": true
+    },
+    {
+      "check": "DePianto sixteen library roundtrips",
+      "passed": true
+    },
+    {
+      "check": "snRNA full EOF and selected-cell mapping",
+      "passed": true
+    },
+    {
+      "check": "Six original spatial donor sections",
+      "passed": true
+    },
+    {
+      "check": "Successful component process: GSE135893",
+      "passed": true
+    },
+    {
+      "check": "Executed code snapshot: GSE135893/qc_habermann.py",
+      "passed": true
+    },
+    {
+      "check": "Successful component process: GSE159354",
+      "passed": true
+    },
+    {
+      "check": "Executed code snapshot: GSE159354/qc_depianto.py",
+      "passed": true
+    },
+    {
+      "check": "Executed code snapshot: GSE159354/qc_spatial.py",
+      "passed": true
+    },
+    {
+      "check": "Successful component process: GSE159585",
+      "passed": true
+    },
+    {
+      "check": "Executed code snapshot: GSE159585/qc_snrna.py",
+      "passed": true
+    },
+    {
+      "check": "Successful component process: Franzen",
+      "passed": true
+    },
+    {
+      "check": "Executed code snapshot: Franzen/qc_spatial.py",
+      "passed": true
+    },
+    {
+      "check": "Twenty-four raw-count checkpoints",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE135893/counts.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827181_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827182_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827183_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827184_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827191_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827192_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827193_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827194_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827196_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827197_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827198_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827199_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827201_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827202_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827203_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159354/GSM4827204_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: GSE159585/GSE159585_raw_qc.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: Franzen/V10T03-279-C1/raw_counts_spatial.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: Franzen/V10T03-281-A1/raw_counts_spatial.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: Franzen/V10T03-281-C1/raw_counts_spatial.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: Franzen/V10T31-015-A1/raw_counts_spatial.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: Franzen/V10T31-015-C1/raw_counts_spatial.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Sparse checkpoint header: Franzen/V10T31-019-A1/raw_counts_spatial.h5ad",
+      "passed": true
+    },
+    {
+      "check": "Technical plots and coordinate overlays",
+      "passed": true
+    }
+  ],
+  "source_files": 24,
+  "source_bytes": 2836607664,
+  "raw_checkpoints": 24,
+  "artifacts": [
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-279-C1/capture_position_qc.tsv",
+      "bytes": 934457,
+      "sha256": "487f77dfdb170354850b70e96333bdc8545b83379d258deebe2ff395aca0fb10",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-279-C1/coordinate_overlay.png",
+      "bytes": 3038794,
+      "sha256": "7c2a1f0317458180d4ecf5ceaf5832cd4c65bbf97da200fc63ae997006f3fef7",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-279-C1/raw_counts_spatial.h5ad",
+      "bytes": 38387902,
+      "sha256": "dae8bb92c52c3183617c23502f76b14683bd7dae3aafe864faa6145800ff93a4",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-279-C1/section_summary.json",
+      "bytes": 4541,
+      "sha256": "353dacc7c93b192a5de5d49132862e6f51989d3a06abace3b61b0d4464563f7c",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-281-A1/capture_position_qc.tsv",
+      "bytes": 937805,
+      "sha256": "c736745ab56b81b0004e08e184a7c10eceaea6961135a5c0edf59c04db8c4751",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-281-A1/coordinate_overlay.png",
+      "bytes": 2032206,
+      "sha256": "a14f3889e9ecdf9e7b3b1a45a2652325640af99852e9c1c6038adc211c82c75c",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-281-A1/raw_counts_spatial.h5ad",
+      "bytes": 17435436,
+      "sha256": "e25a1d7812f13f49c69e1efc7b0a30ce2b54eda563fb8df004f3695ef9b33575",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-281-A1/section_summary.json",
+      "bytes": 4528,
+      "sha256": "15a7304cf12e5e7a6b546692a49447e01d4002d3541b9a0d2390c1b5e33e575c",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-281-C1/capture_position_qc.tsv",
+      "bytes": 942964,
+      "sha256": "f66e9bcfa839e3a47d7e32d4be511f84e5b7a3b89329d07dd6429eba947195c4",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-281-C1/coordinate_overlay.png",
+      "bytes": 2297843,
+      "sha256": "6eb25e54d66ee4d59207a8d2c0af466baf39eee4adf4b95fdf4521ee292e8a63",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-281-C1/raw_counts_spatial.h5ad",
+      "bytes": 26475341,
+      "sha256": "f330fb463c5c820cfebf9a03db5dfba32074528d73ffd07208ac6815ace1e5f3",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T03-281-C1/section_summary.json",
+      "bytes": 4536,
+      "sha256": "3aaa4240deba55d04a5ba77926e3fe3d94c3b793393f5b909886fafeac3985a8",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-015-A1/capture_position_qc.tsv",
+      "bytes": 936935,
+      "sha256": "b7310479a81fa5b2ea36fa521846784599db426e2450ddc1eb7a41a905d3da12",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-015-A1/coordinate_overlay.png",
+      "bytes": 1970033,
+      "sha256": "ad244bdd2eed5050d8a419a0b6805f174c8608b999897ea2a209ee2c413d2f77",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-015-A1/raw_counts_spatial.h5ad",
+      "bytes": 17327386,
+      "sha256": "d848eecbb1f24f7adb678ba48866d32791b2528e037a75d3743f599299deda98",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-015-A1/section_summary.json",
+      "bytes": 4531,
+      "sha256": "ed9b97b232bd46a49b6ada39a729d2fbfbca15a7a025d268abbfc2d7cca8a273",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-015-C1/capture_position_qc.tsv",
+      "bytes": 954191,
+      "sha256": "bb9db996316f7b2e5eaaa6f4d1fe4eac98f6d87c3eda090b3c562c347a5acc14",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-015-C1/coordinate_overlay.png",
+      "bytes": 3031091,
+      "sha256": "73cb0bd79cc66cb7c70c4af49e515699cc979ae4ee4f0759e8f2092e552744cd",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-015-C1/raw_counts_spatial.h5ad",
+      "bytes": 35081183,
+      "sha256": "9990f3f7eb0ba723b1b93a6760058bd88ab593da41fe6ed7df70b1f1ffe5be1c",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-015-C1/section_summary.json",
+      "bytes": 4547,
+      "sha256": "e459d203c19ff34138f62a683d75453d41dc50532fb13d5a89867fc6dd9de0de",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-019-A1/capture_position_qc.tsv",
+      "bytes": 941815,
+      "sha256": "04665ae68cbaaa40ee44e6061865277343b77c452284a307193183eb9540a02f",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-019-A1/coordinate_overlay.png",
+      "bytes": 2495678,
+      "sha256": "b905b8bf838dd872c95c10ee9aae30d5b32c4c7e45467be12e8f47fb6e87d090",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-019-A1/raw_counts_spatial.h5ad",
+      "bytes": 27164707,
+      "sha256": "f50ba98df0cc7030f8dfda0233f1edb5c2bae933aeb8d67f28ac4abecb51837e",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/Franzen/V10T31-019-A1/section_summary.json",
+      "bytes": 4538,
+      "sha256": "678e410d0b973a7781e7c8e3ea3f1ebbcbd6e5f39db7689b595154234f2e8700",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/section_donor_qc.tsv",
+      "bytes": 839,
+      "sha256": "fed5b04e64fc3f0dc61adcae61865b0bf32cb1bccd4f4280209c81e46c9cf854",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen/summary.json",
+      "bytes": 31643,
+      "sha256": "b4aaf889935a57e48d1e11aef3cee8bc3dfceaf11e0cc7f870f52aec0ca19cab",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/Franzen_execution.json",
+      "bytes": 852,
+      "sha256": "04033d2c50a581132a283b79173c3b52cdb47ee3b339cf501bbb19c55182999d",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE135893/QC.csv",
+      "bytes": 2183365,
+      "sha256": "962e627720595cbbd687a72fe50f9f55ae43c370dab9168bafe60735a57fdf66",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE135893/counts.h5ad",
+      "bytes": 99721609,
+      "sha256": "1328e7c2fcbf0d621c4d93155a941467c2d74ae7c6105ab5b1931c9b458e50f5",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE135893/donor_library_QC.csv",
+      "bytes": 444,
+      "sha256": "54152a68302a7cbe473df642aab55227bccf2a1b6cb1663db7257b641512607e",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE135893/source_broad_annotation_QC.csv",
+      "bytes": 1263,
+      "sha256": "8c1fe3ae5821485f8da2a5648ac5229372e0275cc0e0a1ffa344d26ffa4f005b",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE135893/summary.json",
+      "bytes": 3709,
+      "sha256": "e01530255205242641ea918109cc264c495e9f6964f795d53c554a051811123c",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE135893_execution.json",
+      "bytes": 861,
+      "sha256": "71fbcfcae298aaf31c79162c6f0268009f60e19bd7f84665bb9cbcda6321adba",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827181_cell_qc.csv",
+      "bytes": 231909,
+      "sha256": "f37e7076b4b1b1ebf37cf0f231180e9a6cc84d877e40b88d5de0cb7c26a7179f",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827181_raw_qc.h5ad",
+      "bytes": 9938410,
+      "sha256": "f3df5ea6217115cbbdbc9a3772c7b83800d467570447349da4e79fc574fda759",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827182_cell_qc.csv",
+      "bytes": 888124,
+      "sha256": "7ee4329ca33dfcae44636ce4a3da55dd4b12fa5aad4c35519e3d05487435bbe5",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827182_raw_qc.h5ad",
+      "bytes": 17407672,
+      "sha256": "59f800af1fa9201d419615b1e5f4e2aabe3f5cb0721917b2dfb1d88583d8e9a6",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827183_cell_qc.csv",
+      "bytes": 446072,
+      "sha256": "03099695d8ee2243f4cb455aff6e3a1955c8c2cf69ab2915ae9826f8feba490a",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827183_raw_qc.h5ad",
+      "bytes": 12101971,
+      "sha256": "8b1cb31e128ac00aa3023d303afb59555d80fbb9c09d70e365a556cc2a63948b",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827184_cell_qc.csv",
+      "bytes": 594117,
+      "sha256": "835aecff414e0a607045be6e7a63872261613f5ce97111a17020a9e7026c60d3",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827184_raw_qc.h5ad",
+      "bytes": 10825120,
+      "sha256": "60bee5680499bdfe5d41b9c810d6588ae337db348b91e32416a9809e64c157e7",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827191_cell_qc.csv",
+      "bytes": 538630,
+      "sha256": "700733c1df783bd80300d2329dac75c5c42e25760ed28eb28d74d580eb3439e0",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827191_raw_qc.h5ad",
+      "bytes": 21633720,
+      "sha256": "28cd1a7fa82fb518b47d5fdec951226d8438caa6b663cbe746417fe4f297f142",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827192_cell_qc.csv",
+      "bytes": 891375,
+      "sha256": "39c6cf91ef242a5c5cf53462d62ee2df905b3fbe53f24913e2b8db38ee23e720",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827192_raw_qc.h5ad",
+      "bytes": 31735806,
+      "sha256": "ea5b376c2bdfed66520ce6c141085ebf2ca5478308bac994c2c3f3a2e77ceddf",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827193_cell_qc.csv",
+      "bytes": 882411,
+      "sha256": "2b344d20a09e4020e18a7dce10aeb2f5028531c4a1a8a5a2da7ee591c8f6fa72",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827193_raw_qc.h5ad",
+      "bytes": 22998867,
+      "sha256": "b8f57f72c5984d95cc4ae8a8735294b892ef607266d89114733ca97965f05663",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827194_cell_qc.csv",
+      "bytes": 535446,
+      "sha256": "dff8d6b561984f1a85eae359051b94c2ab47dade1f5c75acba7f5f947b0a652d",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827194_raw_qc.h5ad",
+      "bytes": 15184565,
+      "sha256": "9d9ab75c409e06ff98874fc4b2b951d38dc29f2ba5529877b83d499e87f67bed",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827196_cell_qc.csv",
+      "bytes": 304938,
+      "sha256": "41c9a674e5ef12c8e4b64619a56fddf72f56184ea7ea08a6b98e28ac28a1b368",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827196_raw_qc.h5ad",
+      "bytes": 11276212,
+      "sha256": "3bdea05f53c462c6f3866cc598c3450878d7234ab0e76fd669311cd6118837fa",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827197_cell_qc.csv",
+      "bytes": 434255,
+      "sha256": "bdafbd13474ec985652ba0d627e143e1619ebd086a50edd3797d23f2e99c62b9",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827197_raw_qc.h5ad",
+      "bytes": 15027898,
+      "sha256": "8077648113121600b7f3196cfd2e195821cbe3c175efe4bf2e767d5cfb601173",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827198_cell_qc.csv",
+      "bytes": 301123,
+      "sha256": "f357e37bb382ebeff93b3d48a852e016676c02353669f10053945a3e06eadb4c",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827198_raw_qc.h5ad",
+      "bytes": 11759702,
+      "sha256": "240a6d6c4ce2d203a1129281082ee93aef1980fd16e9002bd8a54fd91e6a2372",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827199_cell_qc.csv",
+      "bytes": 179197,
+      "sha256": "12af4d728b279b8338476003884d38255840f8f6eacf21d1dd57f71995d04c43",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827199_raw_qc.h5ad",
+      "bytes": 8448600,
+      "sha256": "137352f0af0656e21076370dd3122f8e399b0441d416c3abf05bad30fc617c88",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827201_cell_qc.csv",
+      "bytes": 486894,
+      "sha256": "1009593d1035b6d990a447193bfab2e2ab7625722032c3b298c31a4c1dbecc89",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827201_raw_qc.h5ad",
+      "bytes": 16134439,
+      "sha256": "4dd1341778ddda5e185164fcf1cb2d6cd3a202ec6bcd0da82285c15f9f4cdfe4",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827202_cell_qc.csv",
+      "bytes": 678322,
+      "sha256": "ee9c742e4864f665e531b6d012d13fd62c677d4f7b361b20d6464d3864f40fb2",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827202_raw_qc.h5ad",
+      "bytes": 21293431,
+      "sha256": "edf1e948118be6fb1f02736c41e12bc90276aad19019576f6934532ff3283186",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827203_cell_qc.csv",
+      "bytes": 204804,
+      "sha256": "1a77f716bdacf8738f2d99bb505d3454d335ce327421545b4e52f7997a6540ac",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827203_raw_qc.h5ad",
+      "bytes": 9935263,
+      "sha256": "8ea31102ae56cfb7cc711d10fed51841be7bb43caaac52237fd3d6d0862adb0d",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827204_cell_qc.csv",
+      "bytes": 659530,
+      "sha256": "5793f21ddf0283fde0fda18575ad1c653e5ff00fd2ffebdb0a3a461ccdd54216",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/GSM4827204_raw_qc.h5ad",
+      "bytes": 16510372,
+      "sha256": "aec5c2f9dee388c67a4517702cd782905ace240872e7ac92107e708345c2755b",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/library_qc.csv",
+      "bytes": 4074,
+      "sha256": "0742687145980c1fbdaf93ed18fbb6d461921fba6c107c9c5cb34a5ecf14ed45",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354/summary.json",
+      "bytes": 12686,
+      "sha256": "595e5be283b852a6f40ea1755dce0476a69d1ef8ccbe09bbb8f4ec72cc17eb04",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159354_execution.json",
+      "bytes": 948,
+      "sha256": "8661c5a81a12a667b93cb0dbd3537cd70ca69c0a456ad8e76a0f209b82f02fba",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159585/GSE159585_raw_qc.h5ad",
+      "bytes": 171790754,
+      "sha256": "5be50de29d7ffb97d5b6788ae38bdd9edb3253aa44ba28b2f1b15621b070d2c2",
+      "large_checkpoint_retained_on_server": true
+    },
+    {
+      "path": "runs/pilot_001/GSE159585/cell_qc.tsv",
+      "bytes": 3655453,
+      "sha256": "824573d9e80324f865d851d439e8e9e85ce69559e3dfc36f80b97f99ee9c8dd2",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159585/donor_qc.tsv",
+      "bytes": 509,
+      "sha256": "fbd5cb48e1ea36ff9acfe51eb9e1ed9c4dcfb3903a39672ce784e7edd92d0b67",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159585/summary.json",
+      "bytes": 5553,
+      "sha256": "7f8b7db8f1bbc8653a56e18453f203e67242502e1c9d6b7e686071c9313c3352",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/GSE159585_execution.json",
+      "bytes": 854,
+      "sha256": "af840b437bda8aa85cfa72a51179201ccc815fba6160132712abac33806c6523",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/capture_markers/marker_capture.tsv",
+      "bytes": 213481,
+      "sha256": "8326eefb92fb693e93c3728c64bd2139e50693750629919952e6f46491ddaacd",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/capture_markers/summary.json",
+      "bytes": 6693,
+      "sha256": "f2a9f0bf6d169acd36793b659b68bfda75cecf44849247728dbb5211ef66ee5b",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/figures/Franzen_technical_qc.png",
+      "bytes": 73316,
+      "sha256": "34f35b74bb868d4230f76975c710487c2cc063a75dc415da38d9d44d1f6727b2",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/figures/GSE135893_technical_qc.png",
+      "bytes": 73362,
+      "sha256": "53786d12fbf6dd208bc26d56b5bd3d438361cbc53a7cff6ccd685f0445ae53cf",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/figures/GSE159354_technical_qc.png",
+      "bytes": 73855,
+      "sha256": "e9e788bb3aa9016f6bd2fc109e9e2087398494d1d9c69a68bebbbacc54e6d170",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/figures/GSE159585_technical_qc.png",
+      "bytes": 77796,
+      "sha256": "40a2e5e621ad5df401b9be2a92b8f2d802907289910956dbaa01453525497b8c",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/source/Franzen/qc_spatial.py",
+      "bytes": 20952,
+      "sha256": "187b190365885eb58e061ecbcc5b69e3de12931a166875bd7fa62f4a77cac75b",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/source/GSE135893/qc_habermann.py",
+      "bytes": 17130,
+      "sha256": "a26bc5d766db92f1afb21d6035b45a90ef335fc7c5f8119e9cbcd157e40527ad",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/source/GSE159354/qc_depianto.py",
+      "bytes": 6212,
+      "sha256": "967f93b0bd0b0f8d084ac6a164cf72c270a723af2828d51f68ddd16f4dd70885",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/source/GSE159354/qc_spatial.py",
+      "bytes": 20930,
+      "sha256": "12c46fef230aad9ea3d150d568987c8ced7221fd307d443f7d34b4a201874f4e",
+      "large_checkpoint_retained_on_server": false
+    },
+    {
+      "path": "runs/pilot_001/source/GSE159585/qc_snrna.py",
+      "bytes": 18201,
+      "sha256": "9740b928ff8ce641320ecd3d345f8ce7e0f61ef5181099b7b4d15314bb45b781",
+      "large_checkpoint_retained_on_server": false
+    }
+  ],
+  "biological_analysis_ready": false,
+  "limits": [
+    "Pilot-subset technical QC only; full-cohort cell/state coverage and final inclusion criteria remain pending.",
+    "No cell/gene filtering, normalization, disease effects, state discovery, niche tests or target ranking.",
+    "snRNA disease/procurement confounding and spatial anatomical/spot-mixture limitations remain.",
+    "Doublet/ambient-RNA strategy, gene harmonization and cross-source donor independence are not resolved by format validation."
+  ]
+}

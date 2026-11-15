@@ -1,0 +1,762 @@
+{
+  "completed_utc": "2026-11-14T23:11:56.219039+00:00",
+  "status": "complete",
+  "files": [
+    {
+      "cohort": "GSE135893",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_barcodes.tsv.gz",
+      "filename": "GSE135893_barcodes.tsv.gz",
+      "role": "barcode_axis",
+      "expected_sha256": "37a9a98a95d59bb4333c8181c14bb2b384701e6fda1c409e79f3e41c681430d4",
+      "expected_bytes": 936873,
+      "started_utc": "2026-11-14T22:32:26.828969+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:32:26.829995+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_barcodes.tsv.gz",
+          "headers": {
+            "Content-Length": "936873",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Fri, 16 Aug 2019 11:11:40 GMT",
+            "Content-Type": "application/x-gzip"
+          }
+        }
+      ],
+      "expected_bytes_observed": 936873,
+      "completed_utc": "2026-11-14T22:32:35.317515+00:00",
+      "bytes": 936873,
+      "sha256": "37a9a98a95d59bb4333c8181c14bb2b384701e6fda1c409e79f3e41c681430d4",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE135893/GSE135893_barcodes.tsv.gz"
+    },
+    {
+      "cohort": "GSE135893",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_genes.tsv.gz",
+      "filename": "GSE135893_genes.tsv.gz",
+      "role": "gene_axis",
+      "expected_sha256": "7e8612e72f033ef214de101bb782ab1cb60b8c887be2d3e8a0d637de067b0233",
+      "expected_bytes": 129668,
+      "started_utc": "2026-11-14T22:32:35.318612+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:32:35.318670+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_genes.tsv.gz",
+          "headers": {
+            "Content-Length": "129668",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Fri, 16 Aug 2019 11:11:40 GMT",
+            "Content-Type": "application/x-gzip"
+          }
+        }
+      ],
+      "expected_bytes_observed": 129668,
+      "completed_utc": "2026-11-14T22:32:36.628728+00:00",
+      "bytes": 129668,
+      "sha256": "7e8612e72f033ef214de101bb782ab1cb60b8c887be2d3e8a0d637de067b0233",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE135893/GSE135893_genes.tsv.gz"
+    },
+    {
+      "cohort": "GSE135893",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_IPF_metadata.csv.gz",
+      "filename": "GSE135893_IPF_metadata.csv.gz",
+      "role": "author_annotation",
+      "expected_sha256": "5c67b3717375859aafc4463024847cf30d7af7bb9d5f4ad9a5364ee6d7726bf5",
+      "expected_bytes": 3354014,
+      "started_utc": "2026-11-14T22:32:36.629460+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:32:36.629586+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_IPF_metadata.csv.gz",
+          "headers": {
+            "Content-Length": "3354014",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 28 May 2020 01:29:31 GMT",
+            "Content-Type": "application/x-gzip"
+          }
+        }
+      ],
+      "expected_bytes_observed": 3354014,
+      "completed_utc": "2026-11-14T22:32:41.710008+00:00",
+      "bytes": 3354014,
+      "sha256": "5c67b3717375859aafc4463024847cf30d7af7bb9d5f4ad9a5364ee6d7726bf5",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE135893/GSE135893_IPF_metadata.csv.gz"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827181/suppl/GSM4827181_SAM24358067_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827181_SAM24358067_filtered_feature_bc_matrix.h5",
+      "role": "primary_libraries:GSM4827181",
+      "started_utc": "2026-11-14T22:32:41.710838+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:32:41.710892+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827181/suppl/GSM4827181_SAM24358067_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "6015623",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:05:05 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 6015623,
+      "completed_utc": "2026-11-14T22:32:48.466097+00:00",
+      "bytes": 6015623,
+      "sha256": "14703d2addc7ee992378fc9df0aa05208b5f568c2e7e02d3305bf88e165441f6",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827181_SAM24358067_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827182/suppl/GSM4827182_SAM24358066_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827182_SAM24358066_filtered_feature_bc_matrix.h5",
+      "role": "primary_libraries:GSM4827182",
+      "started_utc": "2026-11-14T22:32:48.466829+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:32:48.466988+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827182/suppl/GSM4827182_SAM24358066_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "10570660",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:05:04 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 10570660,
+      "completed_utc": "2026-11-14T22:34:06.626002+00:00",
+      "bytes": 10570660,
+      "sha256": "9010c7023baa28b92f2eb5c8184adbc4d4db1ebe29b2c6e3cc218b48457cbc4b",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827182_SAM24358066_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827191/suppl/GSM4827191_SAM24352450_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827191_SAM24352450_filtered_feature_bc_matrix.h5",
+      "role": "primary_libraries:GSM4827191",
+      "started_utc": "2026-11-14T22:34:03.957701+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:34:03.957754+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827191/suppl/GSM4827191_SAM24352450_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "12977732",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:06:09 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 12977732,
+      "completed_utc": "2026-11-14T22:36:22.900671+00:00",
+      "bytes": 12977732,
+      "sha256": "52b7ec85d8d30ddcc6dd73b3bca85bc3b94830e788557774f817e064b07bb113",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827191_SAM24352450_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827192/suppl/GSM4827192_SAM24352449_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827192_SAM24352449_filtered_feature_bc_matrix.h5",
+      "role": "primary_libraries:GSM4827192",
+      "started_utc": "2026-11-14T22:34:06.626839+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:34:06.626883+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827192/suppl/GSM4827192_SAM24352449_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "19085218",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:06:08 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 19085218,
+      "completed_utc": "2026-11-14T22:37:21.268128+00:00",
+      "bytes": 19085218,
+      "sha256": "c79e4a4440adbba1c57bd10874afd516592469eee1fe74ccc4c463e28e11c95a",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827192_SAM24352449_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827196/suppl/GSM4827196_SAM24351201_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827196_SAM24351201_filtered_feature_bc_matrix.h5",
+      "role": "primary_libraries:GSM4827196",
+      "started_utc": "2026-11-14T22:36:22.901549+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:36:22.901596+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827196/suppl/GSM4827196_SAM24351201_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "6789249",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:05:02 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 6789249,
+      "completed_utc": "2026-11-14T22:37:36.043828+00:00",
+      "bytes": 6789249,
+      "sha256": "1dc3634cf22996a053b0bfb067d9431c0c30dc7e5a80af43d9164a9dccd6a6e3",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827196_SAM24351201_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827197/suppl/GSM4827197_SAM24351200_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827197_SAM24351200_filtered_feature_bc_matrix.h5",
+      "role": "primary_libraries:GSM4827197",
+      "started_utc": "2026-11-14T22:37:21.268857+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:37:21.269016+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827197/suppl/GSM4827197_SAM24351200_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "9060841",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:05:01 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 9060841,
+      "completed_utc": "2026-11-14T22:37:32.649350+00:00",
+      "bytes": 9060841,
+      "sha256": "39a25d8649763709be830618a6cdc06180261d741bcbe046138c2bade5aed3e5",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827197_SAM24351200_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827201/suppl/GSM4827201_SAM24350159_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827201_SAM24350159_filtered_feature_bc_matrix.h5",
+      "role": "primary_libraries:GSM4827201",
+      "started_utc": "2026-11-14T22:37:32.650015+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:37:32.650159+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827201/suppl/GSM4827201_SAM24350159_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "9746954",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:06:05 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 9746954,
+      "completed_utc": "2026-11-14T22:37:44.183036+00:00",
+      "bytes": 9746954,
+      "sha256": "8c5069e0e5ba393aa3cad3c4ba2eed0dc6794b23a4d2a545fc687f7974f8f79d",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827201_SAM24350159_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827202/suppl/GSM4827202_SAM24350158_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827202_SAM24350158_filtered_feature_bc_matrix.h5",
+      "role": "primary_libraries:GSM4827202",
+      "started_utc": "2026-11-14T22:37:36.044718+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:37:36.044762+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827202/suppl/GSM4827202_SAM24350158_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "12827024",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:06:04 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 12827024,
+      "completed_utc": "2026-11-14T22:39:37.804882+00:00",
+      "bytes": 12827024,
+      "sha256": "4f008ce822e14adc0edcd00c0e0b3f5917b168e56e69548d65fbfd1b0a092da8",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827202_SAM24350158_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827183/suppl/GSM4827183_SAM24358065_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827183_SAM24358065_filtered_feature_bc_matrix.h5",
+      "role": "full_spectrum_libraries:GSM4827183",
+      "started_utc": "2026-11-14T22:37:44.184807+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:37:44.184902+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827183/suppl/GSM4827183_SAM24358065_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "7337111",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:05:04 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 7337111,
+      "completed_utc": "2026-11-14T22:37:54.949697+00:00",
+      "bytes": 7337111,
+      "sha256": "56e788d488994a403f0a766de696e9048b79fd51abc268f2a3f29218a596d8d6",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827183_SAM24358065_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827184/suppl/GSM4827184_SAM24358064_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827184_SAM24358064_filtered_feature_bc_matrix.h5",
+      "role": "full_spectrum_libraries:GSM4827184",
+      "started_utc": "2026-11-14T22:37:54.950300+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:37:54.950458+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827184/suppl/GSM4827184_SAM24358064_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "6565099",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:05:03 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 6565099,
+      "completed_utc": "2026-11-14T22:38:05.515693+00:00",
+      "bytes": 6565099,
+      "sha256": "b6786e7e8a66b37b9b108d0c16d062463ebb1ae98b1266c1cb0f1d02a6606dcf",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827184_SAM24358064_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827193/suppl/GSM4827193_SAM24352448_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827193_SAM24352448_filtered_feature_bc_matrix.h5",
+      "role": "full_spectrum_libraries:GSM4827193",
+      "started_utc": "2026-11-14T22:38:05.516685+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:38:05.516753+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827193/suppl/GSM4827193_SAM24352448_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "13870223",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:06:07 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 13870223,
+      "completed_utc": "2026-11-14T22:40:49.276903+00:00",
+      "bytes": 13870223,
+      "sha256": "0f9ae08f775f003dfb358b3f4cc45659f942af35bd65f5354a013b7d9f5eacd4",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827193_SAM24352448_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827194/suppl/GSM4827194_SAM24352447_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827194_SAM24352447_filtered_feature_bc_matrix.h5",
+      "role": "full_spectrum_libraries:GSM4827194",
+      "started_utc": "2026-11-14T22:39:37.805728+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:39:37.805793+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827194/suppl/GSM4827194_SAM24352447_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "9143659",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:06:06 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 9143659,
+      "completed_utc": "2026-11-14T22:39:51.193396+00:00",
+      "bytes": 9143659,
+      "sha256": "37a097947ca7efd2f1cf6b8167022d56b5be8c3c5708aef1e930e8f8fbcea7c5",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827194_SAM24352447_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827198/suppl/GSM4827198_SAM24351199_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827198_SAM24351199_filtered_feature_bc_matrix.h5",
+      "role": "full_spectrum_libraries:GSM4827198",
+      "started_utc": "2026-11-14T22:39:51.194478+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:39:51.194537+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827198/suppl/GSM4827198_SAM24351199_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "7086257",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:05:00 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 7086257,
+      "completed_utc": "2026-11-14T22:40:08.459863+00:00",
+      "bytes": 7086257,
+      "sha256": "54aa7914e6fcf1bb43a21d899bc5e76641772956fddff8e75b9129f36cd75e29",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827198_SAM24351199_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827199/suppl/GSM4827199_SAM24351198_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827199_SAM24351198_filtered_feature_bc_matrix.h5",
+      "role": "full_spectrum_libraries:GSM4827199",
+      "started_utc": "2026-11-14T22:40:08.460758+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:40:08.460925+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827199/suppl/GSM4827199_SAM24351198_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "5105440",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:04:59 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 5105440,
+      "completed_utc": "2026-11-14T22:40:18.156249+00:00",
+      "bytes": 5105440,
+      "sha256": "0a1bd68fccae1c9a65e15121b6c7df136cb9fa35cb534150a7b0dd326ce85e32",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827199_SAM24351198_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827203/suppl/GSM4827203_SAM24350157_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827203_SAM24350157_filtered_feature_bc_matrix.h5",
+      "role": "full_spectrum_libraries:GSM4827203",
+      "started_utc": "2026-11-14T22:40:18.157024+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:40:18.157067+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827203/suppl/GSM4827203_SAM24350157_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "6013479",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:06:03 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 6013479,
+      "completed_utc": "2026-11-14T22:40:28.393641+00:00",
+      "bytes": 6013479,
+      "sha256": "4aaf3fe6cd891b815f7531ff4af75a25e655c7f126786e69227f09a3e0a7fd0e",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827203_SAM24350157_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827204/suppl/GSM4827204_SAM24350156_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827204_SAM24350156_filtered_feature_bc_matrix.h5",
+      "role": "full_spectrum_libraries:GSM4827204",
+      "started_utc": "2026-11-14T22:40:28.394290+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:40:28.394453+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827204/suppl/GSM4827204_SAM24350156_filtered_feature_bc_matrix.h5",
+          "headers": {
+            "Content-Length": "9983237",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Thu, 08 Oct 2020 20:06:03 GMT",
+            "Content-Type": null
+          }
+        }
+      ],
+      "expected_bytes_observed": 9983237,
+      "completed_utc": "2026-11-14T22:42:24.900771+00:00",
+      "bytes": 9983237,
+      "sha256": "4f81f527a6c63ca7fdaa35d6a251ff6ffffc22e224e9f97d40e87fe52003dd78",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354/GSM4827204_SAM24350156_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "cohort": "GSE135893",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_matrix.mtx.gz",
+      "filename": "GSE135893_matrix.mtx.gz",
+      "role": "whole_original_sparse_counts",
+      "started_utc": "2026-11-14T22:32:26.828324+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:32:26.828884+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_matrix.mtx.gz",
+          "headers": {
+            "Content-Length": "1076137992",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Fri, 16 Aug 2019 11:16:27 GMT",
+            "Content-Type": "application/x-gzip"
+          }
+        }
+      ],
+      "expected_bytes_observed": 1076137992,
+      "completed_utc": "2026-11-14T22:34:03.955285+00:00",
+      "bytes": 1076137992,
+      "sha256": "036987d06ed9625a71f5e5be0717c2598e914a6c9cad0628f61a8ebb66e695a6",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE135893/GSE135893_matrix.mtx.gz"
+    },
+    {
+      "cohort": "Franzen",
+      "url": "https://www.ebi.ac.uk/biostudies/files/S-BSST1410/hs_visium_metadata.tsv",
+      "filename": "hs_visium_metadata.tsv",
+      "role": "donor_section_metadata",
+      "expected_sha256": "c5595771a11b44e240cff6638043b7d1b28d0cb922dd333c7ec4b6063983ab7d",
+      "expected_bytes": 2347,
+      "started_utc": "2026-11-14T22:42:24.902057+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:42:24.902102+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/410/S-BSST1410/Files/hs_visium_metadata.tsv",
+          "headers": {
+            "Content-Length": "2347",
+            "Content-Range": null,
+            "ETag": "\"92b-617772a26d900\"",
+            "Last-Modified": "Thu, 02 May 2024 11:47:16 GMT",
+            "Content-Type": "text/tab-separated-values"
+          }
+        }
+      ],
+      "expected_bytes_observed": 2347,
+      "completed_utc": "2026-11-14T22:42:27.599674+00:00",
+      "bytes": 2347,
+      "sha256": "c5595771a11b44e240cff6638043b7d1b28d0cb922dd333c7ec4b6063983ab7d",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/Franzen/hs_visium_metadata.tsv"
+    },
+    {
+      "cohort": "GSE159585",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159585/suppl/GSE159585_snRNAseq_raw_counts.csv.gz",
+      "filename": "GSE159585_snRNAseq_raw_counts.csv.gz",
+      "role": "native_snRNA_original_counts",
+      "expected_bytes": 509536603,
+      "started_utc": "2026-11-14T22:47:32.113086+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:47:32.113492+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159585/suppl/GSE159585_snRNAseq_raw_counts.csv.gz",
+          "headers": {
+            "Content-Length": "509536603",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Mon, 08 Feb 2021 18:15:51 GMT",
+            "Content-Type": "application/x-gzip"
+          }
+        }
+      ],
+      "entity_validator": "Mon, 08 Feb 2021 18:15:51 GMT",
+      "expected_bytes_observed": 509536603,
+      "completed_utc": "2026-11-14T22:49:57.358997+00:00",
+      "bytes": 509536603,
+      "sha256": "e6e3fe8d9b984fba7ac779d9948b84a90b659ba82b15cf5f431f234fa893590c",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159585/GSE159585_snRNAseq_raw_counts.csv.gz",
+      "transport": "Complete source download to temporary Mac storage, then SSH copy with equal server SHA256.",
+      "relay_source_record": "/home/data/t120631/project/ipf_stage6_pilot/config/snrna_relay_download.json",
+      "server_verified_utc": "2026-11-14T22:53:26.210400+00:00",
+      "prior_direct_server_record": {
+        "cohort": "GSE159585",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159585/suppl/GSE159585_snRNAseq_raw_counts.csv.gz",
+        "filename": "GSE159585_snRNAseq_raw_counts.csv.gz",
+        "role": "native_snRNA_original_counts",
+        "started_utc": "2026-11-14T22:42:27.600471+00:00",
+        "status": "in_progress",
+        "attempts": [
+          {
+            "attempt": 1,
+            "offset": 0,
+            "started_utc": "2026-11-14T22:42:27.600526+00:00",
+            "http_status": 200,
+            "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159585/suppl/GSE159585_snRNAseq_raw_counts.csv.gz",
+            "headers": {
+              "Content-Length": "509536603",
+              "Content-Range": null,
+              "ETag": null,
+              "Last-Modified": "Mon, 08 Feb 2021 18:15:51 GMT",
+              "Content-Type": "application/x-gzip"
+            }
+          }
+        ],
+        "expected_bytes_observed": 509536603
+      },
+      "prior_direct_partial_preserved": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159585/GSE159585_snRNAseq_raw_counts.csv.gz.part",
+      "server_verified_sha256": "e6e3fe8d9b984fba7ac779d9948b84a90b659ba82b15cf5f431f234fa893590c"
+    },
+    {
+      "cohort": "GSE159585",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159585/suppl/GSE159585_snRNAseq_metadata.csv.gz",
+      "filename": "GSE159585_snRNAseq_metadata.csv.gz",
+      "role": "cell_donor_metadata",
+      "expected_sha256": "3fa05ae974bb5a88a6032562c486deeaa50b2cfd685b623b36f88ae75ef9a03a",
+      "expected_bytes": 1239449,
+      "started_utc": "2026-11-14T22:53:45.811073+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:53:45.811134+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159585/suppl/GSE159585_snRNAseq_metadata.csv.gz",
+          "headers": {
+            "Content-Length": "1239449",
+            "Content-Range": null,
+            "ETag": null,
+            "Last-Modified": "Tue, 26 Jul 2022 22:23:34 GMT",
+            "Content-Type": "application/x-gzip"
+          }
+        }
+      ],
+      "entity_validator": "Tue, 26 Jul 2022 22:23:34 GMT",
+      "expected_bytes_observed": 1239449,
+      "completed_utc": "2026-11-14T22:55:52.203913+00:00",
+      "bytes": 1239449,
+      "sha256": "3fa05ae974bb5a88a6032562c486deeaa50b2cfd685b623b36f88ae75ef9a03a",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159585/GSE159585_snRNAseq_metadata.csv.gz"
+    },
+    {
+      "cohort": "Franzen",
+      "url": "https://www.ebi.ac.uk/biostudies/files/S-BSST1410/hs_visium_spaceranger_output.zip",
+      "filename": "hs_visium_spaceranger_output.zip",
+      "role": "original_SpaceRanger_counts_images_coordinates",
+      "expected_bytes": 1093092912,
+      "started_utc": "2026-11-14T22:40:49.277838+00:00",
+      "status": "complete",
+      "attempts": [
+        {
+          "attempt": 1,
+          "offset": 0,
+          "started_utc": "2026-11-14T22:40:49.277889+00:00",
+          "http_status": 200,
+          "actual_url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/410/S-BSST1410/Files/hs_visium_spaceranger_output.zip",
+          "headers": {
+            "Content-Length": "1093092912",
+            "Content-Range": null,
+            "ETag": "\"41274630-617772b0bbac0\"",
+            "Last-Modified": "Thu, 02 May 2024 11:47:31 GMT",
+            "Content-Type": "application/zip"
+          }
+        },
+        {
+          "attempt": 1,
+          "offset": 457179136,
+          "started_utc": "2026-11-14T22:53:44.644122+00:00",
+          "http_status": 206,
+          "actual_url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/410/S-BSST1410/Files/hs_visium_spaceranger_output.zip",
+          "headers": {
+            "Content-Length": "635913776",
+            "Content-Range": "bytes 457179136-1093092911/1093092912",
+            "ETag": "\"41274630-617772b0bbac0\"",
+            "Last-Modified": "Thu, 02 May 2024 11:47:31 GMT",
+            "Content-Type": "application/zip"
+          }
+        }
+      ],
+      "expected_bytes_observed": 1093092912,
+      "entity_validator": "\"41274630-617772b0bbac0\"",
+      "completed_utc": "2026-11-14T23:11:56.217711+00:00",
+      "bytes": 1093092912,
+      "sha256": "dfe36d4e304370a97c55bc8fe415bce543f943ef78a9dd8494b4f829d40acdb8",
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/data/raw/Franzen/hs_visium_spaceranger_output.zip"
+    }
+  ],
+  "errors": []
+}

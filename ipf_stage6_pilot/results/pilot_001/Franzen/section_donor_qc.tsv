@@ -1,0 +1,7 @@
+section_id	donor_id	diagnosis	capture_positions	features	author_in_tissue_positions	author_off_tissue_positions	author_filtered_h5_positions	total_umis_all_capture_positions	total_umis_author_in_tissue	zero_count_positions	reload_verified	status
+V10T03-279-C1	IPF_1	IPF	4992	36601	4882	110	4882	23684584	23441403	0	True	passed_technical_checks
+V10T31-015-C1	IPF_2	IPF	4992	36601	4740	252	4740	22436776	21485778	0	True	passed_technical_checks
+V10T03-281-C1	IPF_3	IPF	4992	36601	3773	1219	3773	11897493	9762554	0	True	passed_technical_checks
+V10T31-015-A1	HC_2	control	4992	36601	3643	1349	3643	4319552	3279464	0	True	passed_technical_checks
+V10T31-019-A1	HC_3	control	4992	36601	4393	599	4393	10806821	9650474	0	True	passed_technical_checks
+V10T03-281-A1	HC_4	control	4992	36601	4035	957	4035	4231253	3597264	0	True	passed_technical_checks

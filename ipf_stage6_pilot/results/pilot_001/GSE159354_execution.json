@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-11-14T22:43:53.258156+00:00",
+  "command": [
+    "/home/data/t120631/project/ipf_stage6_smoke_test_20261113/.venv/bin/python",
+    "-u",
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/source/GSE159354/qc_depianto.py",
+    "--raw-dir",
+    "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159354",
+    "--manifest",
+    "/home/data/t120631/project/ipf_stage6_pilot/config/pilot_manifest.json",
+    "--output-dir",
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354"
+  ],
+  "code_sha256": {
+    "qc_depianto.py": "967f93b0bd0b0f8d084ac6a164cf72c270a723af2828d51f68ddd16f4dd70885",
+    "qc_spatial.py": "12c46fef230aad9ea3d150d568987c8ced7221fd307d443f7d34b4a201874f4e"
+  },
+  "threads": 4,
+  "virtual_memory_ceiling_GiB": 48,
+  "exit_code": 0,
+  "completed_utc": "2026-11-14T22:44:33.900462+00:00",
+  "elapsed_seconds": 40.64237218676135,
+  "peak_child_rss_bytes": 631738368
+}

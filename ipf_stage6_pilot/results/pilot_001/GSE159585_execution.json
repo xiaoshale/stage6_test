@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-14T22:57:36.235914+00:00",
+  "command": [
+    "/home/data/t120631/project/ipf_stage6_smoke_test_20261113/.venv/bin/python",
+    "-u",
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/source/GSE159585/qc_snrna.py",
+    "--raw-dir",
+    "/home/data/t120631/project/ipf_stage6_pilot/data/raw/GSE159585",
+    "--manifest",
+    "/home/data/t120631/project/ipf_stage6_pilot/config/pilot_manifest.json",
+    "--output-dir",
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159585"
+  ],
+  "code_sha256": {
+    "qc_snrna.py": "9740b928ff8ce641320ecd3d345f8ce7e0f61ef5181099b7b4d15314bb45b781"
+  },
+  "threads": 4,
+  "virtual_memory_ceiling_GiB": 48,
+  "exit_code": 0,
+  "completed_utc": "2026-11-14T23:02:11.546138+00:00",
+  "elapsed_seconds": 275.3102529910393,
+  "peak_child_rss_bytes": 2071814144
+}

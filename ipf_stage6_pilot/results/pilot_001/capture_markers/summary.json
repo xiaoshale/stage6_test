@@ -1,0 +1,198 @@
+{
+  "status": "completed",
+  "fixed_marker_sets": {
+    "epithelial": [
+      "EPCAM",
+      "KRT8",
+      "KRT18",
+      "KRT5",
+      "SCGB1A1",
+      "SFTPC"
+    ],
+    "stromal": [
+      "DCN",
+      "LUM",
+      "COL1A1",
+      "COL1A2",
+      "PDGFRA"
+    ],
+    "immune": [
+      "PTPRC",
+      "LYZ",
+      "CD3D"
+    ],
+    "endothelial": [
+      "PECAM1",
+      "VWF",
+      "CLDN5"
+    ]
+  },
+  "marker_count": 17,
+  "source_checkpoints": [
+    {
+      "resource": "GSE135893",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE135893/counts.h5ad",
+      "cells": 8577,
+      "gene_rows": 33694,
+      "source_symbol_field": "source_gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": "source_broad_annotation"
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827181_raw_qc.h5ad",
+      "cells": 1547,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827182_raw_qc.h5ad",
+      "cells": 5986,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827183_raw_qc.h5ad",
+      "cells": 2906,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827184_raw_qc.h5ad",
+      "cells": 3911,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827191_raw_qc.h5ad",
+      "cells": 3649,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827192_raw_qc.h5ad",
+      "cells": 6064,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827193_raw_qc.h5ad",
+      "cells": 5844,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827194_raw_qc.h5ad",
+      "cells": 3548,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827196_raw_qc.h5ad",
+      "cells": 2035,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827197_raw_qc.h5ad",
+      "cells": 2908,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827198_raw_qc.h5ad",
+      "cells": 1953,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827199_raw_qc.h5ad",
+      "cells": 1166,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827201_raw_qc.h5ad",
+      "cells": 3309,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827202_raw_qc.h5ad",
+      "cells": 4634,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827203_raw_qc.h5ad",
+      "cells": 1355,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159354",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159354/GSM4827204_raw_qc.h5ad",
+      "cells": 4374,
+      "gene_rows": 58302,
+      "source_symbol_field": "gene_symbol",
+      "library_field": "library_id",
+      "source_coarse_field": null
+    },
+    {
+      "resource": "GSE159585",
+      "file": "/home/data/t120631/project/ipf_stage6_pilot/runs/pilot_001/GSE159585/GSE159585_raw_qc.h5ad",
+      "cells": 28970,
+      "gene_rows": 27714,
+      "source_symbol_field": "source_gene_name",
+      "library_field": "gsm",
+      "source_coarse_field": "source_coarse_cell_type"
+    }
+  ],
+  "output_rows": 952,
+  "output": "marker_capture.tsv",
+  "boundary": "Technical detectability only. Conventional marker-set labels are not cell assignments. No filtering, normalization, disease comparison, state annotation or biological hypothesis. All existing cells retained. Missing source symbols are unmeasured, not zero expression. Duplicate symbol rows use detection union only; original X is never merged or rewritten. Coarse labels, when available, are unchanged author labels; FACS fractions are not cell identities."
+}

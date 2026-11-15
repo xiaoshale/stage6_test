@@ -1,6 +1,6 @@
 # Native IPF pilot continuation state
 
-Updated: 2026-11-15. **Three real-data components passed; the real spatial component and final aggregate verification remain unfinished.** Do not treat a prepared script or background download as a completed run.
+Updated: 2026-11-15. **The technical pilot is now complete across all four components.** See [final results](RESULTS.md). The interruption snapshot and once-pending instructions below are retained as historical provenance and are superseded by the completed-run report.
 
 ## Verified results
 
@@ -48,6 +48,6 @@ Automatic permission-approval review repeatedly timed out for SSH/SCP requests. 
 
 - Research root remains on `master`; it has extensive unrelated pre-existing changes and no research-root remote. Do not stage those changes.
 - The designated test checkout is `/private/tmp/codex_stage6_test_checkout_20261113`, current `master`, origin `https://github.com/xiaoshale/stage6_test.git`.
-- Verified milestone 01 was committed and pushed as `89f61d1`, adding `ipf_stage6_pilot/` with code/configuration, fixtures and the two scRNA results. Later local results/code still require their next checkpoint.
+- Verified milestone 01 was committed and pushed as `89f61d1`, adding `ipf_stage6_pilot/` with code/configuration, fixtures and the two scRNA results. Milestone 02, including the actual snRNA results and continuation state, was subsequently committed locally as `c4def83`; its push is pending tool access restoration. The exported snRNA TSV retains the server-generated CRLF line endings; the Git whitespace check passes with CR-at-EOL allowed, preserving artifact bytes.
 - The first normal HTTPS push lacked a configured credential helper. It succeeded through a command-scoped GitHub CLI helper using the previously authorized xiaoshale keyring login; no persistent remote/configuration changes were made. Do not print tokens or copy authentication files into the repository.
 - New scripts/records are English. Frozen Stage 5 evidence and the baseline 96-paper resource catalog remain unchanged.
