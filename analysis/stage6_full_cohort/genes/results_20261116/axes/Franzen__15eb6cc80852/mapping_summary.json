@@ -1,0 +1,32 @@
+{
+  "resource_id": "Franzen",
+  "rule_version": "stage6-gene-identity-v1",
+  "source_features": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/spatial_review/feature_axes/V19S23-092-A1.features.tsv.gz",
+  "source_file_sha256": "aea163eacd60060d315e2dd59bbe759858bfb5366e6bff73bdb1eb71e567666c",
+  "source_rows": 36601,
+  "mapping_class_counts": {
+    "resolved_unique": 35406,
+    "retired_unresolved": 1156,
+    "ambiguous": 39
+  },
+  "primary_eligible_rows": 35406,
+  "provisional_unique_rows": 0,
+  "duplicate_source_id_rows": 0,
+  "duplicate_source_symbol_rows": 10,
+  "blank_source_symbol_rows": 0,
+  "canonical_colliding_rows": 0,
+  "reference_manifest_sha256": "880f2d2b771d592b7e66630d9151de8e98651d0ef3bf50c90e0cc12274e449d2",
+  "reference_asset_sha256": {
+    "ensembl_registry": "2625f7a09f75861044f81cda6c8c4163e5e84d39e9dba15fbaf0bc3edab35d4b",
+    "ensembl_genes": "ddf7afb8f140b0e7ec98e5f560589671404e379abd9c0a5fb7d91beed56968ef",
+    "hgnc_complete": "6df77ac3cbaeb86a6dce5e17d851ebb27b6b3cdcd2471a211a3d8464f00c54c4",
+    "hgnc_withdrawn": "51fedd10e711edc9abc9111e856ec558ce18b75b3c854e255a550f84e96b65ce"
+  },
+  "mapping_sha256": "30f0cbb42c1d0e9f6fc6e78a70277ff756c45894a48db2a33e9c8ea509be1d18",
+  "counts_read_or_changed": false,
+  "count_conservation_check": "Not applicable: mapping metadata only; no matrix projection performed.",
+  "source_reference_status": "Unknown: this mapper does not reconstruct original counting references.",
+  "primary_eligible_boundary": "Unique source ENSG in target release, without symbol/genome/row conflicts. Identity eligibility does not establish identical quantification or analytical cohort readiness.",
+  "symbol_only_boundary": "Unique nomenclature candidates remain provisional until source-reference crosswalk review; they are not strict-primary features.",
+  "mitochondrial_boundary": "Common-reference chromosome is an identity annotation; source MT-prefix is provisional QC and never overwritten."
+}

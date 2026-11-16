@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-15T14:07:19.438459+00:00",
+  "authorized_task": "Full native cohort preparation and human QC/identity/histology review package",
+  "status": "complete_preparation_evidence_human_review_pending",
+  "raw_counts_policy": "Original counts and pilot checkpoints preserved",
+  "review_boundary": "Provisional QC/identity evidence, no expert anatomical signoff or final eligibility",
+  "runtime": "/home/data/t120631/project/ipf_stage6_smoke_test_20261113/.venv/bin/python",
+  "per_process_threads": 4,
+  "planned_peak_parallel_compute_processes": 2,
+  "external_candidate_outcomes": "reserved",
+  "completed_utc": "2026-11-16T05:55:30.605618+00:00",
+  "rna_inputs": 109,
+  "rna_profiles": 446569,
+  "spatial_sections": 25,
+  "source_files": 58,
+  "preparation_checks_passed": 13898,
+  "expert_QC_adjudicated": false,
+  "expert_identity_adjudicated": false,
+  "expert_anatomy_adjudicated": false,
+  "checkpoint_A_passed": false,
+  "formal_discovery_started": false,
+  "compatibility_recovery": "Initial RNA review retained at rna_review_initial; canonical review uniformly rerun with exact Euclidean neighbors after real-library validation."
+}

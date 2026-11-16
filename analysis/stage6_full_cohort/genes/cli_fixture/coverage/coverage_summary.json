@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "fixture": {
+      "path": "analysis/stage6_full_cohort/genes/cli_fixture/mapped/gene_mapping.tsv",
+      "sha256": "10c523de204db23230bc48904f44bbc44e4af28c7ffc5ea5ab262b0a68597469",
+      "strict_features": 4,
+      "symbol_only_provisional_features": 0
+    }
+  },
+  "union_candidate_genes": 4,
+  "shared_strict_features": 4,
+  "shared_unique_candidates_including_provisional": 4,
+  "boundary": "Metadata coverage only. Export absence is not off-panel status or zero expression. No counts, gene projection, imputation, expression harmonization or final cohort lock."
+}

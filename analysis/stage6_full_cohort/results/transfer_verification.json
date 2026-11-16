@@ -1,0 +1,15 @@
+{
+  "verified_utc": "2026-11-16T05:59:12.958362+00:00",
+  "archive": {
+    "server_path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/review_export.tar.gz",
+    "bytes": 365932680,
+    "sha256": "86a6fd92c04a67fe925366faef7b2089f8b27d27bfc1e63fcdbfb4646bb34283",
+    "status": "complete",
+    "expert_review_pending": true
+  },
+  "archive_size_SHA256_match": true,
+  "portable_file_hashes_verified": 1409,
+  "offline_local_references_verified": 1834,
+  "server_image_validation": "539 images passed PIL verification; exact transferred bytes verified",
+  "all_source_counts_excluded_from_portable_export": true
+}

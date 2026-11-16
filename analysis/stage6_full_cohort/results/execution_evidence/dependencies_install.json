@@ -1,0 +1,443 @@
+{
+  "version": "1",
+  "pip_version": "23.0.1",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://mirrors.ustc.edu.cn/pypi/packages/96/08/916e7d9ee4721031b2f625db54b11d8379bd51707afaa3e5a29aecf10bc4/scikit_image-0.25.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "archive_info": {
+          "hash": "sha256=a4c464b90e978d137330be433df4e76d92ad3c5f46a22f159520ce0fdbea8a09",
+          "hashes": {
+            "sha256": "a4c464b90e978d137330be433df4e76d92ad3c5f46a22f159520ce0fdbea8a09"
+          }
+        }
+      },
+      "is_direct": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "scikit-image",
+        "version": "0.25.2",
+        "summary": "Image processing in Python",
+        "description_content_type": "text/markdown",
+        "maintainer_email": "scikit-image developers <skimage-core@discuss.scientific-python.org>",
+        "license": "Files: *\n         Copyright: 2009-2022 the scikit-image team\n         License: BSD-3-Clause\n         \n         Files: doc/source/themes/scikit-image/layout.html\n         Copyright: 2007-2010 the Sphinx team\n         License: BSD-3-Clause\n         \n         Files: skimage/feature/_canny.py\n                skimage/filters/edges.py\n                skimage/filters/_rank_order.py\n                skimage/morphology/_skeletonize.py\n                skimage/morphology/tests/test_watershed.py\n                skimage/morphology/watershed.py\n                skimage/segmentation/heap_general.pxi\n                skimage/segmentation/heap_watershed.pxi\n                skimage/segmentation/_watershed.py\n                skimage/segmentation/_watershed_cy.pyx\n         Copyright: 2003-2009 Massachusetts Institute of Technology\n                    2009-2011 Broad Institute\n                    2003 Lee Kamentsky\n                    2003-2005 Peter J. Verveer\n         License: BSD-3-Clause\n         \n         Files: skimage/filters/thresholding.py\n                skimage/graph/_mcp.pyx\n                skimage/graph/heap.pyx\n         Copyright: 2009-2015 Board of Regents of the University of\n                    Wisconsin-Madison, Broad Institute of MIT and Harvard,\n                    and Max Planck Institute of Molecular Cell Biology and\n                    Genetics\n                    2009 Zachary Pincus\n                    2009 Almar Klein\n         License: BSD-2-Clause\n         \n         File: skimage/morphology/grayreconstruct.py\n               skimage/morphology/tests/test_reconstruction.py\n         Copyright: 2003-2009 Massachusetts Institute of Technology\n                    2009-2011 Broad Institute\n                    2003 Lee Kamentsky\n         License: BSD-3-Clause\n         \n         File: skimage/morphology/_grayreconstruct.pyx\n         Copyright: 2003-2009 Massachusetts Institute of Technology\n                    2009-2011 Broad Institute\n                    2003 Lee Kamentsky\n                    2022 Gregory Lee (added a 64-bit integer variant for large images)\n         License: BSD-3-Clause\n         \n         File: skimage/segmentation/_expand_labels.py\n         Copyright: 2020 Broad Institute\n                    2020 CellProfiler team\n         License: BSD-3-Clause\n         \n         File: skimage/exposure/_adapthist.py\n         Copyright: 1994 Karel Zuiderveld\n         License: BSD-3-Clause\n         \n         Function: skimage/morphology/_skeletonize_various_cy.pyx:_skeletonize_loop\n         Copyright: 2003-2009 Massachusetts Institute of Technology\n                    2009-2011 Broad Institute\n                    2003 Lee Kamentsky\n         License: BSD-3-Clause\n         \n         Function: skimage/_shared/version_requirements.py:_check_version\n         Copyright: 2013 The IPython Development Team\n         License: BSD-3-Clause\n         \n         Function: skimage/_shared/version_requirements.py:is_installed\n         Copyright: 2009-2011 Pierre Raybaut\n         License: MIT\n         \n         File: skimage/feature/_fisher_vector.py\n         Copyright: 2014 2014 Dan Oneata\n         License: MIT\n         \n         File: skimage/_vendored/numpy_lookfor.py\n         Copyright: 2005-2023, NumPy Developers\n         License: BSD-3-Clause\n         \n         File: skimage/transform/_thin_plate_splines.py\n         Copyright: 2007 Zachary Pincus\n         License: BSD-3-Clause\n         \n         License: BSD-2-Clause\n         \n         Redistribution and use in source and binary forms, with or without\n         modification, are permitted provided that the following conditions\n         are met:\n         1. Redistributions of source code must retain the above copyright\n            notice, this list of conditions and the following disclaimer.\n         2. Redistributions in binary form must reproduce the above copyright\n            notice, this list of conditions and the following disclaimer in the\n            documentation and/or other materials provided with the distribution.\n         .\n         THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n         ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n         LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n         A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE HOLDERS OR\n         CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\n         EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n         PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\n         PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n         LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n         NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n         SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n         \n         License: BSD-3-Clause\n         \n         Redistribution and use in source and binary forms, with or without\n         modification, are permitted provided that the following conditions\n         are met:\n         1. Redistributions of source code must retain the above copyright\n            notice, this list of conditions and the following disclaimer.\n         2. Redistributions in binary form must reproduce the above copyright\n            notice, this list of conditions and the following disclaimer in the\n            documentation and/or other materials provided with the distribution.\n         3. Neither the name of the University nor the names of its contributors\n            may be used to endorse or promote products derived from this software\n            without specific prior written permission.\n         .\n         THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n         ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n         LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n         A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE HOLDERS OR\n         CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\n         EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n         PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\n         PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n         LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n         NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n         SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n         \n         License: MIT\n         \n         Permission is hereby granted, free of charge, to any person obtaining a copy\n         of this software and associated documentation files (the \"Software\"), to deal\n         in the Software without restriction, including without limitation the rights\n         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n         copies of the Software, and to permit persons to whom the Software is\n         furnished to do so, subject to the following conditions:\n         \n         The above copyright notice and this permission notice shall be included in all\n         copies or substantial portions of the Software.\n         \n         THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n         SOFTWARE.\n         ",
+        "classifier": [
+          "Development Status :: 4 - Beta",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: C",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3 :: Only",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: Scientific/Engineering",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Operating System :: MacOS"
+        ],
+        "requires_dist": [
+          "numpy>=1.24",
+          "scipy>=1.11.4",
+          "networkx>=3.0",
+          "pillow>=10.1",
+          "imageio!=2.35.0,>=2.33",
+          "tifffile>=2022.8.12",
+          "packaging>=21",
+          "lazy-loader>=0.4",
+          "meson-python>=0.16; extra == \"build\"",
+          "ninja>=1.11.1.1; extra == \"build\"",
+          "Cython>=3.0.8; extra == \"build\"",
+          "pythran>=0.16; extra == \"build\"",
+          "numpy>=2.0; extra == \"build\"",
+          "spin==0.13; extra == \"build\"",
+          "build>=1.2.1; extra == \"build\"",
+          "pooch>=1.6.0; extra == \"data\"",
+          "pre-commit; extra == \"developer\"",
+          "ipython; extra == \"developer\"",
+          "tomli; python_version < \"3.11\" and extra == \"developer\"",
+          "sphinx>=8.0; extra == \"docs\"",
+          "sphinx-gallery[parallel]>=0.18; extra == \"docs\"",
+          "numpydoc>=1.7; extra == \"docs\"",
+          "sphinx-copybutton; extra == \"docs\"",
+          "matplotlib>=3.7; extra == \"docs\"",
+          "dask[array]>=2023.2.0; extra == \"docs\"",
+          "pandas>=2.0; extra == \"docs\"",
+          "seaborn>=0.11; extra == \"docs\"",
+          "pooch>=1.6; extra == \"docs\"",
+          "tifffile>=2022.8.12; extra == \"docs\"",
+          "myst-parser; extra == \"docs\"",
+          "intersphinx-registry>=0.2411.14; extra == \"docs\"",
+          "ipywidgets; extra == \"docs\"",
+          "ipykernel; extra == \"docs\"",
+          "plotly>=5.20; extra == \"docs\"",
+          "kaleido==0.2.1; extra == \"docs\"",
+          "scikit-learn>=1.2; extra == \"docs\"",
+          "sphinx_design>=0.5; extra == \"docs\"",
+          "pydata-sphinx-theme>=0.16; extra == \"docs\"",
+          "PyWavelets>=1.6; extra == \"docs\"",
+          "pytest-doctestplus; extra == \"docs\"",
+          "SimpleITK; extra == \"optional\"",
+          "astropy>=5.0; extra == \"optional\"",
+          "cloudpickle>=1.1.1; extra == \"optional\"",
+          "dask[array]>=2023.2.0; extra == \"optional\"",
+          "matplotlib>=3.7; extra == \"optional\"",
+          "pooch>=1.6.0; extra == \"optional\"",
+          "pyamg>=5.2; extra == \"optional\"",
+          "PyWavelets>=1.6; extra == \"optional\"",
+          "scikit-learn>=1.2; extra == \"optional\"",
+          "asv; extra == \"test\"",
+          "numpydoc>=1.7; extra == \"test\"",
+          "pooch>=1.6.0; extra == \"test\"",
+          "pytest>=8; extra == \"test\"",
+          "pytest-cov>=2.11.0; extra == \"test\"",
+          "pytest-localserver; extra == \"test\"",
+          "pytest-faulthandler; extra == \"test\"",
+          "pytest-doctestplus; extra == \"test\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "homepage, https://scikit-image.org",
+          "documentation, https://scikit-image.org/docs/stable",
+          "source, https://github.com/scikit-image/scikit-image",
+          "download, https://pypi.org/project/scikit-image/#files",
+          "tracker, https://github.com/scikit-image/scikit-image/issues"
+        ],
+        "provides_extra": [
+          "build",
+          "data",
+          "developer",
+          "docs",
+          "optional",
+          "test"
+        ],
+        "description": "# scikit-image: Image processing in Python\n\n[![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&url=https%3A%2F%2Fforum.image.sc%2Ftags%2Fscikit-image.json&query=%24.topic_list.tags.0.topic_count&colorB=brightgreen&suffix=%20topics&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABPklEQVR42m3SyyqFURTA8Y2BER0TDyExZ+aSPIKUlPIITFzKeQWXwhBlQrmFgUzMMFLKZeguBu5y+//17dP3nc5vuPdee6299gohUYYaDGOyyACq4JmQVoFujOMR77hNfOAGM+hBOQqB9TjHD36xhAa04RCuuXeKOvwHVWIKL9jCK2bRiV284QgL8MwEjAneeo9VNOEaBhzALGtoRy02cIcWhE34jj5YxgW+E5Z4iTPkMYpPLCNY3hdOYEfNbKYdmNngZ1jyEzw7h7AIb3fRTQ95OAZ6yQpGYHMMtOTgouktYwxuXsHgWLLl+4x++Kx1FJrjLTagA77bTPvYgw1rRqY56e+w7GNYsqX6JfPwi7aR+Y5SA+BXtKIRfkfJAYgj14tpOF6+I46c4/cAM3UhM3JxyKsxiOIhH0IO6SH/A1Kb1WBeUjbkAAAAAElFTkSuQmCC)](https://forum.image.sc/tags/scikit-image)\n[![Stackoverflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue.svg)](https://stackoverflow.com/questions/tagged/scikit-image)\n[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://skimage.zulipchat.com)\n\n- **Website (including documentation):** [https://scikit-image.org/](https://scikit-image.org)\n- **Documentation:** [https://scikit-image.org/docs/stable/](https://scikit-image.org/docs/stable/)\n- **User forum:** [https://forum.image.sc/tag/scikit-image](https://forum.image.sc/tag/scikit-image)\n- **Developer forum:** [https://discuss.scientific-python.org/c/contributor/skimage](https://discuss.scientific-python.org/c/contributor/skimage)\n- **Source:** [https://github.com/scikit-image/scikit-image](https://github.com/scikit-image/scikit-image)\n\n## Installation\n\n- **pip:** `pip install scikit-image`\n- **conda:** `conda install -c conda-forge scikit-image`\n\nAlso see [installing `scikit-image`](https://github.com/scikit-image/scikit-image/blob/main/INSTALL.rst).\n\n## License\n\nSee [LICENSE.txt](https://github.com/scikit-image/scikit-image/blob/main/LICENSE.txt).\n\n## Citation\n\nIf you find this project useful, please cite:\n\n> Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Iglesias,\n> François Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle\n> Gouillart, Tony Yu, and the scikit-image contributors.\n> _scikit-image: Image processing in Python_. PeerJ 2:e453 (2014)\n> https://doi.org/10.7717/peerj.453\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://mirrors.ustc.edu.cn/pypi/packages/fb/fe/301e0936b79bcab4cacc7548bf2853fc28dced0a578bab1f7ef53c9aa75b/imageio-2.37.2-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=ad9adfb20335d718c03de457358ed69f141021a333c40a53e57273d8a5bd0b9b",
+          "hashes": {
+            "sha256": "ad9adfb20335d718c03de457358ed69f141021a333c40a53e57273d8a5bd0b9b"
+          }
+        }
+      },
+      "is_direct": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "ImageIO",
+        "version": "2.37.2",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Read and write images and video across all major formats. Supports scientific and volumetric data.",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "image",
+          "video",
+          "imread",
+          "imwrite",
+          "io",
+          "animation",
+          "ffmpeg",
+          "image processing",
+          "numpy",
+          "format conversion",
+          "scientific imaging",
+          "medical imaging",
+          "volumetric",
+          "video encoding",
+          "multimedia",
+          "gif",
+          "tiff",
+          "png",
+          "jpeg"
+        ],
+        "author": "ImageIO contributors",
+        "maintainer_email": "Sebastian Wallkotter <sebastian@wallkoetter.net>, Almar Klein <almar.klein@gmail.com>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Education",
+          "Intended Audience :: Developers",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_dist": [
+          "numpy",
+          "pillow>=8.3.2",
+          "imageio-ffmpeg; extra == \"ffmpeg\"",
+          "psutil; extra == \"ffmpeg\"",
+          "fsspec[http]; extra == \"freeimage\"",
+          "pillow-heif; extra == \"pillow-heif\"",
+          "tifffile; extra == \"tifffile\"",
+          "av; extra == \"pyav\"",
+          "astropy; extra == \"fits\"",
+          "rawpy; extra == \"rawpy\"",
+          "numpy>2; extra == \"rawpy\"",
+          "gdal; extra == \"gdal\"",
+          "itk; extra == \"itk\"",
+          "black; extra == \"linting\"",
+          "flake8; extra == \"linting\"",
+          "pytest; extra == \"test\"",
+          "pytest-cov; extra == \"test\"",
+          "fsspec[github]; extra == \"test\"",
+          "sphinx<6; extra == \"docs\"",
+          "numpydoc; extra == \"docs\"",
+          "pydata-sphinx-theme; extra == \"docs\"",
+          "pytest; extra == \"dev\"",
+          "pytest-cov; extra == \"dev\"",
+          "fsspec[github]; extra == \"dev\"",
+          "black; extra == \"dev\"",
+          "flake8; extra == \"dev\"",
+          "av; extra == \"all-plugins\"",
+          "astropy; extra == \"all-plugins\"",
+          "fsspec[http]; extra == \"all-plugins\"",
+          "imageio-ffmpeg; extra == \"all-plugins\"",
+          "numpy>2; extra == \"all-plugins\"",
+          "pillow-heif; extra == \"all-plugins\"",
+          "psutil; extra == \"all-plugins\"",
+          "rawpy; extra == \"all-plugins\"",
+          "tifffile; extra == \"all-plugins\"",
+          "fsspec[http]; extra == \"all-plugins-pypy\"",
+          "imageio-ffmpeg; extra == \"all-plugins-pypy\"",
+          "pillow-heif; extra == \"all-plugins-pypy\"",
+          "psutil; extra == \"all-plugins-pypy\"",
+          "tifffile; extra == \"all-plugins-pypy\"",
+          "astropy; extra == \"full\"",
+          "av; extra == \"full\"",
+          "black; extra == \"full\"",
+          "flake8; extra == \"full\"",
+          "fsspec[github,http]; extra == \"full\"",
+          "imageio-ffmpeg; extra == \"full\"",
+          "numpydoc; extra == \"full\"",
+          "numpy>2; extra == \"full\"",
+          "pillow-heif; extra == \"full\"",
+          "psutil; extra == \"full\"",
+          "pydata-sphinx-theme; extra == \"full\"",
+          "pytest; extra == \"full\"",
+          "pytest-cov; extra == \"full\"",
+          "rawpy; extra == \"full\"",
+          "sphinx<6; extra == \"full\"",
+          "tifffile; extra == \"full\""
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "homepage, https://github.com/imageio/imageio",
+          "download, http://pypi.python.org/pypi/imageio",
+          "source, https://github.com/imageio/imageio",
+          "documentation, https://imageio.readthedocs.io"
+        ],
+        "provides_extra": [
+          "bsdf",
+          "dicom",
+          "feisem",
+          "ffmpeg",
+          "freeimage",
+          "lytro",
+          "numpy",
+          "pillow-heif",
+          "pillow",
+          "simpleitk",
+          "spe",
+          "swf",
+          "tifffile",
+          "pyav",
+          "fits",
+          "rawpy",
+          "gdal",
+          "itk",
+          "linting",
+          "test",
+          "docs",
+          "dev",
+          "all-plugins",
+          "all-plugins-pypy",
+          "full"
+        ],
+        "description": "# IMAGEIO\n\n[![CI](https://github.com/imageio/imageio/workflows/CI/badge.svg)](https://github.com/imageio/imageio/actions/workflows/ci.yml)\n[![CD](https://github.com/imageio/imageio/workflows/CD/badge.svg)](https://github.com/imageio/imageio/actions/workflows/cd.yml)\n[![codecov](https://codecov.io/gh/imageio/imageio/branch/master/graph/badge.svg?token=81Zhu9MDec)](https://codecov.io/gh/imageio/imageio)\n[![Docs](https://readthedocs.org/projects/imageio/badge/?version=latest)](https://imageio.readthedocs.io)\n\n[![Supported Python Versions](https://img.shields.io/pypi/pyversions/imageio.svg)](https://pypi.python.org/pypi/imageio/)\n[![PyPI Version](https://img.shields.io/pypi/v/imageio.svg)](https://pypi.python.org/pypi/imageio/)\n![PyPI Downloads](https://img.shields.io/pypi/dm/imageio?color=blue)\n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1488561.svg)](https://doi.org/10.5281/zenodo.1488561)\n\nWebsite: <https://imageio.readthedocs.io/>\n\nImageio is a mature Python library that makes it easy to read and write image\nand video data. This includes animated images, video, volumetric data, and\nscientific formats. It is cross-platform, runs on Python 3.9+, and is easy to\ninstall.\n\nProfessional support is available via\n[Tidelift](https://tidelift.com/funding/github/pypi/imageio).\n\n## Example\n\nHere's a minimal example of how to use imageio. See the docs for [more\nexamples](https://imageio.readthedocs.io/en/stable/examples.html).\n\n```python\nimport imageio.v3 as iio\nim = iio.imread('imageio:chelsea.png')  # read a standard image\nim.shape  # im is a NumPy array of shape (300, 451, 3)\niio.imwrite('chelsea.jpg', im)  # convert to jpg\n```\n\n## API in a nutshell\n\nYou just have to remember a handful of functions:\n\n```python\nimread()  # for reading\nimwrite() # for writing\nimiter()  # for iterating image series (animations/videos/OME-TIFF/...)\nimprops() # for standardized metadata\nimmeta()  # for format-specific metadata\nimopen()  # for advanced usage\n```\n\nSee the [API docs](https://imageio.readthedocs.io/en/stable/reference/index.html) for more information.\n\n## Features\n\n- Simple interface via a concise set of functions\n- Easy to\n  [install](https://imageio.readthedocs.io/en/stable/getting_started/installation.html)\n  using Conda or pip\n- Few core dependencies (only NumPy and Pillow)\n- Pure Python, runs on Python 3.9+, and PyPy\n- Cross platform, runs on Windows, Linux, macOS\n- More than 295 supported\n  [formats](https://imageio.readthedocs.io/en/stable/formats/index.html)\n- Read/Write support for various\n  [resources](https://imageio.readthedocs.io/en/stable/getting_started/requests.html)\n  (files, URLs, bytes, FileLike objects, ...)\n- High code quality and large test suite including functional, regression, and\n  integration tests\n\n## Dependencies\n\nMinimal requirements:\n\n- Python 3.9+\n- NumPy\n- Pillow >= 8.3.2\n\nOptional Python packages:\n\n- imageio-ffmpeg (for working with video files)\n- pyav (for working with video files)\n- tifffile (for working with TIFF files)\n- itk or SimpleITK (for ITK plugin)\n- astropy (for FITS plugin)\n- [imageio-flif](https://codeberg.org/monilophyta/imageio-flif) (for working\n  with [FLIF](https://github.com/FLIF-hub/FLIF) image files)\n\n## Security contact information\n\nTo report a security vulnerability, please use the [Tidelift security\ncontact](https://tidelift.com/security). Tidelift will coordinate the fix and\ndisclosure.\n\n## ImageIO for enterprise\n\nAvailable as part of the Tidelift Subscription.\n\nThe maintainers of imageio and thousands of other packages are working with\nTidelift to deliver commercial support and maintenance for the open source\ndependencies you use to build your applications. Save time, reduce risk, and\nimprove code health, while paying the maintainers of the exact dependencies you\nuse. ([Learn\nmore](https://tidelift.com/subscription/pkg/pypi-imageio?utm_source=pypi-imageio&utm_medium=referral&utm_campaign=readme))\n\n## Details\n\nThe core of ImageIO is a set of user-facing APIs combined with a plugin manager.\nAPI calls choose sensible defaults and then call the plugin manager, which\ndeduces the correct plugin/backend to use for the given resource and file\nformat. The plugin manager adds sensible backend-specific defaults and then\ncalls one of ImageIOs many backends to perform the actual loading. This allows\nImageIO to take care of most of the gory details of loading images for you,\nwhile still allowing you to customize the behavior when and where you need to.\nYou can find a more detailed explanation of this process in [our\ndocumentation](https://imageio.readthedocs.io/en/stable/user_guide/overview.html).\n\n## Contributing\n\nWe welcome contributions of any kind. Here are some suggestions on how you are\nable to contribute\n\n- add missing formats to the format list\n- suggest/implement support for new backends\n- report/fix any bugs you encounter while using ImageIO\n\nTo assist you in getting started with contributing code, take a look at the\n[development\nsection](https://imageio.readthedocs.io/en/stable/development/index.html) of the\ndocs. You will find instructions on setting up the dev environment as well as\nexamples on how to contribute code.\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://mirrors.ustc.edu.cn/pypi/packages/83/60/d497a310bde3f01cb805196ac61b7ad6dc5dcf8dce66634dc34364b20b4f/lazy_loader-0.4-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=342aa8e14d543a154047afb4ba8ef17f5563baad3fc610d7b15b213b0f119efc",
+          "hashes": {
+            "sha256": "342aa8e14d543a154047afb4ba8ef17f5563baad3fc610d7b15b213b0f119efc"
+          }
+        }
+      },
+      "is_direct": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "lazy_loader",
+        "version": "0.4",
+        "summary": "Makes it easy to load subpackages and functions on demand.",
+        "description_content_type": "text/markdown",
+        "author": "Scientific Python Developers",
+        "license": "BSD 3-Clause License\n        \n        Copyright (c) 2022--2023, Scientific Python project\n        All rights reserved.\n        \n        Redistribution and use in source and binary forms, with or without\n        modification, are permitted provided that the following conditions are met:\n        \n        1. Redistributions of source code must retain the above copyright notice, this\n           list of conditions and the following disclaimer.\n        \n        2. Redistributions in binary form must reproduce the above copyright notice,\n           this list of conditions and the following disclaimer in the documentation\n           and/or other materials provided with the distribution.\n        \n        3. Neither the name of the copyright holder nor the names of its\n           contributors may be used to endorse or promote products derived from\n           this software without specific prior written permission.\n        \n        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n        ",
+        "classifier": [
+          "Development Status :: 4 - Beta",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12"
+        ],
+        "requires_dist": [
+          "packaging",
+          "importlib-metadata ; python_version < \"3.8\"",
+          "changelist ==0.5 ; extra == 'dev'",
+          "pre-commit ==3.7.0 ; extra == 'lint'",
+          "pytest >=7.4 ; extra == 'test'",
+          "pytest-cov >=4.1 ; extra == 'test'"
+        ],
+        "requires_python": ">=3.7",
+        "project_url": [
+          "Home, https://scientific-python.org/specs/spec-0001/",
+          "Source, https://github.com/scientific-python/lazy_loader"
+        ],
+        "provides_extra": [
+          "dev",
+          "lint",
+          "test"
+        ],
+        "description": "[![PyPI](https://img.shields.io/pypi/v/lazy_loader)](https://pypi.org/project/lazy_loader/)\n[![Test status](https://github.com/scientific-python/lazy_loader/workflows/test/badge.svg?branch=main)](https://github.com/scientific-python/lazy_loader/actions?query=workflow%3A%22test%22)\n[![Test coverage](https://codecov.io/gh/scientific-python/lazy_loader/branch/main/graph/badge.svg)](https://app.codecov.io/gh/scientific-python/lazy_loader/branch/main)\n\n`lazy_loader` makes it easy to load subpackages and functions on demand.\n\n## Motivation\n\n1. Allow subpackages to be made visible to users without incurring import costs.\n2. Allow external libraries to be imported only when used, improving import times.\n\nFor a more detailed discussion, see [the SPEC](https://scientific-python.org/specs/spec-0001/).\n\n## Installation\n\n```\npip install -U lazy_loader\n```\n\nWe recommend using `lazy_loader` with Python >= 3.11.\nIf using Python 3.11, please upgrade to 3.11.9 or later.\nIf using Python 3.12, please upgrade to 3.12.3 or later.\nThese versions [avoid](https://github.com/python/cpython/pull/114781) a [known race condition](https://github.com/python/cpython/issues/114763).\n\n## Usage\n\n### Lazily load subpackages\n\nConsider the `__init__.py` from [scikit-image](https://scikit-image.org):\n\n```python\nsubpackages = [\n    ...,\n    'filters',\n    ...\n]\n\nimport lazy_loader as lazy\n__getattr__, __dir__, _ = lazy.attach(__name__, subpackages)\n```\n\nYou can now do:\n\n```python\nimport skimage as ski\nski.filters.gaussian(...)\n```\n\nThe `filters` subpackages will only be loaded once accessed.\n\n### Lazily load subpackages and functions\n\nConsider `skimage/filters/__init__.py`:\n\n```python\nfrom ..util import lazy\n\n__getattr__, __dir__, __all__ = lazy.attach(\n    __name__,\n    submodules=['rank'],\n    submod_attrs={\n        '_gaussian': ['gaussian', 'difference_of_gaussians'],\n        'edges': ['sobel', 'scharr', 'prewitt', 'roberts',\n                  'laplace', 'farid']\n    }\n)\n```\n\nThe above is equivalent to:\n\n```python\nfrom . import rank\nfrom ._gaussian import gaussian, difference_of_gaussians\nfrom .edges import (sobel, scharr, prewitt, roberts,\n                    laplace, farid)\n```\n\nExcept that all subpackages (such as `rank`) and functions (such as `sobel`) are loaded upon access.\n\n### Type checkers\n\nStatic type checkers and IDEs cannot infer type information from\nlazily loaded imports. As a workaround you can load [type\nstubs](https://mypy.readthedocs.io/en/stable/stubs.html) (`.pyi`\nfiles) with `lazy.attach_stub`:\n\n```python\nimport lazy_loader as lazy\n__getattr__, __dir__, _ = lazy.attach_stub(__name__, \"subpackages.pyi\")\n```\n\nNote that, since imports are now defined in `.pyi` files, those\nare not only necessary for type checking but also at runtime.\n\nThe SPEC [describes this workaround in more\ndetail](https://scientific-python.org/specs/spec-0001/#type-checkers).\n\n### Early failure\n\nWith lazy loading, missing imports no longer fail upon loading the\nlibrary. During development and testing, you can set the `EAGER_IMPORT`\nenvironment variable to disable lazy loading.\n\n### External libraries\n\nThe `lazy.attach` function discussed above is used to set up package\ninternal imports.\n\nUse `lazy.load` to lazily import external libraries:\n\n```python\nsp = lazy.load('scipy')  # `sp` will only be loaded when accessed\nsp.linalg.norm(...)\n```\n\n_Note that lazily importing *sub*packages,\ni.e. `load('scipy.linalg')` will cause the package containing the\nsubpackage to be imported immediately; thus, this usage is\ndiscouraged._\n\nYou can ask `lazy.load` to raise import errors as soon as it is called:\n\n```python\nlinalg = lazy.load('scipy.linalg', error_on_import=True)\n```\n\n#### Optional requirements\n\nOne use for lazy loading is for loading optional dependencies, with\n`ImportErrors` only arising when optional functionality is accessed. If optional\nfunctionality depends on a specific version, a version requirement can\nbe set:\n\n```python\nnp = lazy.load(\"numpy\", require=\"numpy >=1.24\")\n```\n\nIn this case, if `numpy` is installed, but the version is less than 1.24,\nthe `np` module returned will raise an error on attribute access. Using\nthis feature is not all-or-nothing: One module may rely on one version of\nnumpy, while another module may not set any requirement.\n\n_Note that the requirement must use the package [distribution name][] instead\nof the module [import name][]. For example, the `pyyaml` distribution provides\nthe `yaml` module for import._\n\n[distribution name]: https://packaging.python.org/en/latest/glossary/#term-Distribution-Package\n[import name]: https://packaging.python.org/en/latest/glossary/#term-Import-Package\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://mirrors.ustc.edu.cn/pypi/packages/5d/06/bd0a6097da704a7a7c34a94cfd771c3ea3c2f405dd214e790d22c93f6be1/tifffile-2025.5.10-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=e37147123c0542d67bc37ba5cdd67e12ea6fbe6e86c52bee037a9eb6a064e5ad",
+          "hashes": {
+            "sha256": "e37147123c0542d67bc37ba5cdd67e12ea6fbe6e86c52bee037a9eb6a064e5ad"
+          }
+        }
+      },
+      "is_direct": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "tifffile",
+        "version": "2025.5.10",
+        "dynamic": [
+          "author",
+          "author-email",
+          "classifier",
+          "description",
+          "description-content-type",
+          "home-page",
+          "license",
+          "license-file",
+          "platform",
+          "project-url",
+          "provides-extra",
+          "requires-dist",
+          "requires-python",
+          "summary"
+        ],
+        "platform": [
+          "any"
+        ],
+        "summary": "Read and write TIFF files",
+        "description_content_type": "text/x-rst",
+        "home_page": "https://www.cgohlke.com",
+        "author": "Christoph Gohlke",
+        "author_email": "cgohlke@cgohlke.com",
+        "license": "BSD-3-Clause",
+        "classifier": [
+          "Development Status :: 4 - Beta",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Developers",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_dist": [
+          "numpy",
+          "imagecodecs>=2024.12.30; extra == \"codecs\"",
+          "defusedxml; extra == \"xml\"",
+          "lxml; extra == \"xml\"",
+          "zarr<3; extra == \"zarr\"",
+          "fsspec; extra == \"zarr\"",
+          "matplotlib; extra == \"plot\"",
+          "imagecodecs>=2024.12.30; extra == \"all\"",
+          "matplotlib; extra == \"all\"",
+          "defusedxml; extra == \"all\"",
+          "lxml; extra == \"all\"",
+          "zarr<3; extra == \"all\"",
+          "fsspec; extra == \"all\"",
+          "pytest; extra == \"test\"",
+          "imagecodecs; extra == \"test\"",
+          "czifile; extra == \"test\"",
+          "cmapfile; extra == \"test\"",
+          "oiffile; extra == \"test\"",
+          "lfdfiles; extra == \"test\"",
+          "psdtags; extra == \"test\"",
+          "roifile; extra == \"test\"",
+          "lxml; extra == \"test\"",
+          "zarr<3; extra == \"test\"",
+          "dask; extra == \"test\"",
+          "xarray; extra == \"test\"",
+          "fsspec; extra == \"test\"",
+          "defusedxml; extra == \"test\"",
+          "ndtiff; extra == \"test\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Bug Tracker, https://github.com/cgohlke/tifffile/issues",
+          "Source Code, https://github.com/cgohlke/tifffile"
+        ],
+        "provides_extra": [
+          "codecs",
+          "xml",
+          "zarr",
+          "plot",
+          "all",
+          "test"
+        ],
+        "description": "Read and write TIFF files\r\n=========================\r\n\r\nTifffile is a Python library to\r\n\r\n(1) store NumPy arrays in TIFF (Tagged Image File Format) files, and\r\n(2) read image and metadata from TIFF-like files used in bioimaging.\r\n\r\nImage and metadata can be read from TIFF, BigTIFF, OME-TIFF, GeoTIFF,\r\nAdobe DNG, ZIF (Zoomable Image File Format), MetaMorph STK, Zeiss LSM,\r\nImageJ hyperstack, Micro-Manager MMStack and NDTiff, SGI, NIHImage,\r\nOlympus FluoView and SIS, ScanImage, Molecular Dynamics GEL,\r\nAperio SVS, Leica SCN, Roche BIF, PerkinElmer QPTIFF (QPI, PKI),\r\nHamamatsu NDPI, Argos AVS, and Philips DP formatted files.\r\n\r\nImage data can be read as NumPy arrays or Zarr 2 arrays/groups from strips,\r\ntiles, pages (IFDs), SubIFDs, higher-order series, and pyramidal levels.\r\n\r\nImage data can be written to TIFF, BigTIFF, OME-TIFF, and ImageJ hyperstack\r\ncompatible files in multi-page, volumetric, pyramidal, memory-mappable,\r\ntiled, predicted, or compressed form.\r\n\r\nMany compression and predictor schemes are supported via the imagecodecs\r\nlibrary, including LZW, PackBits, Deflate, PIXTIFF, LZMA, LERC, Zstd,\r\nJPEG (8 and 12-bit, lossless), JPEG 2000, JPEG XR, JPEG XL, WebP, PNG, EER,\r\nJetraw, 24-bit floating-point, and horizontal differencing.\r\n\r\nTifffile can also be used to inspect TIFF structures, read image data from\r\nmulti-dimensional file sequences, write fsspec ReferenceFileSystem for\r\nTIFF files and image file sequences, patch TIFF tag values, and parse\r\nmany proprietary metadata formats.\r\n\r\n:Author: `Christoph Gohlke <https://www.cgohlke.com>`_\r\n:License: BSD-3-Clause\r\n:Version: 2025.5.10\r\n:DOI: `10.5281/zenodo.6795860 <https://doi.org/10.5281/zenodo.6795860>`_\r\n\r\nQuickstart\r\n----------\r\n\r\nInstall the tifffile package and all dependencies from the\r\n`Python Package Index <https://pypi.org/project/tifffile/>`_::\r\n\r\n    python -m pip install -U tifffile[all]\r\n\r\nTifffile is also available in other package repositories such as Anaconda,\r\nDebian, and MSYS2.\r\n\r\nThe tifffile library is type annotated and documented via docstrings::\r\n\r\n    python -c \"import tifffile; help(tifffile)\"\r\n\r\nTifffile can be used as a console script to inspect and preview TIFF files::\r\n\r\n    python -m tifffile --help\r\n\r\nSee `Examples`_ for using the programming interface.\r\n\r\nSource code and support are available on\r\n`GitHub <https://github.com/cgohlke/tifffile>`_.\r\n\r\nSupport is also provided on the\r\n`image.sc <https://forum.image.sc/tag/tifffile>`_ forum.\r\n\r\nRequirements\r\n------------\r\n\r\nThis revision was tested with the following requirements and dependencies\r\n(other versions may work):\r\n\r\n- `CPython <https://www.python.org>`_ 3.10.11, 3.11.9, 3.12.10, 3.13.3 64-bit\r\n- `NumPy <https://pypi.org/project/numpy/>`_ 2.2.5\r\n- `Imagecodecs <https://pypi.org/project/imagecodecs/>`_ 2025.3.30\r\n  (required for encoding or decoding LZW, JPEG, etc. compressed segments)\r\n- `Matplotlib <https://pypi.org/project/matplotlib/>`_ 3.10.3\r\n  (required for plotting)\r\n- `Lxml <https://pypi.org/project/lxml/>`_ 5.3.1\r\n  (required only for validating and printing XML)\r\n- `Zarr <https://pypi.org/project/zarr/>`_ 2.18.7\r\n  (required only for opening Zarr stores; Zarr 3 is not compatible)\r\n- `Fsspec <https://pypi.org/project/fsspec/>`_ 2025.3.2\r\n  (required only for opening ReferenceFileSystem files)\r\n\r\nRevisions\r\n---------\r\n\r\n2025.5.10\r\n\r\n- Pass 5111 tests.\r\n- Raise ValueError when using zarr 3 (#296).\r\n- Fall back to compression.zstd on Python >= 3.14 if no imagecodecs.\r\n- Remove doctest command line option.\r\n- Support Python 3.14.\r\n\r\n2025.3.30\r\n\r\n- Fix for imagecodecs 2025.3.30.\r\n\r\n2025.3.13\r\n\r\n- Change bytes2str to decode only up to first NULL character (breaking).\r\n- Remove stripnull function calls to reduce overhead (#285).\r\n- Deprecate stripnull function.\r\n\r\n2025.2.18\r\n\r\n- Fix julian_datetime milliseconds (#283).\r\n- Remove deprecated dtype arguments from imread and FileSequence (breaking).\r\n- Remove deprecated imsave and TiffWriter.save function/method (breaking).\r\n- Remove deprecated option to pass multiple values to compression (breaking).\r\n- Remove deprecated option to pass unit to resolution (breaking).\r\n- Remove deprecated enums from TIFF namespace (breaking).\r\n- Remove deprecated lazyattr and squeeze_axes functions (breaking).\r\n\r\n2025.1.10\r\n\r\n- Improve type hints.\r\n- Deprecate Python 3.10.\r\n\r\n2024.12.12\r\n\r\n- Read PlaneProperty from STK UIC1Tag (#280).\r\n- Allow 'None' as alias for COMPRESSION.NONE and PREDICTOR.NONE (#274).\r\n- Zarr 3 is not supported (#272).\r\n\r\n2024.9.20\r\n\r\n- Fix writing colormap to ImageJ files (breaking).\r\n- Improve typing.\r\n- Drop support for Python 3.9.\r\n\r\n2024.8.30\r\n\r\n- Support writing OME Dataset and some StructuredAnnotations elements.\r\n\r\n2024.8.28\r\n\r\n- Fix LSM scan types and dimension orders (#269, breaking).\r\n- Use IO[bytes] instead of BinaryIO for typing (#268).\r\n\r\n2024.8.24\r\n\r\n- Do not remove trailing length-1 dimension writing non-shaped file (breaking).\r\n- Fix writing OME-TIFF with certain modulo axes orders.\r\n- Make imshow NaN aware.\r\n\r\n2024.8.10\r\n\r\n- Relax bitspersample check for JPEG, JPEG2K, and JPEGXL compression (#265).\r\n\r\n2024.7.24\r\n\r\n- Fix reading contiguous multi-page series via Zarr store (#67).\r\n\r\n2024.7.21\r\n\r\n- Fix integer overflow in product function caused by numpy types.\r\n- Allow tag reader functions to fail.\r\n\r\n2024.7.2\r\n\r\n- Enable memmap to create empty files with non-native byte order.\r\n- Deprecate Python 3.9, support Python 3.13.\r\n\r\n2024.6.18\r\n\r\n- Ensure TiffPage.nodata is castable to dtype (breaking, #260).\r\n- Support Argos AVS slides.\r\n\r\n2024.5.22\r\n\r\n- Derive TiffPages, TiffPageSeries, FileSequence, StoredShape from Sequence.\r\n- Truncate circular IFD chain, do not raise TiffFileError (breaking).\r\n- Deprecate access to TiffPages.pages and FileSequence.files.\r\n- Enable DeprecationWarning for enums in TIFF namespace.\r\n- Remove some deprecated code (breaking).\r\n- Add iccprofile property to TiffPage and parameter to TiffWriter.write.\r\n- Do not detect VSI as SIS format.\r\n- Limit length of logged exception messages.\r\n- Fix docstring examples not correctly rendered on GitHub (#254, #255).\r\n\r\n- …\r\n\r\nRefer to the CHANGES file for older revisions.\r\n\r\nNotes\r\n-----\r\n\r\nTIFF, the Tagged Image File Format, was created by the Aldus Corporation and\r\nAdobe Systems Incorporated.\r\n\r\nTifffile supports a subset of the TIFF6 specification, mainly 8, 16, 32, and\r\n64-bit integer, 16, 32, and 64-bit float, grayscale and multi-sample images.\r\nSpecifically, CCITT and OJPEG compression, chroma subsampling without JPEG\r\ncompression, color space transformations, samples with differing types, or\r\nIPTC, ICC, and XMP metadata are not implemented.\r\n\r\nBesides classic TIFF, tifffile supports several TIFF-like formats that do not\r\nstrictly adhere to the TIFF6 specification. Some formats allow file and data\r\nsizes to exceed the 4 GB limit of the classic TIFF:\r\n\r\n- **BigTIFF** is identified by version number 43 and uses different file\r\n  header, IFD, and tag structures with 64-bit offsets. The format also adds\r\n  64-bit data types. Tifffile can read and write BigTIFF files.\r\n- **ImageJ hyperstacks** store all image data, which may exceed 4 GB,\r\n  contiguously after the first IFD. Files > 4 GB contain one IFD only.\r\n  The size and shape of the up to 6-dimensional image data can be determined\r\n  from the ImageDescription tag of the first IFD, which is Latin-1 encoded.\r\n  Tifffile can read and write ImageJ hyperstacks.\r\n- **OME-TIFF** files store up to 8-dimensional image data in one or multiple\r\n  TIFF or BigTIFF files. The UTF-8 encoded OME-XML metadata found in the\r\n  ImageDescription tag of the first IFD defines the position of TIFF IFDs in\r\n  the high-dimensional image data. Tifffile can read OME-TIFF files (except\r\n  multi-file pyramidal) and write NumPy arrays to single-file OME-TIFF.\r\n- **Micro-Manager NDTiff** stores multi-dimensional image data in one\r\n  or more classic TIFF files. Metadata contained in a separate NDTiff.index\r\n  binary file defines the position of the TIFF IFDs in the image array.\r\n  Each TIFF file also contains metadata in a non-TIFF binary structure at\r\n  offset 8. Downsampled image data of pyramidal datasets are stored in\r\n  separate folders. Tifffile can read NDTiff files. Version 0 and 1 series,\r\n  tiling, stitching, and multi-resolution pyramids are not supported.\r\n- **Micro-Manager MMStack** stores 6-dimensional image data in one or more\r\n  classic TIFF files. Metadata contained in non-TIFF binary structures and\r\n  JSON strings define the image stack dimensions and the position of the image\r\n  frame data in the file and the image stack. The TIFF structures and metadata\r\n  are often corrupted or wrong. Tifffile can read MMStack files.\r\n- **Carl Zeiss LSM** files store all IFDs below 4 GB and wrap around 32-bit\r\n  StripOffsets pointing to image data above 4 GB. The StripOffsets of each\r\n  series and position require separate unwrapping. The StripByteCounts tag\r\n  contains the number of bytes for the uncompressed data. Tifffile can read\r\n  LSM files of any size.\r\n- **MetaMorph Stack, STK** files contain additional image planes stored\r\n  contiguously after the image data of the first page. The total number of\r\n  planes is equal to the count of the UIC2tag. Tifffile can read STK files.\r\n- **ZIF**, the Zoomable Image File format, is a subspecification of BigTIFF\r\n  with SGI's ImageDepth extension and additional compression schemes.\r\n  Only little-endian, tiled, interleaved, 8-bit per sample images with\r\n  JPEG, PNG, JPEG XR, and JPEG 2000 compression are allowed. Tifffile can\r\n  read and write ZIF files.\r\n- **Hamamatsu NDPI** files use some 64-bit offsets in the file header, IFD,\r\n  and tag structures. Single, LONG typed tag values can exceed 32-bit.\r\n  The high bytes of 64-bit tag values and offsets are stored after IFD\r\n  structures. Tifffile can read NDPI files > 4 GB.\r\n  JPEG compressed segments with dimensions >65530 or missing restart markers\r\n  cannot be decoded with common JPEG libraries. Tifffile works around this\r\n  limitation by separately decoding the MCUs between restart markers, which\r\n  performs poorly. BitsPerSample, SamplesPerPixel, and\r\n  PhotometricInterpretation tags may contain wrong values, which can be\r\n  corrected using the value of tag 65441.\r\n- **Philips TIFF** slides store padded ImageWidth and ImageLength tag values\r\n  for tiled pages. The values can be corrected using the DICOM_PIXEL_SPACING\r\n  attributes of the XML formatted description of the first page. Tile offsets\r\n  and byte counts may be 0. Tifffile can read Philips slides.\r\n- **Ventana/Roche BIF** slides store tiles and metadata in a BigTIFF container.\r\n  Tiles may overlap and require stitching based on the TileJointInfo elements\r\n  in the XMP tag. Volumetric scans are stored using the ImageDepth extension.\r\n  Tifffile can read BIF and decode individual tiles but does not perform\r\n  stitching.\r\n- **ScanImage** optionally allows corrupted non-BigTIFF files > 2 GB.\r\n  The values of StripOffsets and StripByteCounts can be recovered using the\r\n  constant differences of the offsets of IFD and tag values throughout the\r\n  file. Tifffile can read such files if the image data are stored contiguously\r\n  in each page.\r\n- **GeoTIFF sparse** files allow strip or tile offsets and byte counts to be 0.\r\n  Such segments are implicitly set to 0 or the NODATA value on reading.\r\n  Tifffile can read GeoTIFF sparse files.\r\n- **Tifffile shaped** files store the array shape and user-provided metadata\r\n  of multi-dimensional image series in JSON format in the ImageDescription tag\r\n  of the first page of the series. The format allows multiple series,\r\n  SubIFDs, sparse segments with zero offset and byte count, and truncated\r\n  series, where only the first page of a series is present, and the image data\r\n  are stored contiguously. No other software besides Tifffile supports the\r\n  truncated format.\r\n\r\nOther libraries for reading, writing, inspecting, or manipulating scientific\r\nTIFF files from Python are\r\n`aicsimageio <https://pypi.org/project/aicsimageio>`_,\r\n`apeer-ometiff-library\r\n<https://github.com/apeer-micro/apeer-ometiff-library>`_,\r\n`bigtiff <https://pypi.org/project/bigtiff>`_,\r\n`fabio.TiffIO <https://github.com/silx-kit/fabio>`_,\r\n`GDAL <https://github.com/OSGeo/gdal/>`_,\r\n`imread <https://github.com/luispedro/imread>`_,\r\n`large_image <https://github.com/girder/large_image>`_,\r\n`openslide-python <https://github.com/openslide/openslide-python>`_,\r\n`opentile <https://github.com/imi-bigpicture/opentile>`_,\r\n`pylibtiff <https://github.com/pearu/pylibtiff>`_,\r\n`pylsm <https://launchpad.net/pylsm>`_,\r\n`pymimage <https://github.com/ardoi/pymimage>`_,\r\n`python-bioformats <https://github.com/CellProfiler/python-bioformats>`_,\r\n`pytiff <https://github.com/FZJ-INM1-BDA/pytiff>`_,\r\n`scanimagetiffreader-python\r\n<https://gitlab.com/vidriotech/scanimagetiffreader-python>`_,\r\n`SimpleITK <https://github.com/SimpleITK/SimpleITK>`_,\r\n`slideio <https://gitlab.com/bioslide/slideio>`_,\r\n`tiffslide <https://github.com/bayer-science-for-a-better-life/tiffslide>`_,\r\n`tifftools <https://github.com/DigitalSlideArchive/tifftools>`_,\r\n`tyf <https://github.com/Moustikitos/tyf>`_,\r\n`xtiff <https://github.com/BodenmillerGroup/xtiff>`_, and\r\n`ndtiff <https://github.com/micro-manager/NDTiffStorage>`_.\r\n\r\nReferences\r\n----------\r\n\r\n- TIFF 6.0 Specification and Supplements. Adobe Systems Incorporated.\r\n  https://www.adobe.io/open/standards/TIFF.html\r\n  https://download.osgeo.org/libtiff/doc/\r\n- TIFF File Format FAQ. https://www.awaresystems.be/imaging/tiff/faq.html\r\n- The BigTIFF File Format.\r\n  https://www.awaresystems.be/imaging/tiff/bigtiff.html\r\n- MetaMorph Stack (STK) Image File Format.\r\n  http://mdc.custhelp.com/app/answers/detail/a_id/18862\r\n- Image File Format Description LSM 5/7 Release 6.0 (ZEN 2010).\r\n  Carl Zeiss MicroImaging GmbH. BioSciences. May 10, 2011\r\n- The OME-TIFF format.\r\n  https://docs.openmicroscopy.org/ome-model/latest/\r\n- UltraQuant(r) Version 6.0 for Windows Start-Up Guide.\r\n  http://www.ultralum.com/images%20ultralum/pdf/UQStart%20Up%20Guide.pdf\r\n- Micro-Manager File Formats.\r\n  https://micro-manager.org/wiki/Micro-Manager_File_Formats\r\n- ScanImage BigTiff Specification.\r\n  https://docs.scanimage.org/Appendix/ScanImage+BigTiff+Specification.html\r\n- ZIF, the Zoomable Image File format. https://zif.photo/\r\n- GeoTIFF File Format https://gdal.org/drivers/raster/gtiff.html\r\n- Cloud optimized GeoTIFF.\r\n  https://github.com/cogeotiff/cog-spec/blob/master/spec.md\r\n- Tags for TIFF and Related Specifications. Digital Preservation.\r\n  https://www.loc.gov/preservation/digital/formats/content/tiff_tags.shtml\r\n- CIPA DC-008-2016: Exchangeable image file format for digital still cameras:\r\n  Exif Version 2.31.\r\n  http://www.cipa.jp/std/documents/e/DC-008-Translation-2016-E.pdf\r\n- The EER (Electron Event Representation) file format.\r\n  https://github.com/fei-company/EerReaderLib\r\n- Digital Negative (DNG) Specification. Version 1.7.1.0, September 2023.\r\n  https://helpx.adobe.com/content/dam/help/en/photoshop/pdf/DNG_Spec_1_7_1_0.pdf\r\n- Roche Digital Pathology. BIF image file format for digital pathology.\r\n  https://diagnostics.roche.com/content/dam/diagnostics/Blueprint/en/pdf/rmd/Roche-Digital-Pathology-BIF-Whitepaper.pdf\r\n- Astro-TIFF specification. https://astro-tiff.sourceforge.io/\r\n- Aperio Technologies, Inc. Digital Slides and Third-Party Data Interchange.\r\n  Aperio_Digital_Slides_and_Third-party_data_interchange.pdf\r\n- PerkinElmer image format.\r\n  https://downloads.openmicroscopy.org/images/Vectra-QPTIFF/perkinelmer/PKI_Image%20Format.docx\r\n- NDTiffStorage. https://github.com/micro-manager/NDTiffStorage\r\n- Argos AVS File Format.\r\n  https://github.com/user-attachments/files/15580286/ARGOS.AVS.File.Format.pdf\r\n\r\nExamples\r\n--------\r\n\r\nWrite a NumPy array to a single-page RGB TIFF file:\r\n\r\n>>> import numpy\r\n>>> data = numpy.random.randint(0, 255, (256, 256, 3), 'uint8')\r\n>>> imwrite('temp.tif', data, photometric='rgb')\r\n\r\nRead the image from the TIFF file as NumPy array:\r\n\r\n>>> image = imread('temp.tif')\r\n>>> image.shape\r\n(256, 256, 3)\r\n\r\nUse the `photometric` and `planarconfig` arguments to write a 3x3x3 NumPy\r\narray to an interleaved RGB, a planar RGB, or a 3-page grayscale TIFF:\r\n\r\n>>> data = numpy.random.randint(0, 255, (3, 3, 3), 'uint8')\r\n>>> imwrite('temp.tif', data, photometric='rgb')\r\n>>> imwrite('temp.tif', data, photometric='rgb', planarconfig='separate')\r\n>>> imwrite('temp.tif', data, photometric='minisblack')\r\n\r\nUse the `extrasamples` argument to specify how extra components are\r\ninterpreted, for example, for an RGBA image with unassociated alpha channel:\r\n\r\n>>> data = numpy.random.randint(0, 255, (256, 256, 4), 'uint8')\r\n>>> imwrite('temp.tif', data, photometric='rgb', extrasamples=['unassalpha'])\r\n\r\nWrite a 3-dimensional NumPy array to a multi-page, 16-bit grayscale TIFF file:\r\n\r\n>>> data = numpy.random.randint(0, 2**12, (64, 301, 219), 'uint16')\r\n>>> imwrite('temp.tif', data, photometric='minisblack')\r\n\r\nRead the whole image stack from the multi-page TIFF file as NumPy array:\r\n\r\n>>> image_stack = imread('temp.tif')\r\n>>> image_stack.shape\r\n(64, 301, 219)\r\n>>> image_stack.dtype\r\ndtype('uint16')\r\n\r\nRead the image from the first page in the TIFF file as NumPy array:\r\n\r\n>>> image = imread('temp.tif', key=0)\r\n>>> image.shape\r\n(301, 219)\r\n\r\nRead images from a selected range of pages:\r\n\r\n>>> images = imread('temp.tif', key=range(4, 40, 2))\r\n>>> images.shape\r\n(18, 301, 219)\r\n\r\nIterate over all pages in the TIFF file and successively read images:\r\n\r\n>>> with TiffFile('temp.tif') as tif:\r\n...     for page in tif.pages:\r\n...         image = page.asarray()\r\n...\r\n\r\nGet information about the image stack in the TIFF file without reading\r\nany image data:\r\n\r\n>>> tif = TiffFile('temp.tif')\r\n>>> len(tif.pages)  # number of pages in the file\r\n64\r\n>>> page = tif.pages[0]  # get shape and dtype of image in first page\r\n>>> page.shape\r\n(301, 219)\r\n>>> page.dtype\r\ndtype('uint16')\r\n>>> page.axes\r\n'YX'\r\n>>> series = tif.series[0]  # get shape and dtype of first image series\r\n>>> series.shape\r\n(64, 301, 219)\r\n>>> series.dtype\r\ndtype('uint16')\r\n>>> series.axes\r\n'QYX'\r\n>>> tif.close()\r\n\r\nInspect the \"XResolution\" tag from the first page in the TIFF file:\r\n\r\n>>> with TiffFile('temp.tif') as tif:\r\n...     tag = tif.pages[0].tags['XResolution']\r\n...\r\n>>> tag.value\r\n(1, 1)\r\n>>> tag.name\r\n'XResolution'\r\n>>> tag.code\r\n282\r\n>>> tag.count\r\n1\r\n>>> tag.dtype\r\n<DATATYPE.RATIONAL: 5>\r\n\r\nIterate over all tags in the TIFF file:\r\n\r\n>>> with TiffFile('temp.tif') as tif:\r\n...     for page in tif.pages:\r\n...         for tag in page.tags:\r\n...             tag_name, tag_value = tag.name, tag.value\r\n...\r\n\r\nOverwrite the value of an existing tag, for example, XResolution:\r\n\r\n>>> with TiffFile('temp.tif', mode='r+') as tif:\r\n...     _ = tif.pages[0].tags['XResolution'].overwrite((96000, 1000))\r\n...\r\n\r\nWrite a 5-dimensional floating-point array using BigTIFF format, separate\r\ncolor components, tiling, Zlib compression level 8, horizontal differencing\r\npredictor, and additional metadata:\r\n\r\n>>> data = numpy.random.rand(2, 5, 3, 301, 219).astype('float32')\r\n>>> imwrite(\r\n...     'temp.tif',\r\n...     data,\r\n...     bigtiff=True,\r\n...     photometric='rgb',\r\n...     planarconfig='separate',\r\n...     tile=(32, 32),\r\n...     compression='zlib',\r\n...     compressionargs={'level': 8},\r\n...     predictor=True,\r\n...     metadata={'axes': 'TZCYX'},\r\n... )\r\n\r\nWrite a 10 fps time series of volumes with xyz voxel size 2.6755x2.6755x3.9474\r\nmicron^3 to an ImageJ hyperstack formatted TIFF file:\r\n\r\n>>> volume = numpy.random.randn(6, 57, 256, 256).astype('float32')\r\n>>> image_labels = [f'{i}' for i in range(volume.shape[0] * volume.shape[1])]\r\n>>> imwrite(\r\n...     'temp.tif',\r\n...     volume,\r\n...     imagej=True,\r\n...     resolution=(1.0 / 2.6755, 1.0 / 2.6755),\r\n...     metadata={\r\n...         'spacing': 3.947368,\r\n...         'unit': 'um',\r\n...         'finterval': 1 / 10,\r\n...         'fps': 10.0,\r\n...         'axes': 'TZYX',\r\n...         'Labels': image_labels,\r\n...     },\r\n... )\r\n\r\nRead the volume and metadata from the ImageJ hyperstack file:\r\n\r\n>>> with TiffFile('temp.tif') as tif:\r\n...     volume = tif.asarray()\r\n...     axes = tif.series[0].axes\r\n...     imagej_metadata = tif.imagej_metadata\r\n...\r\n>>> volume.shape\r\n(6, 57, 256, 256)\r\n>>> axes\r\n'TZYX'\r\n>>> imagej_metadata['slices']\r\n57\r\n>>> imagej_metadata['frames']\r\n6\r\n\r\nMemory-map the contiguous image data in the ImageJ hyperstack file:\r\n\r\n>>> memmap_volume = memmap('temp.tif')\r\n>>> memmap_volume.shape\r\n(6, 57, 256, 256)\r\n>>> del memmap_volume\r\n\r\nCreate a TIFF file containing an empty image and write to the memory-mapped\r\nNumPy array (note: this does not work with compression or tiling):\r\n\r\n>>> memmap_image = memmap(\r\n...     'temp.tif', shape=(256, 256, 3), dtype='float32', photometric='rgb'\r\n... )\r\n>>> type(memmap_image)\r\n<class 'numpy.memmap'>\r\n>>> memmap_image[255, 255, 1] = 1.0\r\n>>> memmap_image.flush()\r\n>>> del memmap_image\r\n\r\nWrite two NumPy arrays to a multi-series TIFF file (note: other TIFF readers\r\nwill not recognize the two series; use the OME-TIFF format for better\r\ninteroperability):\r\n\r\n>>> series0 = numpy.random.randint(0, 255, (32, 32, 3), 'uint8')\r\n>>> series1 = numpy.random.randint(0, 255, (4, 256, 256), 'uint16')\r\n>>> with TiffWriter('temp.tif') as tif:\r\n...     tif.write(series0, photometric='rgb')\r\n...     tif.write(series1, photometric='minisblack')\r\n...\r\n\r\nRead the second image series from the TIFF file:\r\n\r\n>>> series1 = imread('temp.tif', series=1)\r\n>>> series1.shape\r\n(4, 256, 256)\r\n\r\nSuccessively write the frames of one contiguous series to a TIFF file:\r\n\r\n>>> data = numpy.random.randint(0, 255, (30, 301, 219), 'uint8')\r\n>>> with TiffWriter('temp.tif') as tif:\r\n...     for frame in data:\r\n...         tif.write(frame, contiguous=True)\r\n...\r\n\r\nAppend an image series to the existing TIFF file (note: this does not work\r\nwith ImageJ hyperstack or OME-TIFF files):\r\n\r\n>>> data = numpy.random.randint(0, 255, (301, 219, 3), 'uint8')\r\n>>> imwrite('temp.tif', data, photometric='rgb', append=True)\r\n\r\nCreate a TIFF file from a generator of tiles:\r\n\r\n>>> data = numpy.random.randint(0, 2**12, (31, 33, 3), 'uint16')\r\n>>> def tiles(data, tileshape):\r\n...     for y in range(0, data.shape[0], tileshape[0]):\r\n...         for x in range(0, data.shape[1], tileshape[1]):\r\n...             yield data[y : y + tileshape[0], x : x + tileshape[1]]\r\n...\r\n>>> imwrite(\r\n...     'temp.tif',\r\n...     tiles(data, (16, 16)),\r\n...     tile=(16, 16),\r\n...     shape=data.shape,\r\n...     dtype=data.dtype,\r\n...     photometric='rgb',\r\n... )\r\n\r\nWrite a multi-dimensional, multi-resolution (pyramidal), multi-series OME-TIFF\r\nfile with optional metadata. Sub-resolution images are written to SubIFDs.\r\nLimit parallel encoding to 2 threads. Write a thumbnail image as a separate\r\nimage series:\r\n\r\n>>> data = numpy.random.randint(0, 255, (8, 2, 512, 512, 3), 'uint8')\r\n>>> subresolutions = 2\r\n>>> pixelsize = 0.29  # micrometer\r\n>>> with TiffWriter('temp.ome.tif', bigtiff=True) as tif:\r\n...     metadata = {\r\n...         'axes': 'TCYXS',\r\n...         'SignificantBits': 8,\r\n...         'TimeIncrement': 0.1,\r\n...         'TimeIncrementUnit': 's',\r\n...         'PhysicalSizeX': pixelsize,\r\n...         'PhysicalSizeXUnit': 'µm',\r\n...         'PhysicalSizeY': pixelsize,\r\n...         'PhysicalSizeYUnit': 'µm',\r\n...         'Channel': {'Name': ['Channel 1', 'Channel 2']},\r\n...         'Plane': {'PositionX': [0.0] * 16, 'PositionXUnit': ['µm'] * 16},\r\n...         'Description': 'A multi-dimensional, multi-resolution image',\r\n...         'MapAnnotation': {  # for OMERO\r\n...             'Namespace': 'openmicroscopy.org/PyramidResolution',\r\n...             '1': '256 256',\r\n...             '2': '128 128',\r\n...         },\r\n...     }\r\n...     options = dict(\r\n...         photometric='rgb',\r\n...         tile=(128, 128),\r\n...         compression='jpeg',\r\n...         resolutionunit='CENTIMETER',\r\n...         maxworkers=2,\r\n...     )\r\n...     tif.write(\r\n...         data,\r\n...         subifds=subresolutions,\r\n...         resolution=(1e4 / pixelsize, 1e4 / pixelsize),\r\n...         metadata=metadata,\r\n...         **options,\r\n...     )\r\n...     # write pyramid levels to the two subifds\r\n...     # in production use resampling to generate sub-resolution images\r\n...     for level in range(subresolutions):\r\n...         mag = 2 ** (level + 1)\r\n...         tif.write(\r\n...             data[..., ::mag, ::mag, :],\r\n...             subfiletype=1,\r\n...             resolution=(1e4 / mag / pixelsize, 1e4 / mag / pixelsize),\r\n...             **options,\r\n...         )\r\n...     # add a thumbnail image as a separate series\r\n...     # it is recognized by QuPath as an associated image\r\n...     thumbnail = (data[0, 0, ::8, ::8] >> 2).astype('uint8')\r\n...     tif.write(thumbnail, metadata={'Name': 'thumbnail'})\r\n...\r\n\r\nAccess the image levels in the pyramidal OME-TIFF file:\r\n\r\n>>> baseimage = imread('temp.ome.tif')\r\n>>> second_level = imread('temp.ome.tif', series=0, level=1)\r\n>>> with TiffFile('temp.ome.tif') as tif:\r\n...     baseimage = tif.series[0].asarray()\r\n...     second_level = tif.series[0].levels[1].asarray()\r\n...     number_levels = len(tif.series[0].levels)  # includes base level\r\n...\r\n\r\nIterate over and decode single JPEG compressed tiles in the TIFF file:\r\n\r\n>>> with TiffFile('temp.ome.tif') as tif:\r\n...     fh = tif.filehandle\r\n...     for page in tif.pages:\r\n...         for index, (offset, bytecount) in enumerate(\r\n...             zip(page.dataoffsets, page.databytecounts)\r\n...         ):\r\n...             _ = fh.seek(offset)\r\n...             data = fh.read(bytecount)\r\n...             tile, indices, shape = page.decode(\r\n...                 data, index, jpegtables=page.jpegtables\r\n...             )\r\n...\r\n\r\nUse Zarr 2 to read parts of the tiled, pyramidal images in the TIFF file:\r\n\r\n>>> import zarr\r\n>>> store = imread('temp.ome.tif', aszarr=True)\r\n>>> z = zarr.open(store, mode='r')\r\n>>> z\r\n<zarr.hierarchy.Group '/' read-only>\r\n>>> z[0]  # base layer\r\n<zarr.core.Array '/0' (8, 2, 512, 512, 3) uint8 read-only>\r\n>>> z[0][2, 0, 128:384, 256:].shape  # read a tile from the base layer\r\n(256, 256, 3)\r\n>>> store.close()\r\n\r\nLoad the base layer from the Zarr 2 store as a dask array:\r\n\r\n>>> import dask.array\r\n>>> store = imread('temp.ome.tif', aszarr=True)\r\n>>> dask.array.from_zarr(store, 0)\r\ndask.array<...shape=(8, 2, 512, 512, 3)...chunksize=(1, 1, 128, 128, 3)...\r\n>>> store.close()\r\n\r\nWrite the Zarr 2 store to a fsspec ReferenceFileSystem in JSON format:\r\n\r\n>>> store = imread('temp.ome.tif', aszarr=True)\r\n>>> store.write_fsspec('temp.ome.tif.json', url='file://')\r\n>>> store.close()\r\n\r\nOpen the fsspec ReferenceFileSystem as a Zarr group:\r\n\r\n>>> import fsspec\r\n>>> import imagecodecs.numcodecs\r\n>>> imagecodecs.numcodecs.register_codecs()\r\n>>> mapper = fsspec.get_mapper(\r\n...     'reference://', fo='temp.ome.tif.json', target_protocol='file'\r\n... )\r\n>>> z = zarr.open(mapper, mode='r')\r\n>>> z\r\n<zarr.hierarchy.Group '/' read-only>\r\n\r\nCreate an OME-TIFF file containing an empty, tiled image series and write\r\nto it via the Zarr 2 interface (note: this does not work with compression):\r\n\r\n>>> imwrite(\r\n...     'temp2.ome.tif',\r\n...     shape=(8, 800, 600),\r\n...     dtype='uint16',\r\n...     photometric='minisblack',\r\n...     tile=(128, 128),\r\n...     metadata={'axes': 'CYX'},\r\n... )\r\n>>> store = imread('temp2.ome.tif', mode='r+', aszarr=True)\r\n>>> z = zarr.open(store, mode='r+')\r\n>>> z\r\n<zarr.core.Array (8, 800, 600) uint16>\r\n>>> z[3, 100:200, 200:300:2] = 1024\r\n>>> store.close()\r\n\r\nRead images from a sequence of TIFF files as NumPy array using two I/O worker\r\nthreads:\r\n\r\n>>> imwrite('temp_C001T001.tif', numpy.random.rand(64, 64))\r\n>>> imwrite('temp_C001T002.tif', numpy.random.rand(64, 64))\r\n>>> image_sequence = imread(\r\n...     ['temp_C001T001.tif', 'temp_C001T002.tif'], ioworkers=2, maxworkers=1\r\n... )\r\n>>> image_sequence.shape\r\n(2, 64, 64)\r\n>>> image_sequence.dtype\r\ndtype('float64')\r\n\r\nRead an image stack from a series of TIFF files with a file name pattern\r\nas NumPy or Zarr 2 arrays:\r\n\r\n>>> image_sequence = TiffSequence('temp_C0*.tif', pattern=r'_(C)(\\d+)(T)(\\d+)')\r\n>>> image_sequence.shape\r\n(1, 2)\r\n>>> image_sequence.axes\r\n'CT'\r\n>>> data = image_sequence.asarray()\r\n>>> data.shape\r\n(1, 2, 64, 64)\r\n>>> store = image_sequence.aszarr()\r\n>>> zarr.open(store, mode='r')\r\n<zarr.core.Array (1, 2, 64, 64) float64 read-only>\r\n>>> image_sequence.close()\r\n\r\nWrite the Zarr 2 store to a fsspec ReferenceFileSystem in JSON format:\r\n\r\n>>> store = image_sequence.aszarr()\r\n>>> store.write_fsspec('temp.json', url='file://')\r\n\r\nOpen the fsspec ReferenceFileSystem as a Zarr 2 array:\r\n\r\n>>> import fsspec\r\n>>> import tifffile.numcodecs\r\n>>> tifffile.numcodecs.register_codec()\r\n>>> mapper = fsspec.get_mapper(\r\n...     'reference://', fo='temp.json', target_protocol='file'\r\n... )\r\n>>> zarr.open(mapper, mode='r')\r\n<zarr.core.Array (1, 2, 64, 64) float64 read-only>\r\n\r\nInspect the TIFF file from the command line::\r\n\r\n    $ python -m tifffile temp.ome.tif\r\n"
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.10.20",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "6.6.0-145.0.4.144.oe2403sp1.x86_64",
+    "platform_system": "Linux",
+    "platform_version": "#1 SMP Wed Apr 22 23:10:04 CST 2026",
+    "python_full_version": "3.10.20",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.10",
+    "sys_platform": "linux"
+  }
+}

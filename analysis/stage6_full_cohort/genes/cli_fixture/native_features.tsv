@@ -1,0 +1,6 @@
+source_row_1based	source_gene_id	source_symbol	genome	feature_type
+1	ENSG00000119888	EPCAM	GRCh38	Gene Expression
+2	ENSG00000186081	KRT5	GRCh38	Gene Expression
+3	ENSG00000108821	COL1A1	GRCh38	Gene Expression
+4	ENSG00000113721	PDGFRB	GRCh38	Gene Expression
+5		RP11-34P13.3	GRCh38	Gene Expression

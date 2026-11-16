@@ -1,0 +1,2703 @@
+{
+  "status": "passed",
+  "local_references_checked": 1834,
+  "images_checked": 539,
+  "image_dimensions": [
+    {
+      "path": "rna/GSE135893__F00202_e476a582/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F00202_e476a582/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE135893__F00202_e476a582/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F00202_e476a582/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F00207_65ace2b7/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F00207_65ace2b7/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__F00207_65ace2b7/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F00207_65ace2b7/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F00208_2749f5ff/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F00208_2749f5ff/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE135893__F00208_2749f5ff/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F00208_2749f5ff/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F00409_edd0ffb8/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F00409_edd0ffb8/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE135893__F00409_edd0ffb8/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F00409_edd0ffb8/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F00431_4ee4e417/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F00431_4ee4e417/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE135893__F00431_4ee4e417/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F00431_4ee4e417/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01157_a38a6f23/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01157_a38a6f23/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE135893__F01157_a38a6f23/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01157_a38a6f23/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01172_6d4845a8/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01172_6d4845a8/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__F01172_6d4845a8/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01172_6d4845a8/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01173_769e6016/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01173_769e6016/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE135893__F01173_769e6016/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01173_769e6016/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01174_b56ac335/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01174_b56ac335/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE135893__F01174_b56ac335/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01174_b56ac335/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01214_3324dd89/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01214_3324dd89/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE135893__F01214_3324dd89/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01214_3324dd89/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01302_0d926323/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01302_0d926323/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__F01302_0d926323/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01302_0d926323/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01303_6ed1739e/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01303_6ed1739e/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE135893__F01303_6ed1739e/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01303_6ed1739e/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01365_9d76bc53/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01365_9d76bc53/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE135893__F01365_9d76bc53/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01365_9d76bc53/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01366_fbedaaa9/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01366_fbedaaa9/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__F01366_fbedaaa9/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01366_fbedaaa9/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01367_072dd733/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01367_072dd733/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE135893__F01367_072dd733/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01367_072dd733/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01375_b933595e/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01375_b933595e/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__F01375_b933595e/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01375_b933595e/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01376_48321dfb/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01376_48321dfb/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE135893__F01376_48321dfb/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01376_48321dfb/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01379_64ae65a0/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01379_64ae65a0/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE135893__F01379_64ae65a0/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01379_64ae65a0/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01380_750dd92c/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01380_750dd92c/identity_marker_review.png",
+      "width": 2400,
+      "height": 1152
+    },
+    {
+      "path": "rna/GSE135893__F01380_750dd92c/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01380_750dd92c/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01385_f731151c/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01385_f731151c/identity_marker_review.png",
+      "width": 2400,
+      "height": 582
+    },
+    {
+      "path": "rna/GSE135893__F01385_f731151c/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01385_f731151c/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01386_b60ec776/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01386_b60ec776/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE135893__F01386_b60ec776/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01386_b60ec776/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01390_e115ff43/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01390_e115ff43/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE135893__F01390_e115ff43/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01390_e115ff43/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01391_78b0529a/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01391_78b0529a/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE135893__F01391_78b0529a/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01391_78b0529a/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01392_4e3d0a0f/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01392_4e3d0a0f/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE135893__F01392_4e3d0a0f/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__F01392_4e3d0a0f/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__F01394_3b74b3bc/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__F01394_3b74b3bc/identity_marker_review.png",
+      "width": 2400,
+      "height": 696
+    },
+    {
+      "path": "rna/GSE135893__F01394_3b74b3bc/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 450
+    },
+    {
+      "path": "rna/GSE135893__F01394_3b74b3bc/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__HD65_a31cb267/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__HD65_a31cb267/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__HD65_a31cb267/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__HD65_a31cb267/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__HD66_a4049718/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__HD66_a4049718/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE135893__HD66_a4049718/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__HD66_a4049718/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__HD67_94f4492f/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__HD67_94f4492f/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE135893__HD67_94f4492f/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__HD67_94f4492f/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__HD68_a9cbbc7e/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__HD68_a9cbbc7e/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__HD68_a9cbbc7e/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__HD68_a9cbbc7e/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__HD70_f4ddabea/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__HD70_f4ddabea/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE135893__HD70_f4ddabea/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__HD70_f4ddabea/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD53_7c1dbc8d/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD53_7c1dbc8d/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__ILD53_7c1dbc8d/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD53_7c1dbc8d/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD55_8654e3a0/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD55_8654e3a0/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE135893__ILD55_8654e3a0/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD55_8654e3a0/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD57_e46e76db/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD57_e46e76db/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__ILD57_e46e76db/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD57_e46e76db/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD58_825de461/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD58_825de461/identity_marker_review.png",
+      "width": 2400,
+      "height": 1152
+    },
+    {
+      "path": "rna/GSE135893__ILD58_825de461/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD58_825de461/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD59-1_5900ad21/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD59-1_5900ad21/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE135893__ILD59-1_5900ad21/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD59-1_5900ad21/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD59-2_bec8ce99/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD59-2_bec8ce99/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__ILD59-2_bec8ce99/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD59-2_bec8ce99/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD60-1_c431876c/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD60-1_c431876c/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE135893__ILD60-1_c431876c/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD60-1_c431876c/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD60-2_bfcd259e/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD60-2_bfcd259e/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__ILD60-2_bfcd259e/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD60-2_bfcd259e/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD61-1_d443ece4/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD61-1_d443ece4/identity_marker_review.png",
+      "width": 2400,
+      "height": 866
+    },
+    {
+      "path": "rna/GSE135893__ILD61-1_d443ece4/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 450
+    },
+    {
+      "path": "rna/GSE135893__ILD61-1_d443ece4/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD61-2_b7e401ed/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD61-2_b7e401ed/identity_marker_review.png",
+      "width": 2400,
+      "height": 1152
+    },
+    {
+      "path": "rna/GSE135893__ILD61-2_b7e401ed/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD61-2_b7e401ed/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD62-1_de423b6d/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD62-1_de423b6d/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE135893__ILD62-1_de423b6d/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD62-1_de423b6d/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD62-2_0e478708/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD62-2_0e478708/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE135893__ILD62-2_0e478708/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD62-2_0e478708/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE135893__ILD63_177abd3c/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE135893__ILD63_177abd3c/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE135893__ILD63_177abd3c/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE135893__ILD63_177abd3c/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827158_8855566a/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827158_8855566a/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE159354__GSM4827158_8855566a/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827159_2fea082b/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827159_2fea082b/identity_marker_review.png",
+      "width": 2400,
+      "height": 866
+    },
+    {
+      "path": "rna/GSE159354__GSM4827159_2fea082b/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827160_8ba6fdb9/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827160_8ba6fdb9/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE159354__GSM4827160_8ba6fdb9/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827161_66170524/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827161_66170524/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827161_66170524/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827162_b24bf5c9/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827162_b24bf5c9/identity_marker_review.png",
+      "width": 2400,
+      "height": 866
+    },
+    {
+      "path": "rna/GSE159354__GSM4827162_b24bf5c9/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827163_b12d6905/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827163_b12d6905/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE159354__GSM4827163_b12d6905/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827164_d685e6f4/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827164_d685e6f4/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827164_d685e6f4/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827165_3b2c31be/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827165_3b2c31be/identity_marker_review.png",
+      "width": 2400,
+      "height": 752
+    },
+    {
+      "path": "rna/GSE159354__GSM4827165_3b2c31be/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827166_2fb2c476/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827166_2fb2c476/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827166_2fb2c476/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827167_efc0b82d/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827167_efc0b82d/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE159354__GSM4827167_efc0b82d/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827168_444e4c02/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827168_444e4c02/identity_marker_review.png",
+      "width": 2400,
+      "height": 696
+    },
+    {
+      "path": "rna/GSE159354__GSM4827168_444e4c02/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827169_d78efd6a/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827169_d78efd6a/identity_marker_review.png",
+      "width": 2400,
+      "height": 450
+    },
+    {
+      "path": "rna/GSE159354__GSM4827169_d78efd6a/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827170_63cd739c/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827170_63cd739c/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827170_63cd739c/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827171_fda9f9e3/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827171_fda9f9e3/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE159354__GSM4827171_fda9f9e3/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827172_5a2380b6/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827172_5a2380b6/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE159354__GSM4827172_5a2380b6/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827173_1d950ed2/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827173_1d950ed2/identity_marker_review.png",
+      "width": 2400,
+      "height": 639
+    },
+    {
+      "path": "rna/GSE159354__GSM4827173_1d950ed2/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827174_6934cb28/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827174_6934cb28/identity_marker_review.png",
+      "width": 2400,
+      "height": 450
+    },
+    {
+      "path": "rna/GSE159354__GSM4827174_6934cb28/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827175_d9b8de24/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827175_d9b8de24/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827175_d9b8de24/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827176_2f69edcb/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827176_2f69edcb/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE159354__GSM4827176_2f69edcb/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827177_db4d0e8f/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827177_db4d0e8f/identity_marker_review.png",
+      "width": 2400,
+      "height": 866
+    },
+    {
+      "path": "rna/GSE159354__GSM4827177_db4d0e8f/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827178_5ed108c2/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827178_5ed108c2/identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159354__GSM4827178_5ed108c2/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827179_969ffbf4/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827179_969ffbf4/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827179_969ffbf4/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827180_db29aee6/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827180_db29aee6/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827180_db29aee6/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827181_e5774ec9/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827181_e5774ec9/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE159354__GSM4827181_e5774ec9/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827182_d8df4926/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827182_d8df4926/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE159354__GSM4827182_d8df4926/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827183_83655e17/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827183_83655e17/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE159354__GSM4827183_83655e17/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827184_bb9233db/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827184_bb9233db/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE159354__GSM4827184_bb9233db/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827185_142d79c7/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827185_142d79c7/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827185_142d79c7/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827186_0bd41f73/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827186_0bd41f73/identity_marker_review.png",
+      "width": 2400,
+      "height": 866
+    },
+    {
+      "path": "rna/GSE159354__GSM4827186_0bd41f73/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827187_92ea51d5/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827187_92ea51d5/identity_marker_review.png",
+      "width": 2400,
+      "height": 450
+    },
+    {
+      "path": "rna/GSE159354__GSM4827187_92ea51d5/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827188_01f4e3a7/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827188_01f4e3a7/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827188_01f4e3a7/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827189_dd53e5eb/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827189_dd53e5eb/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE159354__GSM4827189_dd53e5eb/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827190_67c40a97/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827190_67c40a97/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE159354__GSM4827190_67c40a97/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827191_8797b64a/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827191_8797b64a/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE159354__GSM4827191_8797b64a/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827192_71171671/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827192_71171671/identity_marker_review.png",
+      "width": 2400,
+      "height": 450
+    },
+    {
+      "path": "rna/GSE159354__GSM4827192_71171671/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827193_9458f017/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827193_9458f017/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827193_9458f017/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827194_d0ef2a22/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827194_d0ef2a22/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE159354__GSM4827194_d0ef2a22/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827195_612ee516/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827195_612ee516/identity_marker_review.png",
+      "width": 2400,
+      "height": 866
+    },
+    {
+      "path": "rna/GSE159354__GSM4827195_612ee516/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827196_579d9ace/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827196_579d9ace/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE159354__GSM4827196_579d9ace/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827197_8163170c/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827197_8163170c/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE159354__GSM4827197_8163170c/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827198_eb091049/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827198_eb091049/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE159354__GSM4827198_eb091049/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827199_8c2f572a/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827199_8c2f572a/identity_marker_review.png",
+      "width": 2400,
+      "height": 639
+    },
+    {
+      "path": "rna/GSE159354__GSM4827199_8c2f572a/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827200_4b833460/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827200_4b833460/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE159354__GSM4827200_4b833460/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827201_c92ee7ce/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827201_c92ee7ce/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE159354__GSM4827201_c92ee7ce/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827202_ed101a6a/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827202_ed101a6a/identity_marker_review.png",
+      "width": 2400,
+      "height": 450
+    },
+    {
+      "path": "rna/GSE159354__GSM4827202_ed101a6a/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827203_7830996a/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827203_7830996a/identity_marker_review.png",
+      "width": 2400,
+      "height": 981
+    },
+    {
+      "path": "rna/GSE159354__GSM4827203_7830996a/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827204_754a6aac/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827204_754a6aac/identity_marker_review.png",
+      "width": 2400,
+      "height": 866
+    },
+    {
+      "path": "rna/GSE159354__GSM4827204_754a6aac/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159354__GSM4827205_a6877b79/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159354__GSM4827205_a6877b79/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE159354__GSM4827205_a6877b79/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG010_687fafc7/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG010_687fafc7/identity_marker_review.png",
+      "width": 2400,
+      "height": 924
+    },
+    {
+      "path": "rna/GSE159585__LUNG010_687fafc7/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG010_687fafc7/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG011_cee14f9f/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG011_cee14f9f/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE159585__LUNG011_cee14f9f/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG011_cee14f9f/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG012_9b340019/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG012_9b340019/identity_marker_review.png",
+      "width": 2400,
+      "height": 1152
+    },
+    {
+      "path": "rna/GSE159585__LUNG012_9b340019/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG012_9b340019/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG013_c03568e4/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG013_c03568e4/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE159585__LUNG013_c03568e4/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG013_c03568e4/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG014_eaf957bb/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG014_eaf957bb/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE159585__LUNG014_eaf957bb/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG014_eaf957bb/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG015_74e85519/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG015_74e85519/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE159585__LUNG015_74e85519/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG015_74e85519/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG016_86c41578/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG016_86c41578/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE159585__LUNG016_86c41578/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG016_86c41578/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG017_68425006/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG017_68425006/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE159585__LUNG017_68425006/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG017_68425006/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG018_4ae5cffc/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG018_4ae5cffc/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE159585__LUNG018_4ae5cffc/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG018_4ae5cffc/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG01_9ba7a423/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG01_9ba7a423/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE159585__LUNG01_9ba7a423/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG01_9ba7a423/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG02_49b1f031/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG02_49b1f031/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE159585__LUNG02_49b1f031/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG02_49b1f031/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG03_6a674845/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG03_6a674845/identity_marker_review.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "path": "rna/GSE159585__LUNG03_6a674845/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG03_6a674845/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG04_6d3b4eed/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG04_6d3b4eed/identity_marker_review.png",
+      "width": 2400,
+      "height": 1152
+    },
+    {
+      "path": "rna/GSE159585__LUNG04_6d3b4eed/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG04_6d3b4eed/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG05_11e525d3/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG05_11e525d3/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE159585__LUNG05_11e525d3/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG05_11e525d3/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG06_300252e5/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG06_300252e5/identity_marker_review.png",
+      "width": 2400,
+      "height": 1152
+    },
+    {
+      "path": "rna/GSE159585__LUNG06_300252e5/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG06_300252e5/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG07_07c0709c/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG07_07c0709c/identity_marker_review.png",
+      "width": 2400,
+      "height": 810
+    },
+    {
+      "path": "rna/GSE159585__LUNG07_07c0709c/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG07_07c0709c/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG08_08d7393b/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG08_08d7393b/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE159585__LUNG08_08d7393b/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG08_08d7393b/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "rna/GSE159585__LUNG09_7e586d4b/qc_review.png",
+      "width": 1650,
+      "height": 900
+    },
+    {
+      "path": "rna/GSE159585__LUNG09_7e586d4b/identity_marker_review.png",
+      "width": 2400,
+      "height": 1038
+    },
+    {
+      "path": "rna/GSE159585__LUNG09_7e586d4b/source_identity_marker_review.png",
+      "width": 2400,
+      "height": 468
+    },
+    {
+      "path": "rna/GSE159585__LUNG09_7e586d4b/scrublet_scores.png",
+      "width": 1680,
+      "height": 448
+    },
+    {
+      "path": "spatial/all25_histology_contact_sheet.jpg",
+      "width": 2500,
+      "height": 2900
+    },
+    {
+      "path": "spatial/V19S23-092-A1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V19S23-092-A1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V19S23-092-A1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V19S23-092-A1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-A1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-A1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-B1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V19S23-092-B1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V19S23-092-B1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V19S23-092-B1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-B1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-B1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-C1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V19S23-092-C1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V19S23-092-C1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V19S23-092-C1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-C1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-C1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-D1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V19S23-092-D1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V19S23-092-D1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V19S23-092-D1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-D1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V19S23-092-D1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-A1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T31-015-A1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T31-015-A1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T31-015-A1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-A1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-A1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-B1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T31-015-B1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T31-015-B1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T31-015-B1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-B1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-B1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-C1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T31-015-C1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T31-015-C1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T31-015-C1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-C1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-C1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-D1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T31-015-D1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T31-015-D1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T31-015-D1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-D1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-015-D1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-019-A1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V10T31-019-A1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T31-019-A1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T31-019-A1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-019-A1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-019-A1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-051-B1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T31-051-B1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T31-051-B1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T31-051-B1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-051-B1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-051-B1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-051-C1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T31-051-C1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T31-051-C1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T31-051-C1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-051-C1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-051-C1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-051-D1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T31-051-D1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T31-051-D1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T31-051-D1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-051-D1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T31-051-D1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-279-B1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T03-279-B1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-279-B1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-279-B1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-279-B1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-279-B1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-279-C1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T03-279-C1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-279-C1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-279-C1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-279-C1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-279-C1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-279-D1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T03-279-D1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-279-D1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-279-D1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-279-D1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-279-D1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-A1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T03-280-A1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-280-A1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-280-A1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-A1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-A1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-B1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T03-280-B1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-280-B1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-280-B1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-B1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-B1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-C1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T03-280-C1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-280-C1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-280-C1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-C1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-C1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-D1/tissue_overview.jpg",
+      "width": 2500,
+      "height": 2521
+    },
+    {
+      "path": "spatial/V10T03-280-D1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-280-D1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-280-D1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-D1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-280-D1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-A1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V10T03-281-A1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-281-A1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-281-A1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-A1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-A1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-B1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V10T03-281-B1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-281-B1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-281-B1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-B1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-B1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-C1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V10T03-281-C1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-281-C1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-281-C1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-C1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-C1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-D1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V10T03-281-D1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-281-D1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-281-D1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-D1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-281-D1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-282-A1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V10T03-282-A1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-282-A1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-282-A1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-282-A1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-282-A1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-282-B1/tissue_overview.jpg",
+      "width": 2473,
+      "height": 2600
+    },
+    {
+      "path": "spatial/V10T03-282-B1/fixed_grid_zoom.jpg",
+      "width": 3000,
+      "height": 3120
+    },
+    {
+      "path": "spatial/V10T03-282-B1/coordinate_overlay.png",
+      "width": 1800,
+      "height": 900
+    },
+    {
+      "path": "spatial/V10T03-282-B1/raw_umi.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-282-B1/detected_genes.png",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "path": "spatial/V10T03-282-B1/author_in_tissue_mask.png",
+      "width": 1120,
+      "height": 1120
+    }
+  ],
+  "errors": []
+}

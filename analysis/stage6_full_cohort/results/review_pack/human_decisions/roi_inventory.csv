@@ -1,0 +1,1 @@
+roi_id,section_id,donor_id,block_id,coordinate_frame,roi_polygon,artifact_mask,barrier_mask,tissue_component_id,interface_geometry,interface_extent,boundary_uncertainty,source_annotation,project_compartment,interface_type,interface_status,reviewer,reviewer_role,review_date,expert_status,molecular_exposure,endpoint_id,endpoint_eligibility,reason

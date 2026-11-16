@@ -1,0 +1,68 @@
+{
+  "GSE135893": {
+    "libraries": 43,
+    "profiles": 114396,
+    "zero_count_profiles": 0,
+    "mad_review_flags": {
+      "3": 6727,
+      "4": 3695,
+      "5": 2184
+    },
+    "doublet_status": {
+      "scored_threshold_requires_review": 43
+    },
+    "doublet_unscored_profiles": 0,
+    "provisional_broad_counts": {
+      "immune": 55940,
+      "stromal": 4498,
+      "endothelial": 7868,
+      "epithelial": 40296,
+      "unknown": 5689,
+      "other": 105
+    }
+  },
+  "GSE159354": {
+    "libraries": 48,
+    "profiles": 184019,
+    "zero_count_profiles": 0,
+    "mad_review_flags": {
+      "3": 15732,
+      "4": 9935,
+      "5": 7148
+    },
+    "doublet_status": {
+      "scored_threshold_requires_review": 48
+    },
+    "doublet_unscored_profiles": 0,
+    "provisional_broad_counts": {
+      "epithelial": 81089,
+      "immune": 40328,
+      "unknown": 15857,
+      "stromal": 26513,
+      "other": 135,
+      "endothelial": 20097
+    }
+  },
+  "GSE159585": {
+    "libraries": 18,
+    "profiles": 148154,
+    "zero_count_profiles": 0,
+    "mad_review_flags": {
+      "3": 21473,
+      "4": 15789,
+      "5": 12348
+    },
+    "doublet_status": {
+      "scored_threshold_requires_review": 18
+    },
+    "doublet_unscored_profiles": 0,
+    "provisional_broad_counts": {
+      "epithelial": 79980,
+      "unknown": 19567,
+      "stromal": 14249,
+      "endothelial": 24157,
+      "immune": 10193,
+      "other": 8
+    }
+  }
+}

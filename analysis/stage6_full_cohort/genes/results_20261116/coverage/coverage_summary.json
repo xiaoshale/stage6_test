@@ -1,0 +1,32 @@
+{
+  "inputs": {
+    "Franzen__15eb6cc80852": {
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/Franzen__15eb6cc80852/gene_mapping.tsv",
+      "sha256": "30f0cbb42c1d0e9f6fc6e78a70277ff756c45894a48db2a33e9c8ea509be1d18",
+      "strict_features": 35406,
+      "symbol_only_provisional_features": 0
+    },
+    "GSE159585__a2c90660d567": {
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/GSE159585__a2c90660d567/gene_mapping.tsv",
+      "sha256": "f2256229b47ca9c500e7972e45d2ac57d441678fade562361f2095fd3e3ff23a",
+      "strict_features": 0,
+      "symbol_only_provisional_features": 19786
+    },
+    "GSE159354__eae35652bcca": {
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/GSE159354__eae35652bcca/gene_mapping.tsv",
+      "sha256": "3e30cf9e5a2d3b89987795fbd2e62774639c2fef1f81cf90b3c6d82b4ccfbbcc",
+      "strict_features": 56079,
+      "symbol_only_provisional_features": 0
+    },
+    "GSE135893__fb988de7dd03": {
+      "path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/GSE135893__fb988de7dd03/gene_mapping.tsv",
+      "sha256": "f94f9027d9092bc8dc83cecc0c2890e1b50d78bbb97d3dd98e31c35cfbcb0282",
+      "strict_features": 0,
+      "symbol_only_provisional_features": 21730
+    }
+  },
+  "union_candidate_genes": 59101,
+  "shared_strict_features": 0,
+  "shared_unique_candidates_including_provisional": 18725,
+  "boundary": "Metadata coverage only. Export absence is not off-panel status or zero expression. No counts, gene projection, imputation, expression harmonization or final cohort lock."
+}

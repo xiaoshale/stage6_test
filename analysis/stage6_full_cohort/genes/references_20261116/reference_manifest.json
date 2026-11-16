@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "common_identity_target": "Homo sapiens GRCh38 Ensembl 116 (June 2026)",
+  "created_utc": "2026-11-16T05:24:51.286062+00:00",
+  "download_budget_bytes": 31457280,
+  "acquired_bytes": 22041165,
+  "assets": {
+    "ensembl_registry": {
+      "path": "ensembl116_registry.xml",
+      "url": "https://jun2026.archive.ensembl.org/biomart/martservice?type=registry",
+      "final_url": "https://jun2026.archive.ensembl.org/biomart/martservice?type=registry",
+      "bytes": 1897,
+      "sha256": "2625f7a09f75861044f81cda6c8c4163e5e84d39e9dba15fbaf0bc3edab35d4b",
+      "http_headers": {
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": null
+      },
+      "acquired_utc": "2026-11-16T05:24:37.638753+00:00"
+    },
+    "ensembl_genes": {
+      "path": "ensembl116_genes.tsv",
+      "url": "https://jun2026.archive.ensembl.org/biomart/martservice?query=%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3C%21DOCTYPE%20Query%3E%3CQuery%20virtualSchemaName%3D%22default%22%20formatter%3D%22TSV%22%20header%3D%221%22%20uniqueRows%3D%221%22%20count%3D%22%22%20datasetConfigVersion%3D%220.6%22%3E%3CDataset%20name%3D%22hsapiens_gene_ensembl%22%20interface%3D%22default%22%3E%3CAttribute%20name%3D%22ensembl_gene_id%22/%3E%3CAttribute%20name%3D%22ensembl_gene_id_version%22/%3E%3CAttribute%20name%3D%22external_gene_name%22/%3E%3CAttribute%20name%3D%22chromosome_name%22/%3E%3CAttribute%20name%3D%22gene_biotype%22/%3E%3C/Dataset%3E%3C/Query%3E",
+      "final_url": "https://jun2026.archive.ensembl.org/biomart/martservice?query=%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3C%21DOCTYPE%20Query%3E%3CQuery%20virtualSchemaName%3D%22default%22%20formatter%3D%22TSV%22%20header%3D%221%22%20uniqueRows%3D%221%22%20count%3D%22%22%20datasetConfigVersion%3D%220.6%22%3E%3CDataset%20name%3D%22hsapiens_gene_ensembl%22%20interface%3D%22default%22%3E%3CAttribute%20name%3D%22ensembl_gene_id%22/%3E%3CAttribute%20name%3D%22ensembl_gene_id_version%22/%3E%3CAttribute%20name%3D%22external_gene_name%22/%3E%3CAttribute%20name%3D%22chromosome_name%22/%3E%3CAttribute%20name%3D%22gene_biotype%22/%3E%3C/Dataset%3E%3C/Query%3E",
+      "bytes": 4772369,
+      "sha256": "ddf7afb8f140b0e7ec98e5f560589671404e379abd9c0a5fb7d91beed56968ef",
+      "http_headers": {
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": null
+      },
+      "acquired_utc": "2026-11-16T05:24:43.323686+00:00"
+    },
+    "hgnc_complete": {
+      "path": "hgnc_complete_set.tsv",
+      "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+      "final_url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+      "bytes": 17007798,
+      "sha256": "6df77ac3cbaeb86a6dce5e17d851ebb27b6b3cdcd2471a211a3d8464f00c54c4",
+      "http_headers": {
+        "Last-Modified": "Fri, 13 Nov 2026 12:59:59 GMT",
+        "ETag": "\"2a30aa650f51d6fed261f79057463d5a\"",
+        "Content-Type": "text/plain;charset=utf-8",
+        "Content-Length": "17007798"
+      },
+      "acquired_utc": "2026-11-16T05:24:48.305563+00:00"
+    },
+    "hgnc_withdrawn": {
+      "path": "hgnc_withdrawn.tsv",
+      "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/withdrawn.txt",
+      "final_url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/withdrawn.txt",
+      "bytes": 259101,
+      "sha256": "51fedd10e711edc9abc9111e856ec558ce18b75b3c854e255a550f84e96b65ce",
+      "http_headers": {
+        "Last-Modified": "Fri, 13 Nov 2026 12:59:58 GMT",
+        "ETag": "\"fdcba9c1bc53ae2859ecff7c0c20982b\"",
+        "Content-Type": "text/plain;charset=utf-8",
+        "Content-Length": "259101"
+      },
+      "acquired_utc": "2026-11-16T05:24:51.203444+00:00"
+    }
+  },
+  "ensembl_gene_rows": 86411,
+  "source_counting_reference_status": "Not recovered by this identity-asset acquisition",
+  "history_status": "HGNC withdrawal records, including replacement reports where supplied, acquired; complete HGNC/Ensembl split/merge history not acquired. Missing target-release source IDs remain held.",
+  "boundary": "Frozen downloaded identity assets; no counts, matrices, historical read reassignment or expression harmonization."
+}

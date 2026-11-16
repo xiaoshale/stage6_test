@@ -1,0 +1,18 @@
+{
+  "checks_passed": 12,
+  "checks": [
+    "validated ENSG version split preserves full source and records target version",
+    "dotted source symbols are never version-stripped",
+    "ambiguous alias is held without copying to two genes",
+    "retired source ID is not silently remapped through current symbol",
+    "source ID versus symbol conflict is held",
+    "unique symbol-only identity remains provisional",
+    "previous name is recorded as a different mapping method",
+    "non-gene features are held out of gene identity",
+    "different genome requires review without losing source ID",
+    "duplicate source or canonical rows never automatically aggregate",
+    "distinct source rows mapping to one gene are both quarantined",
+    "missing or reordered original source rows fail"
+  ],
+  "boundary": "Synthetic gene-identity safeguards, not real feature counts or matrix validation."
+}

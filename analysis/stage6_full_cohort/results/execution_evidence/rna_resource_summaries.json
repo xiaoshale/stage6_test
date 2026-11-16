@@ -1,0 +1,44 @@
+{
+  "GSE135893": {
+    "status": "review_pack_generated",
+    "boundary": "Human-review preparation only. Every source profile retained. Zero-count profiles are hard-fail flagged; other QC flags and all seed-marker identities require review. No expert PASS, final eligibility, disease comparison, state/niche discovery or target ranking is produced.",
+    "inputs_sha256": "3901914dbd1e165523a93a27f20d2c55766876b4c2907cc0c4e316f5629eb051",
+    "script_sha256": "eb36aae10a27d2248f4b9f09c1e25e1aa4b8bf7c778a6d2a8cf8096a5d76780d",
+    "expected_captures": 43,
+    "completed_captures": 43,
+    "failures": [],
+    "retained_profiles": 114396,
+    "expert_qc_adjudicated": false,
+    "expert_identity_adjudicated": false,
+    "checkpoint_A_passed": false,
+    "formal_discovery_started": false
+  },
+  "GSE159354": {
+    "status": "review_pack_generated",
+    "boundary": "Human-review preparation only. Every source profile retained. Zero-count profiles are hard-fail flagged; other QC flags and all seed-marker identities require review. No expert PASS, final eligibility, disease comparison, state/niche discovery or target ranking is produced.",
+    "inputs_sha256": "3fbe75446e0b86ea96e262c058df3c3d418ef3550dbb25afefb24e38cd0d2606",
+    "script_sha256": "eb36aae10a27d2248f4b9f09c1e25e1aa4b8bf7c778a6d2a8cf8096a5d76780d",
+    "expected_captures": 48,
+    "completed_captures": 48,
+    "failures": [],
+    "retained_profiles": 184019,
+    "expert_qc_adjudicated": false,
+    "expert_identity_adjudicated": false,
+    "checkpoint_A_passed": false,
+    "formal_discovery_started": false
+  },
+  "GSE159585": {
+    "status": "review_pack_generated",
+    "boundary": "Human-review preparation only. Every source profile retained. Zero-count profiles are hard-fail flagged; other QC flags and all seed-marker identities require review. No expert PASS, final eligibility, disease comparison, state/niche discovery or target ranking is produced.",
+    "inputs_sha256": "f64c49e8251da320353a5ec741452f39652281f66f5bdcda5335fb77dc4143b2",
+    "script_sha256": "eb36aae10a27d2248f4b9f09c1e25e1aa4b8bf7c778a6d2a8cf8096a5d76780d",
+    "expected_captures": 18,
+    "completed_captures": 18,
+    "failures": [],
+    "retained_profiles": 148154,
+    "expert_qc_adjudicated": false,
+    "expert_identity_adjudicated": false,
+    "checkpoint_A_passed": false,
+    "formal_discovery_started": false
+  }
+}

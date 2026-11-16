@@ -1,0 +1,110 @@
+{
+  "markers": [
+    "ABCA3",
+    "ACTA2",
+    "AGER",
+    "AGR2",
+    "CAV1",
+    "CCL21",
+    "CD3D",
+    "CD3E",
+    "CD79A",
+    "CLDN5",
+    "CLIC5",
+    "CNN1",
+    "COL1A1",
+    "COL1A2",
+    "CSPG4",
+    "DCN",
+    "EPCAM",
+    "FCER1G",
+    "FLT4",
+    "FOXJ1",
+    "GNLY",
+    "KDR",
+    "KRT15",
+    "KRT17",
+    "KRT18",
+    "KRT19",
+    "KRT5",
+    "KRT8",
+    "LAMP3",
+    "LST1",
+    "LUM",
+    "LYZ",
+    "MCAM",
+    "MS4A1",
+    "MSLN",
+    "MUC5AC",
+    "MUC5B",
+    "MYH11",
+    "MYL9",
+    "NKG7",
+    "PDGFRA",
+    "PDGFRB",
+    "PDPN",
+    "PECAM1",
+    "PIFO",
+    "PROX1",
+    "PTPRC",
+    "RGS5",
+    "RSPH1",
+    "RTKN2",
+    "SCGB1A1",
+    "SCGB3A1",
+    "SFTPA1",
+    "SFTPA2",
+    "SFTPC",
+    "SPDEF",
+    "TAGLN",
+    "TP63",
+    "TPPP3",
+    "TYROBP",
+    "VWF",
+    "WT1"
+  ],
+  "fixed_marker_dictionary_sha256": "5532728050160b2150be5c60f6b91592357cd3d68b7360f3dec036005c4f8b37",
+  "batch_mapping_summary_sha256": "3bc25f3d68538355ad253f9f70d3ed8b9dfa7f52210f25c14af2931b24c7eba6",
+  "resources": {
+    "Franzen__15eb6cc80852": {
+      "markers": 62,
+      "source_label_present": 62,
+      "statuses": {
+        "source_id_unique": 62
+      },
+      "mapping_path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/Franzen__15eb6cc80852/gene_mapping.tsv",
+      "mapping_sha256": "30f0cbb42c1d0e9f6fc6e78a70277ff756c45894a48db2a33e9c8ea509be1d18"
+    },
+    "GSE135893__fb988de7dd03": {
+      "markers": 62,
+      "source_label_present": 62,
+      "statuses": {
+        "source_label_present_mapping_held": 1,
+        "symbol_only_provisional": 61
+      },
+      "mapping_path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/GSE135893__fb988de7dd03/gene_mapping.tsv",
+      "mapping_sha256": "f94f9027d9092bc8dc83cecc0c2890e1b50d78bbb97d3dd98e31c35cfbcb0282"
+    },
+    "GSE159354__eae35652bcca": {
+      "markers": 62,
+      "source_label_present": 62,
+      "statuses": {
+        "multiple_source_rows_review": 1,
+        "source_id_unique": 61
+      },
+      "mapping_path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/GSE159354__eae35652bcca/gene_mapping.tsv",
+      "mapping_sha256": "3e30cf9e5a2d3b89987795fbd2e62774639c2fef1f81cf90b3c6d82b4ccfbbcc"
+    },
+    "GSE159585__a2c90660d567": {
+      "markers": 62,
+      "source_label_present": 62,
+      "statuses": {
+        "source_label_present_mapping_held": 1,
+        "symbol_only_provisional": 61
+      },
+      "mapping_path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/GSE159585__a2c90660d567/gene_mapping.tsv",
+      "mapping_sha256": "f2256229b47ca9c500e7972e45d2ac57d441678fade562361f2095fd3e3ff23a"
+    }
+  },
+  "boundary": "Native feature-label and identity-mapping availability only; no counts read, detection, marker specificity, cell identity or expert review inferred. Missing exported labels remain coverage unknown."
+}

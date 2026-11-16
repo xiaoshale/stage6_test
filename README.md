@@ -68,3 +68,9 @@ No molecular ranking, cell-type interpretation, donor replication claim, or spat
 The [preparation standards and exact source-level intake](analysis/stage6_specification/README.md) define full-cohort QC, gene identity, hierarchical annotation and anatomical inclusion. Rules and intake are fixed; actual post-QC donor/cell/ROI eligibility and Checkpoint A remain pending. This technical repository mirrors the standards and the small evidence needed to reproduce intake checks; it is not the complete research/frozen-literature repository. Existing pilot data and code remain under `ipf_stage6_pilot/`.
 
 Run `python3 analysis/stage6_specification/build_and_check_intake.py` from this repository to verify the native intake against the included metadata and pilot summaries. No full expression matrices, private credentials or new biological findings are included.
+
+## Full native preparation evidence (2026-11-16)
+
+The [verified full-cohort preparation](analysis/stage6_full_cohort/RESULTS.md) covers all 109 RNA inputs (446,569 original cells/nuclei), 25 original spatial sections and gene-identity crosswalks for all 134 units. The independent final audit passed 13,898 checks; expert QC, identity, anatomy and final endpoint allocation remain pending.
+
+This checkpoint contains code, fixed gene-reference assets, small verified execution evidence, full-export manifests, decision templates and representative images. See [complete offline export availability](analysis/stage6_full_cohort/results/README.md) for the 366 MB full review package on the server and in the research workspace. The entire image package and large original count objects are not Git payloads.

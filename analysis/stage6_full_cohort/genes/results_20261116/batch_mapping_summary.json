@@ -1,0 +1,208 @@
+{
+  "status": "complete_identity_metadata_human_review_pending",
+  "native_units_mapped": 134,
+  "units_by_resource": {
+    "GSE135893": 43,
+    "GSE159354": 48,
+    "GSE159585": 18,
+    "Franzen": 25
+  },
+  "unique_native_axis_files": 28,
+  "unique_axes_by_content": 4,
+  "content_fingerprint": "SHA256 of ordered five-field source metadata rows in canonical JSON; no gene renaming or row sorting",
+  "unit_crosswalk_sha256": "b3b1d0f53b1772225e0a6ed86c1de19e00e59c2222a611c587071ca271f18f7b",
+  "input_manifest_sha256": {
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/config/cohort_intake.json": "f79c470897cc97cd71fe3ceb73048b1ea1d1d429c3933968d677df5075e1d1cf",
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/rna_raw/GSE135893/inputs.json": "3901914dbd1e165523a93a27f20d2c55766876b4c2907cc0c4e316f5629eb051",
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/rna_raw/GSE159354/inputs.json": "3fbe75446e0b86ea96e262c058df3c3d418ef3550dbb25afefb24e38cd0d2606",
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/rna_raw/GSE159585/inputs.json": "f64c49e8251da320353a5ec741452f39652281f66f5bdcda5335fb77dc4143b2",
+    "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/spatial_review/summary.json": "9c80d33979b128e4e300b8a990bd16b0777df6f49d0d92e1f966b28bd0313670"
+  },
+  "reference_manifest_sha256": "880f2d2b771d592b7e66630d9151de8e98651d0ef3bf50c90e0cc12274e449d2",
+  "mapping_summaries": {
+    "Franzen__15eb6cc80852": {
+      "resource_id": "Franzen",
+      "rule_version": "stage6-gene-identity-v1",
+      "source_features": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/spatial_review/feature_axes/V19S23-092-A1.features.tsv.gz",
+      "source_file_sha256": "aea163eacd60060d315e2dd59bbe759858bfb5366e6bff73bdb1eb71e567666c",
+      "source_rows": 36601,
+      "mapping_class_counts": {
+        "resolved_unique": 35406,
+        "retired_unresolved": 1156,
+        "ambiguous": 39
+      },
+      "primary_eligible_rows": 35406,
+      "provisional_unique_rows": 0,
+      "duplicate_source_id_rows": 0,
+      "duplicate_source_symbol_rows": 10,
+      "blank_source_symbol_rows": 0,
+      "canonical_colliding_rows": 0,
+      "reference_manifest_sha256": "880f2d2b771d592b7e66630d9151de8e98651d0ef3bf50c90e0cc12274e449d2",
+      "reference_asset_sha256": {
+        "ensembl_registry": "2625f7a09f75861044f81cda6c8c4163e5e84d39e9dba15fbaf0bc3edab35d4b",
+        "ensembl_genes": "ddf7afb8f140b0e7ec98e5f560589671404e379abd9c0a5fb7d91beed56968ef",
+        "hgnc_complete": "6df77ac3cbaeb86a6dce5e17d851ebb27b6b3cdcd2471a211a3d8464f00c54c4",
+        "hgnc_withdrawn": "51fedd10e711edc9abc9111e856ec558ce18b75b3c854e255a550f84e96b65ce"
+      },
+      "mapping_sha256": "30f0cbb42c1d0e9f6fc6e78a70277ff756c45894a48db2a33e9c8ea509be1d18",
+      "counts_read_or_changed": false,
+      "count_conservation_check": "Not applicable: mapping metadata only; no matrix projection performed.",
+      "source_reference_status": "Unknown: this mapper does not reconstruct original counting references.",
+      "primary_eligible_boundary": "Unique source ENSG in target release, without symbol/genome/row conflicts. Identity eligibility does not establish identical quantification or analytical cohort readiness.",
+      "symbol_only_boundary": "Unique nomenclature candidates remain provisional until source-reference crosswalk review; they are not strict-primary features.",
+      "mitochondrial_boundary": "Common-reference chromosome is an identity annotation; source MT-prefix is provisional QC and never overwritten.",
+      "content_sha256": "15eb6cc80852415c892c6ab4d51f5b2f5f12277389dca23af12362ee9caa3389",
+      "native_units": 25,
+      "source_resources": [
+        "Franzen"
+      ]
+    },
+    "GSE159585__a2c90660d567": {
+      "resource_id": "GSE159585",
+      "rule_version": "stage6-gene-identity-v1",
+      "source_features": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/feature_axes/GSE159585__aef6ff901b01534e.tsv",
+      "source_file_sha256": "aef6ff901b01534ec6c26ad882d9a2e8c9d01eb00f7747542f8b9045fd874d45",
+      "source_rows": 27714,
+      "mapping_class_counts": {
+        "unmapped": 7265,
+        "resolved_unique": 19895,
+        "ambiguous": 510,
+        "retired_unresolved": 44
+      },
+      "primary_eligible_rows": 0,
+      "provisional_unique_rows": 19786,
+      "duplicate_source_id_rows": 0,
+      "duplicate_source_symbol_rows": 0,
+      "blank_source_symbol_rows": 0,
+      "canonical_colliding_rows": 109,
+      "reference_manifest_sha256": "880f2d2b771d592b7e66630d9151de8e98651d0ef3bf50c90e0cc12274e449d2",
+      "reference_asset_sha256": {
+        "ensembl_registry": "2625f7a09f75861044f81cda6c8c4163e5e84d39e9dba15fbaf0bc3edab35d4b",
+        "ensembl_genes": "ddf7afb8f140b0e7ec98e5f560589671404e379abd9c0a5fb7d91beed56968ef",
+        "hgnc_complete": "6df77ac3cbaeb86a6dce5e17d851ebb27b6b3cdcd2471a211a3d8464f00c54c4",
+        "hgnc_withdrawn": "51fedd10e711edc9abc9111e856ec558ce18b75b3c854e255a550f84e96b65ce"
+      },
+      "mapping_sha256": "f2256229b47ca9c500e7972e45d2ac57d441678fade562361f2095fd3e3ff23a",
+      "counts_read_or_changed": false,
+      "count_conservation_check": "Not applicable: mapping metadata only; no matrix projection performed.",
+      "source_reference_status": "Unknown: this mapper does not reconstruct original counting references.",
+      "primary_eligible_boundary": "Unique source ENSG in target release, without symbol/genome/row conflicts. Identity eligibility does not establish identical quantification or analytical cohort readiness.",
+      "symbol_only_boundary": "Unique nomenclature candidates remain provisional until source-reference crosswalk review; they are not strict-primary features.",
+      "mitochondrial_boundary": "Common-reference chromosome is an identity annotation; source MT-prefix is provisional QC and never overwritten.",
+      "content_sha256": "a2c90660d567ce557258d71874ed1a7e0e048d631c3207d2631b605fabe20ef0",
+      "native_units": 18,
+      "source_resources": [
+        "GSE159585"
+      ]
+    },
+    "GSE159354__eae35652bcca": {
+      "resource_id": "GSE159354",
+      "rule_version": "stage6-gene-identity-v1",
+      "source_features": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/feature_axes/GSE159354__0f8a1807a1b3c070.tsv",
+      "source_file_sha256": "0f8a1807a1b3c070592460669fd7c653acc00ee78c5fef282aa1aa9a3763790e",
+      "source_rows": 58302,
+      "mapping_class_counts": {
+        "resolved_unique": 56079,
+        "retired_unresolved": 1619,
+        "ambiguous": 604
+      },
+      "primary_eligible_rows": 56079,
+      "provisional_unique_rows": 0,
+      "duplicate_source_id_rows": 0,
+      "duplicate_source_symbol_rows": 1654,
+      "blank_source_symbol_rows": 0,
+      "canonical_colliding_rows": 0,
+      "reference_manifest_sha256": "880f2d2b771d592b7e66630d9151de8e98651d0ef3bf50c90e0cc12274e449d2",
+      "reference_asset_sha256": {
+        "ensembl_registry": "2625f7a09f75861044f81cda6c8c4163e5e84d39e9dba15fbaf0bc3edab35d4b",
+        "ensembl_genes": "ddf7afb8f140b0e7ec98e5f560589671404e379abd9c0a5fb7d91beed56968ef",
+        "hgnc_complete": "6df77ac3cbaeb86a6dce5e17d851ebb27b6b3cdcd2471a211a3d8464f00c54c4",
+        "hgnc_withdrawn": "51fedd10e711edc9abc9111e856ec558ce18b75b3c854e255a550f84e96b65ce"
+      },
+      "mapping_sha256": "3e30cf9e5a2d3b89987795fbd2e62774639c2fef1f81cf90b3c6d82b4ccfbbcc",
+      "counts_read_or_changed": false,
+      "count_conservation_check": "Not applicable: mapping metadata only; no matrix projection performed.",
+      "source_reference_status": "Unknown: this mapper does not reconstruct original counting references.",
+      "primary_eligible_boundary": "Unique source ENSG in target release, without symbol/genome/row conflicts. Identity eligibility does not establish identical quantification or analytical cohort readiness.",
+      "symbol_only_boundary": "Unique nomenclature candidates remain provisional until source-reference crosswalk review; they are not strict-primary features.",
+      "mitochondrial_boundary": "Common-reference chromosome is an identity annotation; source MT-prefix is provisional QC and never overwritten.",
+      "content_sha256": "eae35652bcca561381b9724def733eeb942aa30cc513c6d9bbcefc8d8b6221b6",
+      "native_units": 48,
+      "source_resources": [
+        "GSE159354"
+      ]
+    },
+    "GSE135893__fb988de7dd03": {
+      "resource_id": "GSE135893",
+      "rule_version": "stage6-gene-identity-v1",
+      "source_features": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/feature_axes/GSE135893__273c8d233c87851c.tsv",
+      "source_file_sha256": "273c8d233c87851cd67f38ec30d1cb769546e7b1d363c6883c6334b88b0a5273",
+      "source_rows": 33694,
+      "mapping_class_counts": {
+        "unmapped": 11213,
+        "resolved_unique": 21885,
+        "ambiguous": 543,
+        "retired_unresolved": 53
+      },
+      "primary_eligible_rows": 0,
+      "provisional_unique_rows": 21730,
+      "duplicate_source_id_rows": 0,
+      "duplicate_source_symbol_rows": 0,
+      "blank_source_symbol_rows": 0,
+      "canonical_colliding_rows": 155,
+      "reference_manifest_sha256": "880f2d2b771d592b7e66630d9151de8e98651d0ef3bf50c90e0cc12274e449d2",
+      "reference_asset_sha256": {
+        "ensembl_registry": "2625f7a09f75861044f81cda6c8c4163e5e84d39e9dba15fbaf0bc3edab35d4b",
+        "ensembl_genes": "ddf7afb8f140b0e7ec98e5f560589671404e379abd9c0a5fb7d91beed56968ef",
+        "hgnc_complete": "6df77ac3cbaeb86a6dce5e17d851ebb27b6b3cdcd2471a211a3d8464f00c54c4",
+        "hgnc_withdrawn": "51fedd10e711edc9abc9111e856ec558ce18b75b3c854e255a550f84e96b65ce"
+      },
+      "mapping_sha256": "f94f9027d9092bc8dc83cecc0c2890e1b50d78bbb97d3dd98e31c35cfbcb0282",
+      "counts_read_or_changed": false,
+      "count_conservation_check": "Not applicable: mapping metadata only; no matrix projection performed.",
+      "source_reference_status": "Unknown: this mapper does not reconstruct original counting references.",
+      "primary_eligible_boundary": "Unique source ENSG in target release, without symbol/genome/row conflicts. Identity eligibility does not establish identical quantification or analytical cohort readiness.",
+      "symbol_only_boundary": "Unique nomenclature candidates remain provisional until source-reference crosswalk review; they are not strict-primary features.",
+      "mitochondrial_boundary": "Common-reference chromosome is an identity annotation; source MT-prefix is provisional QC and never overwritten.",
+      "content_sha256": "fb988de7dd039cbae6e480fb3fe2af364653736693d8d2b93353ce4ebd968b38",
+      "native_units": 43,
+      "source_resources": [
+        "GSE135893"
+      ]
+    }
+  },
+  "coverage_summary": {
+    "inputs": {
+      "Franzen__15eb6cc80852": {
+        "path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/Franzen__15eb6cc80852/gene_mapping.tsv",
+        "sha256": "30f0cbb42c1d0e9f6fc6e78a70277ff756c45894a48db2a33e9c8ea509be1d18",
+        "strict_features": 35406,
+        "symbol_only_provisional_features": 0
+      },
+      "GSE159585__a2c90660d567": {
+        "path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/GSE159585__a2c90660d567/gene_mapping.tsv",
+        "sha256": "f2256229b47ca9c500e7972e45d2ac57d441678fade562361f2095fd3e3ff23a",
+        "strict_features": 0,
+        "symbol_only_provisional_features": 19786
+      },
+      "GSE159354__eae35652bcca": {
+        "path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/GSE159354__eae35652bcca/gene_mapping.tsv",
+        "sha256": "3e30cf9e5a2d3b89987795fbd2e62774639c2fef1f81cf90b3c6d82b4ccfbbcc",
+        "strict_features": 56079,
+        "symbol_only_provisional_features": 0
+      },
+      "GSE135893__fb988de7dd03": {
+        "path": "/home/data/t120631/project/ipf_stage6_pilot/runs/preparation_001/genes/mapping_001/axes/GSE135893__fb988de7dd03/gene_mapping.tsv",
+        "sha256": "f94f9027d9092bc8dc83cecc0c2890e1b50d78bbb97d3dd98e31c35cfbcb0282",
+        "strict_features": 0,
+        "symbol_only_provisional_features": 21730
+      }
+    },
+    "union_candidate_genes": 59101,
+    "shared_strict_features": 0,
+    "shared_unique_candidates_including_provisional": 18725,
+    "boundary": "Metadata coverage only. Export absence is not off-panel status or zero expression. No counts, gene projection, imputation, expression harmonization or final cohort lock."
+  },
+  "counts_read_or_changed": false,
+  "boundary": "Complete native axis identity/coverage metadata. Symbol-only matches remain provisional, held genes remain visible, no matrix projection or final biological eligibility claimed."
+}

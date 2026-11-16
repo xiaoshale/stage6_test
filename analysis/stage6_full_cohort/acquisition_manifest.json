@@ -1,0 +1,366 @@
+{
+  "scope": "Full native intake and original spatial histology; external candidate outcomes remain reserved",
+  "files": [
+    {
+      "cohort": "GSE135893",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_matrix.mtx.gz",
+      "filename": "GSE135893_matrix.mtx.gz",
+      "role": "whole_original_sparse_counts"
+    },
+    {
+      "cohort": "GSE135893",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_barcodes.tsv.gz",
+      "filename": "GSE135893_barcodes.tsv.gz",
+      "role": "barcode_axis",
+      "expected_sha256": "37a9a98a95d59bb4333c8181c14bb2b384701e6fda1c409e79f3e41c681430d4",
+      "expected_bytes": 936873
+    },
+    {
+      "cohort": "GSE135893",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_genes.tsv.gz",
+      "filename": "GSE135893_genes.tsv.gz",
+      "role": "gene_axis",
+      "expected_sha256": "7e8612e72f033ef214de101bb782ab1cb60b8c887be2d3e8a0d637de067b0233",
+      "expected_bytes": 129668
+    },
+    {
+      "cohort": "GSE135893",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_IPF_metadata.csv.gz",
+      "filename": "GSE135893_IPF_metadata.csv.gz",
+      "role": "author_annotation",
+      "expected_sha256": "5c67b3717375859aafc4463024847cf30d7af7bb9d5f4ad9a5364ee6d7726bf5",
+      "expected_bytes": 3354014
+    },
+    {
+      "cohort": "Franzen",
+      "url": "https://www.ebi.ac.uk/biostudies/files/S-BSST1410/hs_visium_spaceranger_output.zip",
+      "filename": "hs_visium_spaceranger_output.zip",
+      "role": "original_SpaceRanger_counts_images_coordinates",
+      "expected_bytes": 1093092912
+    },
+    {
+      "cohort": "Franzen",
+      "url": "https://www.ebi.ac.uk/biostudies/files/S-BSST1410/hs_visium_metadata.tsv",
+      "filename": "hs_visium_metadata.tsv",
+      "role": "donor_section_metadata",
+      "expected_sha256": "c5595771a11b44e240cff6638043b7d1b28d0cb922dd333c7ec4b6063983ab7d",
+      "expected_bytes": 2347
+    },
+    {
+      "cohort": "GSE159585",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159585/suppl/GSE159585_snRNAseq_raw_counts.csv.gz",
+      "filename": "GSE159585_snRNAseq_raw_counts.csv.gz",
+      "role": "native_snRNA_original_counts"
+    },
+    {
+      "cohort": "GSE159585",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159585/suppl/GSE159585_snRNAseq_metadata.csv.gz",
+      "filename": "GSE159585_snRNAseq_metadata.csv.gz",
+      "role": "cell_donor_metadata",
+      "expected_sha256": "3fa05ae974bb5a88a6032562c486deeaa50b2cfd685b623b36f88ae75ef9a03a",
+      "expected_bytes": 1239449
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827158/suppl/GSM4827158_SAM24373111_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827158_SAM24373111_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827158"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827159/suppl/GSM4827159_SAM24373110_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827159_SAM24373110_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827159"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827160/suppl/GSM4827160_SAM24373109_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827160_SAM24373109_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827160"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827161/suppl/GSM4827161_SAM24373108_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827161_SAM24373108_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827161"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827162/suppl/GSM4827162_SAM24373107_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827162_SAM24373107_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827162"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827163/suppl/GSM4827163_SAM24370962_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827163_SAM24370962_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827163"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827164/suppl/GSM4827164_SAM24370961_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827164_SAM24370961_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827164"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827165/suppl/GSM4827165_SAM24370960_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827165_SAM24370960_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827165"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827166/suppl/GSM4827166_SAM24370959_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827166_SAM24370959_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827166"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827167/suppl/GSM4827167_SAM24370958_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827167_SAM24370958_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827167"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827168/suppl/GSM4827168_SAM24366698_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827168_SAM24366698_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827168"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827169/suppl/GSM4827169_SAM24366697_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827169_SAM24366697_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827169"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827170/suppl/GSM4827170_SAM24366696_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827170_SAM24366696_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827170"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827171/suppl/GSM4827171_SAM24366695_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827171_SAM24366695_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827171"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827172/suppl/GSM4827172_SAM24366694_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827172_SAM24366694_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827172"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827173/suppl/GSM4827173_SAM24361794_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827173_SAM24361794_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827173"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827174/suppl/GSM4827174_SAM24361793_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827174_SAM24361793_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827174"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827175/suppl/GSM4827175_SAM24361792_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827175_SAM24361792_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827175"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827176/suppl/GSM4827176_SAM24361791_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827176_SAM24361791_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827176"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827177/suppl/GSM4827177_SAM24360873_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827177_SAM24360873_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827177"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827178/suppl/GSM4827178_SAM24360872_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827178_SAM24360872_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827178"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827179/suppl/GSM4827179_SAM24360871_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827179_SAM24360871_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827179"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827180/suppl/GSM4827180_SAM24360870_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827180_SAM24360870_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827180"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827181/suppl/GSM4827181_SAM24358067_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827181_SAM24358067_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827181"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827182/suppl/GSM4827182_SAM24358066_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827182_SAM24358066_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827182"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827183/suppl/GSM4827183_SAM24358065_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827183_SAM24358065_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827183"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827184/suppl/GSM4827184_SAM24358064_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827184_SAM24358064_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827184"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827185/suppl/GSM4827185_SAM24358063_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827185_SAM24358063_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827185"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827186/suppl/GSM4827186_SAM24355961_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827186_SAM24355961_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827186"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827187/suppl/GSM4827187_SAM24355960_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827187_SAM24355960_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827187"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827188/suppl/GSM4827188_SAM24355959_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827188_SAM24355959_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827188"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827189/suppl/GSM4827189_SAM24355958_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827189_SAM24355958_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827189"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827190/suppl/GSM4827190_SAM24355957_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827190_SAM24355957_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827190"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827191/suppl/GSM4827191_SAM24352450_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827191_SAM24352450_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827191"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827192/suppl/GSM4827192_SAM24352449_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827192_SAM24352449_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827192"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827193/suppl/GSM4827193_SAM24352448_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827193_SAM24352448_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827193"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827194/suppl/GSM4827194_SAM24352447_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827194_SAM24352447_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827194"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827195/suppl/GSM4827195_SAM24352446_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827195_SAM24352446_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827195"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827196/suppl/GSM4827196_SAM24351201_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827196_SAM24351201_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827196"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827197/suppl/GSM4827197_SAM24351200_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827197_SAM24351200_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827197"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827198/suppl/GSM4827198_SAM24351199_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827198_SAM24351199_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827198"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827199/suppl/GSM4827199_SAM24351198_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827199_SAM24351198_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827199"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827200/suppl/GSM4827200_SAM24351197_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827200_SAM24351197_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827200"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827201/suppl/GSM4827201_SAM24350159_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827201_SAM24350159_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827201"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827202/suppl/GSM4827202_SAM24350158_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827202_SAM24350158_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827202"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827203/suppl/GSM4827203_SAM24350157_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827203_SAM24350157_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827203"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827204/suppl/GSM4827204_SAM24350156_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827204_SAM24350156_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827204"
+    },
+    {
+      "cohort": "GSE159354",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4827nnn/GSM4827205/suppl/GSM4827205_SAM24350155_filtered_feature_bc_matrix.h5",
+      "filename": "GSM4827205_SAM24350155_filtered_feature_bc_matrix.h5",
+      "role": "native_library:GSM4827205"
+    },
+    {
+      "cohort": "Franzen",
+      "url": "https://www.ebi.ac.uk/biostudies/files/S-BSST1410/hs_he_fullrers_images.zip",
+      "filename": "hs_he_fullrers_images.zip",
+      "role": "original_histology_or_alignment",
+      "expected_bytes": 757472562
+    },
+    {
+      "cohort": "Franzen",
+      "url": "https://www.ebi.ac.uk/biostudies/files/S-BSST1410/hs_image_alignment_jsons.zip",
+      "filename": "hs_image_alignment_jsons.zip",
+      "role": "original_histology_or_alignment",
+      "expected_bytes": 1981556
+    }
+  ]
+}
